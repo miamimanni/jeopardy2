@@ -1,0 +1,312 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.category-cell, .clue-cell {
+    background-color: #000080;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    font-weight: bold;
+}
+
+.category-cell {
+    background-color: #0000CD;
+    font-size: 1.2em;
+}
+
+.clue-cell {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.clue-cell.used {
+    background-color: #4B0082;
+    cursor: default;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    background-color: #000;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+#clue-text {
+    font-size: 1.5em;
+}
+
+#solution-text {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+/* Daily Double Caption Styles */
+#daily-double-caption {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    color: gold;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Final Jeopardy Styles */
+.final-category {
+    grid-column: span 6;
+    background-color: #0000CD;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.final-clue-btn {
+    grid-column: span 6;
+    padding: 15px;
+    font-size: 1.5em;
+    margin: 20px auto;
+    cursor: pointer;
+}
+
+/* Player Setup Modal Styles */
+#player-setup-modal .modal-content {
+    width: 40%;
+}
+
+#player-inputs {
+    margin-bottom: 20px;
+}
+
+.player-name-input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+#add-player-btn, #start-game-btn {
+    margin-right: 10px;
+    padding: 10px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #0000CD;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#add-player-btn:hover, #start-game-btn:hover {
+    background-color: #00008B;
+}
+
+/* Player Scores Display Styles */
+#player-scores {
+    display: flex;
+    justify-content: center;
+    background-color: #000080;
+    padding: 10px;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.player-score {
+    margin: 10px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player-name {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.player-amount {
+    font-size: 1.4em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Styles for manual adjustment buttons */
+.manual-adjustment {
+    display: flex;
+    justify-content: center;
+}
+
+.manual-adjustment button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Increase Button Style for Manual Adjustment */
+.manual-adjustment .increase-btn {
+    background-color: green;
+}
+
+.manual-adjustment .increase-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Decrease Button Style for Manual Adjustment */
+.manual-adjustment .decrease-btn {
+    background-color: salmon;
+}
+
+.manual-adjustment .decrease-btn:hover {
+    background-color: indianred;
+}
+
+/* Score Adjustment Buttons Styles in Clue Modal */
+#score-buttons {
+    margin-top: 20px;
+}
+
+.score-adjustment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.score-adjustment .player-name {
+    margin-right: 10px;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: right;
+}
+
+.score-adjustment button {
+    margin: 0 5px;
+    padding: 5px 15px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Increase Button Style in Clue Modal */
+.increase-btn {
+    background-color: green;
+}
+
+.increase-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Decrease Button Style in Clue Modal */
+.decrease-btn {
+    background-color: salmon;
+}
+
+.decrease-btn:hover {
+    background-color: indianred;
+}
+
+/* Next Round Button */
+#next-round-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #0000CD;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+#next-round-btn:hover {
+    background-color: #00008B;
+}
+
+/* Responsive Adjustments */
+@media screen and (max-width: 768px) {
+    #game-board {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+
+    #player-scores {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .score-adjustment {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .score-adjustment .player-name {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .score-adjustment button {
+        margin: 5px 0;
+    }
+}
+
+/* Soundboard Styles */
+#soundboard {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+#soundboard button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#soundboard button:hover {
+    background-color: #777;
+}
