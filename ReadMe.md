@@ -1,7 +1,3 @@
-Certainly! Below is the `ReadMe.md` file that explains everything about the Jeopardy game project. You can copy and paste this content into a file named `ReadMe.md` in your project directory.
-
----
-
 # Jeopardy Game
 
 ## Overview
