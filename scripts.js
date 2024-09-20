@@ -1,186 +1,124 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Define the game data directly in the script
+
     const gameData = {
         "single": [
             {
-                "category": "Single Category 1",
+                "category": "Chapter 1 part 1",
                 "clues": [
                     {
                         "value": 200,
-                        "clue": "This is clue 1.1",
-                        "solution": "What is the solution to clue 1.1?"
+                        "clue": "Matt is updating the organization’s threat assessment process. What category of control is Matt implementing?\nA. Operational\nB. Technical\nC. Corrective\nD. Managerial",
+                        "solution": "D. Managerial controls are procedural mechanisms that focus on the mechanics of the risk management process. Threat assessment is an example of one of these activities."
                     },
                     {
                         "value": 400,
-                        "clue": "This is clue 1.2",
-                        "solution": "What is the solution to clue 1.2?"
+                        "clue": "Jade’s organization recently suffered a security breach that affected stored credit card data. Jade’s primary concern is the fact that the organization is subject to sanctions for violating the provisions of the Payment Card Industry Data Security Standard. What category of risk is concerning Jade?\nA. Strategic\nB. Compliance\nC. Operational\nD. Financial",
+                        "solution": "B. The breach of credit card information may cause many different impacts on the organization, including compliance, operational, and financial risks. However, in this scenario, Jade’s primary concern is violating PCI DSS, making his concern a compliance risk."
                     },
                     {
                         "value": 600,
-                        "clue": "This is clue 1.3",
-                        "solution": "What is the solution to clue 1.3?"
+                        "clue": "Chris is responding to a security incident that compromised one of his organization’s web servers. He believes that the attackers defaced one or more pages on the website. What cybersecurity objective did this attack violate?\nA. Confidentiality\nB. Nonrepudiation\nC. Integrity\nD. Availability",
+                        "solution": "C. The defacement of a website alters content without authorization and is, therefore, a violation of the integrity objective. The attackers may also have breached the confidentiality or availability of the website, but the scenario does not provide us with enough information to draw those conclusions."
                     },
                     {
                         "value": 800,
-                        "clue": "This is clue 1.4",
-                        "solution": "What is the solution to clue 1.4?"
+                        "clue": "Gwen is exploring a customer transaction reporting system and discovers the table shown here. What type of data minimization has most likely been used on this table?\nA. Destruction\nB. Masking\nC. Tokenization\nD. Hashing",
+                        "solution": "B. In this case, the first 12 digits of the credit card have been removed and replaced with asterisks. This is an example of data masking."
                     },
                     {
                         "value": 1000,
-                        "clue": "This is clue 1.5",
-                        "solution": "What is the solution to clue 1.5?",
-                        "dailyDouble": true
-                    }
+                        "clue": "Tonya is concerned about the risk that an attacker will attempt to gain access to her organization’s database server. She is searching for a control that would discourage the attacker from attempting to gain access. What type of security control is she seeking to implement?\nA. Preventive\nB. Detective\nC. Corrective\nD. Deterrent",
+                        "solution": "D. Deterrent controls are designed to prevent an attacker from attempting to violate security policies in the first place."
+                    }                
                 ]
             },
             {
-                "category": "Single Category 2",
+                "category": "Chapter 1 part 2",
                 "clues": [
                     {
                         "value": 200,
-                        "clue": "This is clue 2.1",
-                        "solution": "What is the solution to clue 2.1?"
+                        "clue": "Greg is implementing a data loss prevention system. He would like to ensure that it protects against transmissions of sensitive information by guests on his wireless network. What DLP technology would best meet this goal?\nA. Watermarking\nB. Pattern recognition\nC. Host-based\nD. Network-based",
+                        "solution": "D. Greg must use a network-based DLP system. Host-based DLP requires the use of agents, which would not be installed on guest systems. Greg may use watermarking and/or pattern recognition to identify the sensitive information, but he must use network-based DLP to meet his goal."
                     },
                     {
                         "value": 400,
-                        "clue": "This is clue 2.2",
-                        "solution": "What is the solution to clue 2.2?"
+                        "clue": "What term best describes data that is being sent between two systems over a network connection?\nA. Data at rest\nB. Data in transit\nC. Data in processing\nD. Data in use",
+                        "solution": "B. Data being sent over a network is data in transit."
                     },
                     {
                         "value": 600,
-                        "clue": "This is clue 2.3",
-                        "solution": "What is the solution to clue 2.3?"
+                        "clue": "Tina is tuning her organization’s intrusion prevention system to prevent false positive alerts. What type of control is Tina implementing?\nA. Technical control\nB. Physical control\nC. Managerial control\nD. Operational control",
+                        "solution": "A. Technical controls enforce confidentiality, integrity, and availability in the digital space."
                     },
                     {
                         "value": 800,
-                        "clue": "This is clue 2.4",
-                        "solution": "What is the solution to clue 2.4?",
-                        "dailyDouble": true
+                        "clue": "Which one of the following is not a common goal of a cybersecurity attacker?\nA. Disclosure\nB. Denial\nC. Alteration\nD. Allocation",
+                        "solution": "D. The three primary goals of cybersecurity attackers are disclosure, alteration, and denial."
                     },
                     {
                         "value": 1000,
-                        "clue": "This is clue 2.5",
-                        "solution": "What is the solution to clue 2.5?"
-                    }
+                        "clue": "Tony is reviewing the status of his organization’s defenses against a breach of their file server. He believes that a compromise of the file server could reveal information that would prevent the company from continuing to do business. What term best describes the risk that Tony is considering?\nA. Strategic\nB. Reputational\nC. Financial\nD. Operational",
+                        "solution": "A. The risk that Tony is contemplating is strategic because it concerns the company's ability to continue doing business if the risk materializes."
+                    },
                 ]
             },
             {
-                "category": "Single Category 3",
+                "category": "Chapter 1 part 3",
                 "clues": [
                     {
                         "value": 200,
-                        "clue": "This is clue 3.1",
-                        "solution": "What is the solution to clue 3.1?"
+                        "clue": "Which one of the following data elements is not commonly associated with identity theft?\nA. Social Security number\nB. Driver's license number\nC. Frequent flyer number\nD. Passport number",
+                        "solution": "C. It is far more likely that identity thieves would use core identity documents like driver’s licenses, passports, and Social Security numbers."
                     },
                     {
                         "value": 400,
-                        "clue": "This is clue 3.2",
-                        "solution": "What is the solution to clue 3.2?"
+                        "clue": "What term best describes an organization’s desired security state?\nA. Control objectives\nB. Security priorities\nC. Strategic goals\nD. Best practices",
+                        "solution": "A. Control objectives are statements of the desired security state that the organization wishes to achieve."
                     },
                     {
                         "value": 600,
-                        "clue": "This is clue 3.3",
-                        "solution": "What is the solution to clue 3.3?"
+                        "clue": "Lou mounted the sign below on the fence surrounding his organization’s data center. What control type best describes this control?\nA. Compensating\nB. Detective\nC. Physical\nD. Deterrent",
+                        "solution": "D. The sign only has value as a deterrent control."
                     },
                     {
                         "value": 800,
-                        "clue": "This is clue 3.4",
-                        "solution": "What is the solution to clue 3.4?"
+                        "clue": "What technology uses mathematical algorithms to render information unreadable to those lacking the required key?\nA. Data loss prevention\nB. Data obfuscation\nC. Data minimization\nD. Data encryption",
+                        "solution": "D. Encryption uses mathematical algorithms to protect information from prying eyes."
                     },
                     {
                         "value": 1000,
-                        "clue": "This is clue 3.5",
-                        "solution": "What is the solution to clue 3.5?"
-                    }
+                        "clue": "Greg recently conducted an assessment of his organization’s security controls and discovered a potential gap: the organization does not use full-disk encryption on laptops. What type of control gap exists in this case?\nA. Detective\nB. Corrective\nC. Deterrent\nD. Preventive",
+                        "solution": "D. The use of full-disk encryption is intended to prevent a security incident from occurring if a device is lost or stolen, making this a preventive control gap."
+                    },
                 ]
             },
             {
-                "category": "Single Category 4",
+                "category": "Chapter 1 part 4",
                 "clues": [
                     {
                         "value": 200,
-                        "clue": "This is clue 4.1",
-                        "solution": "What is the solution to clue 4.1?"
+                        "clue": "What compliance regulation most directly affects the operations of a health-care provider?\nA. HIPAA\nB. PCI DSS\nC. GLBA\nD. SOX",
+                        "solution": "A. HIPAA provides direct regulations for the security and privacy of protected health information and has the most direct impact on a health-care provider."
                     },
                     {
                         "value": 400,
-                        "clue": "This is clue 4.2",
-                        "solution": "What is the solution to clue 4.2?"
+                        "clue": "Nolan is writing an after-action report on a security breach that took place in his organization. The attackers stole thousands of customer records from the organization’s database. What cybersecurity principle was most impacted in this breach?\nA. Availability\nB. Nonrepudiation\nC. Confidentiality\nD. Integrity",
+                        "solution": "C. The disclosure of sensitive information to unauthorized individuals is a violation of the principle of confidentiality."
                     },
                     {
                         "value": 600,
-                        "clue": "This is clue 4.3",
-                        "solution": "What is the solution to clue 4.3?"
+                        "clue": "Which one of the following objectives is not one of the three main objectives that information security professionals must achieve to protect their organizations against cybersecurity threats?\nA. Integrity\nB. Nonrepudiation\nC. Availability\nD. Confidentiality",
+                        "solution": "B. The three primary objectives of cybersecurity professionals are confidentiality, integrity, and availability."
                     },
                     {
                         "value": 800,
-                        "clue": "This is clue 4.4",
-                        "solution": "What is the solution to clue 4.4?"
+                        "clue": "Which one of the following data protection techniques is reversible when conducted properly?\nA. Tokenization\nB. Masking\nC. Hashing\nD. Shredding",
+                        "solution": "A. Tokenization techniques use a lookup table and are designed to be reversible."
                     },
                     {
                         "value": 1000,
-                        "clue": "This is clue 4.5",
-                        "solution": "What is the solution to clue 4.5?"
-                    }
-                ]
-            },
-            {
-                "category": "Single Category 5",
-                "clues": [
-                    {
-                        "value": 200,
-                        "clue": "This is clue 5.1",
-                        "solution": "What is the solution to clue 5.1?"
-                    },
-                    {
-                        "value": 400,
-                        "clue": "This is clue 5.2",
-                        "solution": "What is the solution to clue 5.2?"
-                    },
-                    {
-                        "value": 600,
-                        "clue": "This is clue 5.3",
-                        "solution": "What is the solution to clue 5.3?"
-                    },
-                    {
-                        "value": 800,
-                        "clue": "This is clue 5.4",
-                        "solution": "What is the solution to clue 5.4?"
-                    },
-                    {
-                        "value": 1000,
-                        "clue": "This is clue 5.5",
-                        "solution": "What is the solution to clue 5.5?"
-                    }
-                ]
-            },
-            {
-                "category": "Single Category 6",
-                "clues": [
-                    {
-                        "value": 200,
-                        "clue": "This is clue 6.1",
-                        "solution": "What is the solution to clue 6.1?"
-                    },
-                    {
-                        "value": 400,
-                        "clue": "This is clue 6.2",
-                        "solution": "What is the solution to clue 6.2?"
-                    },
-                    {
-                        "value": 600,
-                        "clue": "This is clue 6.3",
-                        "solution": "What is the solution to clue 6.3?"
-                    },
-                    {
-                        "value": 800,
-                        "clue": "This is clue 6.4",
-                        "solution": "What is the solution to clue 6.4?"
-                    },
-                    {
-                        "value": 1000,
-                        "clue": "This is clue 6.5",
-                        "solution": "What is the solution to clue 6.5?"
+                        "clue": "Which one of the following statements is not true about compensating controls under PCI DSS?\nA. Controls used to fulfill one PCI DSS requirement may be used to compensate for the absence of a control needed to meet another requirement.\nB. Controls must meet the intent of the original requirement.\nC. Controls must meet the rigor of the original requirement.\nD. Compensating controls must provide a similar level of defense as the original requirement.",
+                        "solution": "A. PCI DSS compensating controls must be “above and beyond” other PCI DSS requirements."
                     }
                 ]
             }
@@ -375,6 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+
     // Current game state
     let currentRound = 'single';
     let cluesRemaining = 0;
@@ -489,6 +428,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // Set up the grid columns based on the number of categories
+        const numCategories = roundData.length;
+        gameBoard.style.gridTemplateColumns = `repeat(${numCategories}, 1fr)`;
+
         // Build category headers
         roundData.forEach(category => {
             const categoryCell = document.createElement('div');
@@ -497,26 +440,41 @@ document.addEventListener('DOMContentLoaded', () => {
             gameBoard.appendChild(categoryCell);
         });
 
-        // Assume there are 5 clues per category
-        for (let i = 0; i < 5; i++) {
+        // Determine the maximum number of clues in any category
+        let maxClues = 0;
+        roundData.forEach(category => {
+            if (category.clues.length > maxClues) {
+                maxClues = category.clues.length;
+            }
+        });
+
+        // Build clue cells
+        for (let i = 0; i < maxClues; i++) {
             roundData.forEach(category => {
-                const clue = category.clues[i];
                 const clueCell = document.createElement('div');
                 clueCell.classList.add('clue-cell');
-                clueCell.innerText = `$${clue.value}`;
-                clueCell.dataset.round = currentRound;
-                clueCell.addEventListener('click', () => {
-                    if (!clueCell.classList.contains('used')) {
-                        openClue(clue, clueCell);
-                        clueCell.classList.add('used');
-                    }
-                });
+
+                if (category.clues[i]) {
+                    const clue = category.clues[i];
+                    clueCell.innerText = `$${clue.value}`;
+                    clueCell.dataset.round = currentRound;
+                    clueCell.addEventListener('click', () => {
+                        if (!clueCell.classList.contains('used')) {
+                            openClue(clue, clueCell);
+                            clueCell.classList.add('used');
+                        }
+                    });
+                } else {
+                    // Empty cell for uneven clues
+                    clueCell.classList.add('empty-cell');
+                }
+
                 gameBoard.appendChild(clueCell);
             });
         }
 
         // Update the number of remaining clues
-        cluesRemaining = roundData.length * 5;
+        cluesRemaining = roundData.reduce((total, category) => total + category.clues.length, 0);
     }
 
     function openClue(clue, clueCell) {

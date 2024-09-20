@@ -7,7 +7,6 @@ body {
 
 #game-board {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
     gap: 5px;
     max-width: 1200px;
     margin: 0 auto;
@@ -34,6 +33,13 @@ body {
 
 .clue-cell.used {
     background-color: #4B0082;
+    cursor: default;
+}
+
+/* Empty cell for uneven clues */
+.empty-cell {
+    background-color: transparent;
+    border: none;
     cursor: default;
 }
 
@@ -83,7 +89,7 @@ body {
 
 /* Final Jeopardy Styles */
 .final-category {
-    grid-column: span 6;
+    grid-column: span 1 / -1;
     background-color: #0000CD;
     padding: 20px;
     text-align: center;
@@ -92,7 +98,7 @@ body {
 }
 
 .final-clue-btn {
-    grid-column: span 6;
+    grid-column: span 1 / -1;
     padding: 15px;
     font-size: 1.5em;
     margin: 20px auto;
@@ -258,10 +264,33 @@ body {
     background-color: #00008B;
 }
 
+/* Soundboard Styles */
+#soundboard {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+#soundboard button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#soundboard button:hover {
+    background-color: #777;
+}
+
 /* Responsive Adjustments */
 @media screen and (max-width: 768px) {
     #game-board {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
 
     .modal-content {
@@ -286,27 +315,4 @@ body {
     .score-adjustment button {
         margin: 5px 0;
     }
-}
-
-/* Soundboard Styles */
-#soundboard {
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-    padding: 10px;
-}
-
-#soundboard button {
-    background-color: #555;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin: 0 5px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-#soundboard button:hover {
-    background-color: #777;
 }
