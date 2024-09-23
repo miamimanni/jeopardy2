@@ -9,7 +9,17 @@
     <!-- Player Setup Modal -->
     <div id="player-setup-modal" class="modal" style="display: block;">
         <div class="modal-content">
-            <h2>Enter Player Names</h2>
+            <h2>Select Board and Enter Player Names</h2>
+
+            <!-- Board Selection -->
+            <div id="board-selection">
+                <label for="board-select">Select Board:</label>
+                <select id="board-select">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+
+            <!-- Player Inputs -->
             <div id="player-inputs">
                 <input type="text" class="player-name-input" placeholder="Player 1">
             </div>
@@ -39,7 +49,7 @@
             <div id="solution-text" style="display: none;"></div>
             <!-- Score Adjustment Buttons -->
             <div id="score-buttons" style="display: none;"></div>
-            <button id="next-round-btn" style="display: none;">Proceed to Double Jeopardy</button>
+            <button id="next-round-btn" style="display: none;">Proceed to Next Round</button>
         </div>
     </div>
 
