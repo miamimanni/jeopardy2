@@ -316,3 +316,11 @@ body {
         margin: 5px 0;
     }
 }
+
+/* Styles for the clue image */
+#clue-image {
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    margin: 20px auto;
+}
