@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     },
                     {
                         "value": 600,
-                        "clue": "Lou mounted the sign below on the fence surrounding his organization’s data center. What control type best describes this control?\nA. Compensating\nB. Detective\nC. Physical\nD. Deterrent",
+                        "clue": "Lou mounted the sign below on the fence surrounding his organization’s data center. What control type best describes this control?\n\nBEWARE OF DOG SIGN\n\nA. Compensating\nB. Detective\nC. Physical\nD. Deterrent",
                         "solution": "D. The sign only has value as a deterrent control."
                     },
                     {
