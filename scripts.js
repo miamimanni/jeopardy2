@@ -632,6 +632,842 @@ document.addEventListener('DOMContentLoaded', () => {
                 "solution": "What is the solution to the Final Jeopardy clue?"
             }
         },
+    "Chapter 1 Test Q's": {
+        "single": [
+            {
+                "category": "Category 1",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "1.) Felicia wants to deploy an encryption solution that will protect files in motion as they are copied between file shares as well as at rest, and also needs it to support granular, per-user security. What type of solution should she select?\nA. Partition encryption\nB. File encryption\nC. Full-disk encryption\nD. Record-level encryption",
+                        "solution": "1. B. File encryption meets all of the needs described. Full-disk encryption is easier to deploy and manage but does not protect individual files in motion and does not effectively support multiuser scenarios. Partition-level encryption has the same challenges, albeit at a partition rather than full-disk level. Record-level encryption is typically used in databases to protect individual records or entries."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "2.) Valerie wants to use a certificate to handle multiple subdomains for her website, including the sales.example.com and support.example.com subdomains. What type of certificate should she use?\nA. A self-signed certificate\nB. A root of trust certificate\nC. A CRL certificate\nD. A wildcard certificate",
+                        "solution": "2. D. Wildcard certificates are used to handle multiple subdomains with a single certificate. A self-signed certificate will not be recognized by browsers and other services, creating confu- sion for customers. Root of trust certificates and CRL certificates are not types of certificates."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "3.) What information is analyzed during a gap analysis?\nA. Control objectives and controls intended to meet the objectives\nB. Physically separate networks and their potential connection points\nC. Compensating controls and the controls they are replacing\nD. Security procedures and the policies they are designed to support",
+                        "solution": "3. A. Gap analysis considers control objectives and the controls that are intended to meet the objectives."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "4.) Susan╬ô├ç├ûs team has recommended an application restart for a production, customer-facing application as part of an urgent patch due to a security update. What technical implication is the most common concern when conducting an application restart?\nA. Application configuration changes caused by the restart\nB. Whether the patch will properly apply\nC. Lack of security controls during the restart\nD. The downtime during the restart",
+                        "solution": "4. D. In most production environments downtime is the primary concern when consid- ering an application restart. Many application architectures are designed to allow restarts of individual systems or services without creating an outage or downtime. Configuration changes should not be created by a restart, patches generally apply properly, and security controls should be in place throughout the process."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "5.) Using a tool like git is most frequently associated with what critical change management process?\nA. Having a backout plan\nB. Stakeholder analysis\nC. Version control\nD. Standard operating procedures (SOPs)",
+                        "solution": "5. C. Organizations frequently use tools like git to build repositories that support their need for version control. Backout plans might note that you need to return to the prior version but will need to include how to do so. Stakeholder analysis and SOPs are not specifically sup- ported by or improved by using git."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "6.) Jacob is concerned that the password used for one of his organization╬ô├ç├ûs services is weak, and he wants to make it harder to crack by making it harder to test possible passwords. What is this technique called?\nA. Master keying\nB. Salting\nC. Hashing\nD. Key stretching",
+                        "solution": "6. B. Key stretching makes potentially weak keys more resistant to brute-forcing and often involves using a hash or block cipher repeatedly to make the original value harder to crack. Key rotation is the process of changing keys on a periodic basis to limit the impact of poten- tial exposure. Master keying and passphrase armoring are not commonly used concepts for information security, although master keys are used for physical locks."
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "7.) Log monitoring is an example of what control category?\nA. Technical\nB. Managerial\nC. Operational\nD. Physical",
+                        "solution": "7. C. Operational controls like log monitoring, change management processes, and vulner- ability management are all put in place to support managing and using technology in a secure manner."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "8.) Rick wants to make offline brute-force attacks against his password file very difficult for attackers. Which of the following is not a common technique to make passwords harder to crack?\nA. Use of a salt\nB. Use of a pepper\nC. Use of a purpose-built password hashing algorithm\nD. Encrypting password plain text using symmetric encryption",
+                        "solution": "8. D. Retaining the actual password is not a best practice, and thus encrypting password plain text is not a common technique to make passwords harder to crack. Since the applica- tion would need the cryptographic key to read the passwords, anybody who had access to that key could decrypt the passwords. Using a salt, a pepper, and a cryptographic hashing algorithm designed for passwords are all common best practices to prevent offline brute- force attacks."
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "9.) Diffie-Hellman and RSA are both examples of what important encryption-related solution?\nA. Rekeying\nB. Certificate revocation protocols\nC. Key exchange algorithms\nD. Key generation algorithms",
+                        "solution": "9. C. Both Diffie-Hellman and RSA are key exchange algorithms designed to securely allow key exchange between users or systems that have not previously communicated."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "10.) Sally wants to ensure that her change management process includes a procedure for what to do if the change fails. What should she create to handle this possibility?\nA. An impact analysis\nB. A backout plan\nC. A regression test\nD. A maintenance window",
+                        "solution": "10. B. Backout plans document what to do to return to a state prior to the change being made and are designed to be implemented if the change fails. They may involve undoing changes, restoring from backups, or taking other steps and they must contain an appropriate level of detail to ensure that the change can be undone. An impact analysis looks at the poten- tial impact of a change, regression testing ensures that old issues are not introduced in new updates, and maintenance windows are scheduled to allow for downtime or other mainte- nance activities with appropriate communications, staffing, and other needed elements."
+                    }
+                ]
+            },
+            {
+                "category": "Category 2",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "11.) Theresa is concerned that her scheduled maintenance window may extend beyond the allocated time due to an unexpected issue. What element from the CIA triad is she concerned about?",
+                        "solution": "11. D. The CIA triad is confidentiality, availability, and integrity. Theresa's extended outage window will impact the availability of her applications and services."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "12.) Alaina is concerned about vehicles that might impact her organization╬ô├ç├ûs generator installed outside her building near a parking lot. What should she install to prevent both inadvertent and purposeful vehicle impact?",
+                        "solution": "12. C. Bollards are used to protect infrastructure and structures, and they are usually concrete or steel posts, planters, or similar structures that are intended to prevent a vehicle from impact- ing what they protect. Speed bumps won't prevent an impact, although they might slow it. Access control vestibules are used to ensure only authorized personnel access a space, and chain-link fences are not typically sufficient for this type of control."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "13.) Ben has deployed a data loss prevention (DLP) tool that inspects data and flags specific data for review before emails containing it are sent outside the organization. What type best describes this solution?\nA. Managerial\nB. Detective\nC. Corrective\nD. Preventive",
+                        "solution": "13. D. This is a preventive control that is intended to prevent sensitive data from being sent outside the organization. Managerial controls are procedural mechanisms, corrective controls remediate security issues that have already occurred, and detective controls identify security events that have already occurred."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "14.) What type of control is a policy or procedure?\nA. Directive\nB. Corrective\nC. Detective\nD. Preventive",
+                        "solution": "14. A. Policies and procedures are examples of directive control that inform employees and others of what they should do to achieve security objectives. Corrective controls remediate already existing security issues, detective controls identify security events that have already happened, and preventive controls attempt to stop a security issue before it occurs."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "15.) Murali has deployed a file integrity monitoring tool and has configured alerts to notify him when files are modified. What control type best describes this solution?\nA. Preventive\nB. Deterrent\nC. Directive\nD. Detective",
+                        "solution": "15. D. This solution monitors for changes and is therefore a detective control. It does not prevent changes, and intruders and malicious actors are unlikely to know about it, making it a poor deterrent. Since it is not a policy or practice, it is not a directive control."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "16.) Charles wants to reduce the threat scope of compromised credentials. What type of security control is best suited to meet this need?\nA. Single sign-on\nB. Federation\nC. Zero trust\nD. Multifactor authentication (MFA)",
+                        "solution": "16. C. Zero trust designs implement continuous verification, which is an effective control used to limit the threat scope of compromised credentials. While multifactor authentication can be a useful control in this circumstance, a fully implemented zero-trust design will provide greater control than just MFA alone. Single sign-on and federation are both likely to increase threat scope in a compromised credential scenario."
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "17.) Carol wants to obfuscate data contained in her database. She wants to be able to refer to the data elements without exposing the actual data. What type of obfuscation option should she select?\nA. Tokenization\nB. Encryption\nC. Data masking\nD. Data randomization",
+                        "solution": "17. A. Tokens replace data with a value that is linked specifically to the data, allowing it to be referenced and used without the field being exposed. Encryption is not used for this purpose, data masking hides elements of a data field like digits from a credit card number, and data randomization is not an obfuscation method."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "18.) What key is used to decrypt information sent by another individual using public key encryption?\nA. The recipient╬ô├ç├ûs private key\nB. The recipient╬ô├ç├ûs public key\nC. The sender╬ô├ç├ûs private key\nD. The sender's public key",
+                        "solution": "18. A. The sender uses the receiver's public key to encrypt the message, then the receiver uses their private key to decrypt the message. This ensures that the receiver is the only person who can decrypt a message sent using public key encryption."
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "19.) Selah╬ô├ç├ûs organization has recently experienced a breach, and the private keys for her organization's certificates were exposed. What should she immediately do?\nA. Reissue the certificates with changed hostnames and other details.\nB. Replace the certificates with self-signed certificates until they can be replaced by the vendor.\nC. Revoke the certificates and place them on a certificate revocation list.\nD. Replace the certificates with wildcard certificates.",
+                        "solution": "19. C. If a certificate may have been breached, organizations should immediately revoke the cer- tificates and place them on a certificate revocation list (CRL). They will then need to replace the certificates with new certificates, but changing hostnames is not required as the certifi- cates themselves will be new. The other options are not typical practices."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "20.) Which of the following is not a major concern related to downtime caused by patching and system updates?\nA. Attackers compromising the system or service while it is offline\nB. Security systems or functions being offline during restart or shutdown processes\nC. Unexpected extended downtime\nD. Dependencies between systems or services related to downtime",
+                        "solution": "20. A. Attackers are unlikely to be able to compromise a system or service while it is offline. They may, however, be able to take advantage of the restart or shutdown process if critical security processes are not online for some portion of the process. Unexpected downtime and dependencies between systems must also be considered when planning patching and system updates."
+                    }
+                ]
+            },
+            {
+                "category": "Category 3",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "21.) Joanna wants to ensure that the most current version of each component in her application is deployed. What change management process will help the most with this requirement?\nA. Dependency mapping\nB. Version control\nC. Impact analysis\nD. Allow and deny lists",
+                        "solution": "21. B. Version control is important to ensure that the current and correct version of an appli- cation or component is deployed. Dependency mapping can be important to ensure that changed versions don't cause other issues, but it isn't specifically needed to ensure that the current version is what you're deploying. Impact analysis and allow/deny lists are not directly relevant to this requirement."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "22.) Greg wants to implement a version control system to ensure that changes are made in ways that will not cause problems for his organization╬ô├ç├ûs critical software. Which of the following is not a common feature of version control systems designed for software source code?\nA. Atomic operations\nB. File locking\nC. Regression testing\nD. Tagging and labeling",
+                        "solution": "22. C. Version control systems track versions but don't do testing themselves. Atomic opera- tions ensure that actions like commits don't overwrite other commits in progress. File locking allows a developer to check out a file while it is being worked on, and tagging and labeling helps developers track files and versions."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "23.) Christina wants to implement a physical security control that has the greatest flexibility in how it is applied because she knows that exceptions to security may be required at times. Which of the following solutions has the greatest flexibility?\nA. Video surveillance\nB. Security guards\nC. Access badges\nD. Access control vestibules",
+                        "solution": "23. B. Security guards are expensive but offer the most flexibility when organizations need intel- ligence and reasoning to be applied to security events and unexpected needs. Christina knows that guards can often identify issues that a fixed sensor or control cannot."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "24.) Lisa wants to ensure that theft of a device will not lead to exposure of the data contained on the device if the device is locked or turned off. What type of encryption should she select?\nA. Volume-level encryption\nB. Full-disk encryption\nC. File-level encryption\nD. Partition-level encryption",
+                        "solution": "24. B. Full-disk encryption provides the most security in situations like this if the device is locked or off. Volume- and partition-level encryption may leave some drive information or even entire volumes or partitions unencrypted, and file-level encryption is typically selective instead of covering every file on a drive."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "25.) Mahmoud has been asked to implement an allow list for websites that users at his company can visit. What concern should he bring up to management due to this request?\nA. Allow lists cannot be used for websites.\nB. Allow lists are overly permissive and are likely to allow unwanted sites to be visited.\nC. Using an allow list for websites will take a lot of time to maintain.\nD. Using an allow list for websites is easily bypassed.",
+                        "solution": "25. C. In most organizations attempting to use an allow list for websites will take up a lot of time. Mahmoud knows that allow lists can be set up for websites, often at a central network security device-level like a firewall. Bypassing allow lists may be possible, but this can largely be prevented if desired. Allow lists are not overly permissive unless they are configured that way."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "26.) Which of the following change management processes does not commonly directly involve stakeholders outside of the IT organization?\nA. Impact analysis\nB. Building the backout plan\nC. The change approval process\nD. Determining the maintenance window",
+                        "solution": "26. B. Administrators and system owners typically build backout plans. Stakeholders are involved in impact analysis as they help technical staff understand what the impact of changes will be on business areas. They engage in the change approval process, and they help to determine the maintenance window to ensure that impact on the business is minimized."
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "27.) What hardware component is used to generate, store, and manage cryptographic keys?\nA. A CPU\nB. An NSA\nC. A TPM\nD. A CCA",
+                        "solution": "27. C. A TPM, or trusted platform module, is a hardware-based, cryptographic processor that is used to generate, store, and manage cryptographic keys. It is also used to help ensure platform integrity by allowing boot validation processes to occur in a secure manner. A CPU is the main processor for a system, NSA is the National Security Agency, and a CCA is a chosen ciphertext attack, a type of attack against cryptographic systems where the attacker can cause a cryptographic system to encrypt known text for analysis."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "28.) Chris wants to check to see if a certificate has been revoked. What protocol can he use to validate the current status of a certificate?\nA. TLS\nB. OCRS\nC. SSL\nD. OCSP",
+                        "solution": "28. D. The Online Certificate Status Protocol (OCSP) is used to validate certificate status, including checking to see if the certificate is on a certificate revocation list (CRL). TLS is Transport Layer Security, a protocol used to encrypt data in transit between systems that relies on cryptographic certificates, but it is not used to ta in transit bettus of certificates on BUCRL. Despite SSL itself being outmoded, the term SSL validate the status to refer to TLS but here, neither TLS nor SSL is the right option. OCRS was made up for this question"
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "29.) Brian╬ô├ç├ûs organization uses a process where a secure module boots systems, then monitors them as each boot stage proceeds. It validates each signed boot stage and reports on whether the boot process was correct or not when complete. What is the secure module used to verify these stages called?\nA. A secure initiation manager\nB. A root of trust\nC. A boot hash\nD. A cryptographic boot manager",
+                        "solution": "29. B. A root of trust-based secure boot process validates each signed component as it starts and ensures that the trusted components are all loaded as part of the boot process. Changes to the components are reported as exceptions, meaning that the boot process cannot be prop- erly verified or trusted. Secure initiation manager, boot hash, cryptographic boot manager were made up for this question."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "30.) A vulnerability scan shows that an embedded device that Alice is responsible for has a vulnerability. She knows the vendor is no longer in business and that there is no updated firmware or software update for the device. To resolve the issue, Alice places a firewall between the device and the rest of the network and creates rules that prevent the vulnerable service from being available to other devices. What type of control has Alice deployed?\nA. A directive control\nB. A compensating control\nC. A detective control\nD. A procedural control",
+                        "solution": "30. B. Alice has deployed a compensating control since she cannot apply controls like patch- ing, configuration, or updates. Directive controls provide formal directions to staff, detective controls detect issues rather than preventing them directly, and procedural controls are not a type of control type used on the Security+ exam."
+                    }
+                ]
+            },
+            {
+                "category": "Category 4",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "31.) Jason knows that his Apple system uses a specialized component to store keys and biometric information. What is this specialized component called?\nA. A TPM\nB. A HSM\nC. A secure enclave\nD. A screened subnet",
+                        "solution": "31. C. Apple devices use a specialized, separate coprocessor that uses encrypted memory and storage as well as dedicated cryptographic functions called a secure enclave. This is distinct from a TPM or HSM, and a screened subnet is a networking concept for a space that will be exposed to the less secure zones while needing to remain secure."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "32.) What change management term is used to describe the processes that an organization uses for each change to ensure that a consistent process is followed?\nA. Standard operating procedures\nB. A change plan\nC. Fixed operating procedures\nD. A backout plan",
+                        "solution": "32. A. Standard operating procedures (SOPs) are an organization's normal processes that it uses. SOPs are helpful to ensure that organizations have consistent practices that are in use on an ongoing basis. A change plan is specific to a change, and a backout plan is used to undo a change if problems arise. Fixed operating procedures is not a common term used in change management."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "33.) Jack knows that there are three common types of database encryption. Which of the following is not a common type of database encryption?\nA. Sensitivity-based encryption\nB. Transparent data encryption\nC. Field-level encryption\nD. Column-level encryption",
+                        "solution": "33. A. Transparent data encryption, field-level, and column-level encryption are all common types of database encryption. Sensitivity-based encryption is not and was made up for this question."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "34.) Ujamaa wants to conduct a gap analysis as part of his security efforts. Which of the following best describes what he will analyze?\nA. Which services are not configured properly\nB. Whether current patches are installed on all systems\nC. The security program as implemented versus best practices\nD. Legal requirements versus the security program",
+                        "solution": "34. C. Gap analysis focuses on reviewing a security program against common best practices to identify where gaps between practices exist. Ujamaa will select an information security standard like NIST 800-53, ISO 27001, or another relevant standard and will validate his organization's controls implementation against it. This may include things like which services are not configured properly, whether patches are installed, and if legal requirements are being met, but any of those answers is not a complete answer in this context."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "35.) Brandon wants to deploy a detective control that will help him with physical security threats. Which of the following fits his needs?\nA. Fencing\nB. Lighting\nC. Video surveillance\nD. Bollards",
+                        "solution": "35. C. Video surveillance is a detective control and is useful for detecting security events after they have happened. Fencing, bollards, and lighting are typically considered preventive controls."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "36.) Jack has deployed a system that appears to attackers to be a vulnerable system. The system is designed to lure attackers and capture information about their methods for later analysis. What is this system called?\nA. A tarpit\nB. A honeypot\nC. A beehive\nD. An intrusion detection system",
+                        "solution": "36. B. Honeypots are designed to appear to be vulnerable. They are heavily instrumented to capture attacker techniques and tools, allowing for analysis by defenders. Tarpits slow down attackers, beehives are not a term used in this context, and intrusion detection systems (IDSs) are designed to identify and alert about attacks but are not designed to appear to be vulnerable."
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "37.) Renee wants to ensure that her logs support nonrepudiation. What should she do to ensure this?\nA. Encrypt, then hash the logs.\nB. Hash the logs and then digitally sign them.\nC. Digitally sign the log file, then encrypt it.\nD. Hash, then encrypt the logs.",
+                        "solution": "37. B. Calculating a cryptographic hash allows the log's hash to be compared against copies to validate that they match. Digitally signing the hash ensures that it can be verified to be the original. Encrypting the log does not allow it to be verified against an original. Without a digital signature, a hash does not meet Renee's requirement for nonrepudiation"
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "38.) Isaac wants to deploy sensors to detect intruders in a facility, but he is concerned about the sensors being overly sensitive. What type of sensor is best suited to detecting intruders in an open office environment without significant expense or issues with sensitivity?\nA. Infrared\nB. Pressure\nC. Microwave\nD. Ultrasonic",
+                        "solution": "38.) A. Infrared sensors are commonly used in open spaces. They are well suited to detecting individuals and are less likely to be overly sensitive. They can cover broader fields than a pressure sensor, and ultrasonic sensors are not commonly deployed as facility-level security sensors."
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "39.) Wayne wants to allow systems to claim identities as part of his AAA process. Which of the following is most commonly used to identify both individuals and systems?\nA. Tokens\nB. Smartcards\nC. Certificates\nD. Usernames",
+                        "solution": "39.) C. Certificates are commonly used to identify both individuals and systems. Tokens, smartcards, and usernames are primarily used by individuals."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "40.) What are considerations like database and network connectivity, authentication system access, and network time availability considered in the context of change management processes?\nA. Allowed services\nB. Standard operating procedures\nC. Denied services\nD. Dependencies",
+                        "solution": "40.) D. Database and network connectivity, authentication system access, and network time availability are all common dependencies that must be considered when making changes. Applications and services may fail to start properly if these dependencies are not available when they attempt to start."
+                    }
+                ]
+            },
+            {
+                "category": "Category 5",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "41.) What role does the policy engine play in a zero-trust environment?\nA. It creates new administrative policies based on user behavior.\nB. It grants access based on policies created by administrators and security systems data.\nC. It enforces policies by monitoring connections between clients and servers.\nD. It suggests new administrative policies based on usage patterns for adoption by the organization.",
+                        "solution": "41.) B. Policy engines decide whether to grant access to resources based on policies created by administrators and based on data provided by tools like endpoint detection and response tools, threat intelligence feeds, and security information and event management tools. It does not create or suggest administrative policies, and it does not directly enforce policies╬ô├ç├╢that occurs at a policy enforcement point, typically through a zero-trust agent on the client and at the resource or service side."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "42.) Which of the following is not a common post-change activity found in change management practices?\nA. Updating diagrams\nB. Testing the system\nC. Documenting the change\nD. Holding a lessons-learned meeting",
+                        "solution": "42.) D. Contracts tend to be updated as part of a contract renewal process, not as part of a change management process related to technical change."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "43.) Which of the following activities should Alaina not restrict as part of her preparation for a change window?\nA. Patching\nB. Scaling clustered systems up or down\nC. Changing hostnames\nD. Modifying database configurations",
+                        "solution": "43.) B. Change windows rely on the documented change being able to be made. Patching and other technical changes may lead to unexpected interactions or dependency changes that are not accounted for in the original change window. Scaling a clustered system up or down does not change the systems and should not be restricted during a change management window."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "44.) What two key features define blockchain ledgers?\nA. They are immutable and nontransferable.\nB. They are shared and can be modified by a vote among all participants.\nC. They are unique to each participant and are atomic.\nD. They are shared and immutable.",
+                        "solution": "44.) D. Blockchain ledgers are immutable╬ô├ç├╢they cannot be changed after they are recorded, and they are shared, which means that each participant in the blockchain has access to the entire ledger."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "45.) Damian issues the following command on his Linux server:\nopenssl req -new -newkey rsa:2048 -nodes -keyout exampleserver.key -out exampleserver.csr\nWhat has he done?\nA. Created a certificate signing request\nB. Created a certificate revocation request\nC. Signed a certificate signing request\nD. Updated the OCSP record for a certificate",
+                        "solution": "45.) A. Damian has created a certificate signing request, which he can submit to a certificate authority (CA)."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "46.) Nick╬ô├ç├ûs organization sets aside Saturday nights from 2 a.m. to 4 a.m. for scheduled maintenance. What is this type of reserved time typically called?\nA. Allocated downtime\nB. A maintenance window\nC. An unscheduled outage\nD. An allowed outage",
+                        "solution": "46.) B. Preplanned times when maintenance is done and outages may occur is known as a maintenance window."
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "47.) Megan wants to assess the impact of a change as part of her change management process. Which of the following is most likely to help her assess impact?\nA. A backout plan\nB. An estimate of the downtime expected\nC. A list of stakeholders\nD. A list of dependencies for impacted systems",
+                        "solution": "47.) B. An estimate of the downtime expected as part of the change will help Megan to assess the impact of the change on her organization's business operations."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "48.) Jared wants to estimate the downtime that will result as part of a planned change. Which of the following methods will most effectively help him estimate downtime?\nA. Average the downtime from other recent changes.\nB. Contact the vendor for time estimates for the change.\nC. Perform the change in a test environment.\nD. Use a fixed maintenance window.",
+                        "solution": "48.) C. Organizations often perform changes in a test environment to allow accurate time estimates and to determine if there are issues with the change like undocumented dependencies or problems with patches."
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "49.) Dominic wants to encrypt information that can only be decrypted by one party. Which of the following types of encryption is best suited for this?\nA. Shared hashing\nB. Asymmetric encryption\nC. Symmetric encryption\nD. Universal encryption",
+                        "solution": "49.) C. Symmetric encryption uses the same key for all participants in an exchange. Asymmetric encryption uses public and private keys where public keys are shared and private keys are retained."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "50.) What important encryption challenge does asymmetric encryption help solve by using public keys?\nA. Evil twins\nB. Collision resistance\nC. Key length\nD. Key exchange",
+                        "solution": "50.) D. Asymmetric encryption makes key exchange possible because public keys are just that: public. They can be shared without causing a loss of cryptographic security or repudiation."
+                    }
+                ]
+            },
+            {
+                "category": "Category 6",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "51.) Rick╬ô├ç├ûs cloud provider offers a dedicated hardware security module. Which of the following capabilities is it unlikely to offer?\nA. Validating secure boot processes\nB. Key generation\nC. Encrypting and decrypting data\nD. Creating digital signatures",
+                        "solution": "51.) A. A TPM is used to validate secure boot processes. A hardware security module (HSM) is used for key generation, storage, and management as well as for encrypting and decrypting data and creating and validating digital signatures."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "52.) Michelle believes that an image she has discovered in an attacker╬ô├ç├ûs directory of files contains additional information that has been hidden in it. What is this type of obfuscation called?\nA. Steganography\nB. Image hashing\nC. PNG warping\nD. Image blocking",
+                        "solution": "52.) A. Steganography is the art of hiding additional data in images. Michelle can use steganography detection tools to attempt to find the data."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "53.) Which of the following is not a common transport encryption protocol?\nA. TLS\nB. IPSec\nC. SAML\nD. SSH",
+                        "solution": "53.) C. SAML is the Security Assertion Markup Language, used to exchange authentication and authorization data between identity providers and service providers."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "54.) What technology is record-level encryption most commonly associated with?\nA. Stored audio files\nB. Database records\nC. Wireless communication\nD. Archived documents",
+                        "solution": "54.) B. Record-level encryption is commonly associated with databases, where it is used to encrypt each record with a unique encryption key."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "55.) Yasmine submits the Windows BitLocker key to a central repository after she encrypts the machine. The central repository allows files to be uploaded, but not read, and is protected with access requiring special permissions. What type of solution is Yasmine╬ô├ç├ûs company using?\nA. A hardware security module\nB. Perfect forward secrecy\nC. Key escrow\nD. Private keys",
+                        "solution": "55.) C. Yasmine's company has implemented a key escrow process where encryption keys are retained by the organization in case the files on the drive need to be accessed by someone with proper authority."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "56.) Valerie wants to authenticate her systems using her AAA system. Which of the following options is best suited to system authentication?\nA. Asymmetric authentication\nB. Certificate-based authentication\nC. Symmetric authentication\nD. PIN-based authentication",
+                        "solution": "56.) B. Certificates are commonly used for system authentication in AAA systems."
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "57.) Valentine wants to detect if an intruder has accessed a secured file server. Which of the following techniques will work best with a data loss prevention tool to identify data exfiltration?\nA. A honeypot\nB. A honeynet\nC. A honeyfile\nD. A honeytoken",
+                        "solution": "57. C. Honeyfiles are files that are intentionally made to look attractive while being configured for detection by data loss prevention and intrusion prevention/detection systems. A honeypot is an intentionally vulnerable system that is used to monitor attacker behavior and techniques for analysis. Honeynets are networks that are configured to be intentionally vulnerable and that operate much like honeypots at a network level. Honeytokens are credentials that are not actually used but that are monitored for use in case an attacker is able to capture them."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "58.) Jason has recommended that additional lighting be put in place on the exterior of his building as part of a security upgrade. What type of control is lighting?\nA. Operational\nB. Deterrent\nC. Corrective\nD. Technical",
+                        "solution": "58. B. Lighting is a deterrent control type and would typically be categorized as a physical control."
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "59.) Which of the following controls is typically the most expensive to implement?\nA. Bollards\nB. Access control vestibules\nC. Security guards\nD. Access badges",
+                        "solution": "59. C. Any control that requires constant human presence like security guards is likely to have a higher ongoing cost than controls that can be put in place and operate without human inter- vention or presence."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "60.) Frankie wants to validate the integrity of a file by comparing it against an original copy. Which of the following solutions both fulfills this requirement and avoids known security issues?\nA. Hash the original file and the current file using MD5 and compare the hashes.\nB. Hash the original file and the current file using SHA-1 and compare the hashes.\nC. Hash the original file and the current file using SHA-256 and compare the hashes.\nD. Hash the original file and the current file using AES and compare the hashes.",
+                        "solution": "60. C. SHA-256 is the current, secure hashing standard. While it is unlikely that a malicious actor would exploit known flaws in MD5 and SHA-1, in most normal operations SHA-256 remains the preferred option when it is available. The Advanced Encryption Standard (AES) is used for encryption, not hashing.date"
+                    }
+                ]
+            },
+            {
+                "category": "Category 7",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "61.) Jackie wants to implement an AAA system for her network. What AAA protocol is commonly used for network devices?\nA. OpenID\nB. SAML\nC. RADIUS\nD. TANGENT",
+                        "solution": "61. B. Policies are examples of directive controls. This could also be considered a corrective con- trol, but that is not one of the options listed. Detective controls identify security events that have already occurred, and this does not detect the compromised account-it directs what must happen afterward. A compensating control mitigates risks due to exceptions in the security policy like a violation of policy due to an inability to implement a specific technical control like patching. A preventive control attempts to stop a security issue before it occurs. Here, the issue has already occurred. The policy of directive control tells staff what do to, and the action of locking the account is a corrective control."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "62.) Joanna╬ô├ç├ûs organization has a policy that requires a user╬ô├ç├ûs password to be immediately reset and accounts to be locked if the account is determined to have been successfully phished. What type of control is this?\nA. A detective control\nB. A directive control\nC. A compensating control\nD. A preventive control",
+                        "solution": "62. C. RADIUS is commonly used for AAA for network devices. OpenID and SAML are more commonly associated with federated services, and TANGENT is not an AAA protocol or server."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "63.) Scott wants to automate policy creation in his zero-trust environment╬ô├ç├ûs policy engine. Which of the following is not a typical component for automated data and event-driven policy management?\nA. A SIEM\nB. Threat feeds\nC. Infrared sensor data\nD. EDR tools",
+                        "solution": "63. C. Physical security sensors are not typically part of a zero-trust policy engine feed. Zero- trust environments primarily focus on network and systems access rather than physical secu- rity and access."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "64.) Valerie╬ô├ç├ûs organization has deployed a zero-trust solution, and Valerie receives an authentication prompt when she is attempting to access a file server. What component of the zero-trust architecture is she interacting with?\nA. A policy enforcement point\nB. A policy administrator\nC. The policy engine\nD. The trust manager",
+                        "solution": "64. A. Valerie is interacting with a policy enforcement point, the agent and resource-side ele- ments that validate trust by requiring authentication and authorization before allowing access to a resource. The policy enforcement point will validate her access through the policy engine, which will be configured by the policy administrator. Trust managers are not a typical component of the zero-trust model."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "65.) Matt is assessing his organization╬ô├ç├ûs zero-trust model against the NIST Zero Trust Maturity Model. Which of the following is not a common element of zero-trust systems that would be assessed as part of the model?\nA. Identity\nB. Business model\nC. Networks\nD. Devices",
+                        "solution": "65. B. Identity, devices, networks, applications and workloads, and data are all assessed as part of the NIST Zero Trust Maturity Model. The model does not assess an organization's business model or practices."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "66.) Quentin wants to deploy a single sign-on system to allow his users to log in to cloud services. Which of the following technologies is he most likely to deploy?\nA. OpenID\nB. Kerberos\nC. LDAP\nD. TACACS+",
+                        "solution": "66. A. OpenID is an open standard for decentralized authentication that is used by many cloud service providers. Kerberos, LDAP, and TACACS+ are all most commonly associated with on-site usage"
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "67.) Marty wants to deploy a corrective control to deal with a recently compromised system. Which of the following would be considered a corrective control?\nA. Patching the vulnerability that allowed the compromise to occur\nB. Deploying full-disk encryption\nC. Deploying an endpoint detection and response (EDR) tool\nD. Enabling logging and sending logs to a SIEM",
+                        "solution": "67. A. Corrective controls attempt to remediate security issues that have already occurred. Patching the flaw that allowed an attack to succeed is an example of a corrective control. Deploying full-disk encryption or an EDR tool are both examples of preventive controls, and logging and log monitoring are examples of detective controls. It is important to note that in many cases, controls could be identified as multiple potential control types. In cases where controls might fit multiple control types, you should look for the control that is most obvi- ously the correct control type."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "68.) What important encryption feature is not supported by symmetric encryption?\nA. Confidentiality\nB. Integrity\nC. Nonrepudiation\nD. Authentication",
+                        "solution": "68. C. Symmetric encryption does not support nonrepudiation because both parties have the same key. Both asymmetric and symmetric encryption can provide confidentiality, integrity, and authentication."
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "69.) Theresa wants to use a cloud-hosted security solution that will allow her to safely store and manage secrets. What type of solution should she select?\nA. A TPM\nB. A CA\nC. A KMS\nD. A CSR",
+                        "solution": "69. C. A KMS, or key management system, is a solution that allows you to safely store and manage secrets like keys and certificates. Centralizing a KMS allows organizations to effec- tively manage their secrets, including tracking their life cycle and rotation. A TPM is used for hardware security on physical systems, a CA is a certificate authority used to create and sign certificates, and a CSR is a certificate signing request."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "70.) Joanna is reviewing her account information on an e-commerce website and sees her credit card number displayed as XXXX-XXXX-XXXX-1234. What type of data obfuscation is in use?\nA. Hashing\nB. Data masking\nC. Field encryption\nD. Tokenization",
+                        "solution": "70. B. Data masking conceals elements of a data field or entry, preventing all of it from being seen but leaving it accessible through the database when masking is not used. Tokenization replaces values with a reference value often a hash that can be used to refer to the value without using the actual entry. Hashing is a one-way function that produces an input of arbi- trary length. Field encryption is not a common term."
+                    }
+                ]
+            },
+            {
+                "category": "Category 8",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "71.) Amanda╬ô├ç├ûs organization wants to use a decentralized blockchain to store data. Which of the following is true about a decentralized blockchain?\nA. No individual or group controls the blockchain.\nB. Only cryptocurrency-related data can be stored in a blockchain.\nC. Blockchain data can be changed after being stored by the original submitter.\nD. Blockchain ledgers are stored on central servers chosen by regular elections among blockchain participants.",
+                        "solution": "71. A. In a decentralized blockchain, no individual or group controls the blockchain. Block- chains can store many types of data, including but not limited to transactions. Blockchain transactions are permanent once written, and a new transaction or update would need to be recorded rather than revising an existing transaction. Blockchain transactions are stored on the blockchain maintained by participants, not on central servers chosen by election."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "72.) What role does a subordinate CA have in a CA hierarchy?\nA. Subordinate CAs issue certificates based on subdomains.\nB. Subordinate CAs provide control over certificate issuance while avoiding the cost of being a root CA.\nC. Subordinate CAs validate root CA activities to ensure auditability.\nD. Subordinate CAs review certificate signing requests before forwarding them to the root CA.",
+                        "solution": "72. B. Subordinate CAs avoid the cost of maintaining a root CA while providing control over certificates that are issued and allowing specialized support for different types of certificates like SSL and S/MIME. Subordinate CAs can issue certificates for any allowed domain or sub- domain, are not required to ensure auditability, and can sign certificates themselves."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "73.) Which of the following sensor types is commonly used to detect footsteps?\nA. Infrared\nB. Pressure\nC. Microwave\nD. Ultrasonic",
+                        "solution": "73. B. Pressure sensors can be deployed to detect footsteps in a secured area. Infrared and microwave sensors are more commonly used to detect motion, and ultrasonic sensors are rarely used for security purposes."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "74.) Which of the following is not a managerial control?\nA. Risk assessments\nB. Including security in change management processes\nC. Security planning exercises\nD. Implementing firewalls",
+                        "solution": "74. D. Firewalls are a technical control, not a managerial control that focuses on the mechanics of the risk management process."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "75.) What purpose do third-party certificates serve for customers of cloud services?\nA. They reduce costs by using bring-your-own certificates.\nB. They allow certificates for domains other than the service provider╬ô├ç├ûs domain.\nC. They provide control over cryptographic security for the customer.\nD. They allow more flexibility in TLS version selection.",
+                        "solution": "75. C. Third-party certificates allow customers to have full control over the certificate, including the private key and certificate signing request. By bringing your own certificate, encrypted traffic cannot be decrypted by the cloud provider. Using provider-provided or -created certif- icates leads to a potential risk if the provider is malicious or compromised and private keys managed by the provider are compromised. Bringing your own certificate does not neces- sarily reduce costs. Providers typically allow certificate signing requests for customer domains and subdomains as needed and supported by the service."
+                    }
+                ]
+            }
+        ],
+        "double": [
+            {
+                "category": "Category 1",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "76.) Which of the following is not a common control focused on availability?\nA. Uninterruptible power systems\nB. Redundant Internet connectivity\nC. Disk encryption\nD. Load balancers",
+                        "solution": "76. C. Disk encryption is commonly used to ensure confidentiality of data. UPS, load balancers, and redundant Internet connectivity all support availability."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "77.) What term describes a collection of honeypots on a network intended to capture information about cybersecurity threats?\nA. A honeyfarm\nB. A honeynet\nC. A honeycluster\nD. A darknet",
+                        "solution": "77. B. Honeynets are collections of decoy systems and devices that are instrumented and mon- itored, providing organizations and individuals with information about how threat actors attack targeted systems. Honeyfarm and honeycluster are not industry terms, and darknets are segments of unused network space that should not receive traffic. Darknets are monitored to help identify scanning and other attacks since traffic should not flow to them."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "78.) Skip wants to implement a deterrent control to prevent physical security issues for his organization. Which of the following controls should he select?\nA. A fence\nB. A generator\nC. Access badges\nD. A camera system",
+                        "solution": "78. A. Fencing is considered a deterrent because it will discourage potential intruders from accessing facilities. Generators are used to ensure availability and are a preventive control. Access badges are a technical and preventive control in most cases. A camera system is a detective, technical control."
+                    },
+                    {
+                        "value": 1400,
+                        "clue": "79.) What holds the position of the root of trust in a certificate chain?\nA. A hardened hardware device\nB. A TPM\nC. A root certificate\nD. A wildcard certificate",
+                        "solution": "79. C. The root certificate, or top certificate for a certificate chain, is the root of trust of the chain, and it must be kept secure so the entire certificate and CA hierarchy can be trusted. Hardened hardware devices may be used to store it, but they are not the actual root itself. A TPM is used to store system-specific security data, and wildcard certificates cover more than one subdomain for an organization."
+                    },
+                    {
+                        "value": 1800,
+                        "clue": "80.) Jill needs to explain the concept of open public ledgers to her organization as management wants to adopt a blockchain-based system. What should she tell them about access to the ledger?\nA. Members must be added by a vote of all current members.\nB. Anyone can join at any time.\nC. Members must be added by a vote of more than 51 percent of current members.\nD. Ledgers are public but membership is private and controlled by the creator of the ledger.",
+                        "solution": "80. B. By definition, open public ledgers are open and public-anyone can join at any time. No vote is required, and creators do not control the ledger once it is made public."
+                    },
+                    {
+                        "value": 2200,
+                        "clue": "81.) Olivia wants to use a self-signed certificate in her test environment for her organization╬ô├ç├ûs services to save money on commercial certificates. What warning should her team give her about the use of self-signed certificates in a test environment?\nA. Certificate root of trust validation attempts will fail if implemented.\nB. Self-signed certificates cannot be used for external users to support SSL.\nC. Self-signed certificates cannot be used for internal users to support SSL.\nD. Browsers will not allow self-signed certificates to be used when browsing sites.",
+                        "solution": "81. A. Some software may attempt to validate the certificates in use and could fail. This may also lead to unexpected differences between production certificates and test certificates, which is undesirable in a test environment intended to mirror production. Both internal users and external users can still successfully use self-signed certificates for SSL., but they will receive warnings in modern browsers. Browsers can typically be told to bypass warnings, or self- signed certificates can be added to system certificate chains as needed, although this requires additional work from system administration teams and may not be desirable."
+                    },
+                    {
+                        "value": 2600,
+                        "clue": "82.) Amanda is concerned about issues with dependencies that may be found during her pending change. What practice should she implement to help ensure unexpected dependency issues are not encountered?\nA. Update organizational policies and procedures before the change.\nB. Update functional diagrams before the change.\nC. Validate the change in a test environment.\nD. Document legacy applications that may create dependencies.",
+                        "solution": "82. C. The most effective way to ensure that all dependencies have been satisfied is to perform the change in a matching test environment to ensure that all issues have been identified and resolved. Updating policies and procedures as well as diagrams is typically done after major changes that result in a need for updates. Legacy applications that may create dependencies are not the only potential source of dependency issues."
+                    },
+                    {
+                        "value": 3000,
+                        "clue": "83.) Lucca has implemented an authentication scheme that relies on ticket-granting tickets as part of the authentication process. What common authentication service has he implemented?\nA. TACACS+\nB. Kerberos\nC. MS-CHAP\nD. EAP",
+                        "solution": "83. B. Kerberos uses authentication tickets and ticket-granting tickets to grant session keys for services that clients present to services to access them. TACACS+, MS-CHAP, and EAP do not use this ticket-based approach."
+                    },
+                    {
+                        "value": 3400,
+                        "clue": "84.) Jocelyn wants to select a modern encryption algorithm for use in her organization. Which of the following is a currently recommended encryption algorithm?\nA. AES-256\nB. SHA1\nC. DES\nD. Blowfish",
+                        "solution": "84. A. AES-256 is the only currently recommended encryption solution on the list. SHA-1 is a hashing algorithm. DES and Blowfish both have vulnerabilities and have been replaced in modern usage."
+                    },
+                    {
+                        "value": 3800,
+                        "clue": "85.) Elizabeth wants to classify the following controls by their category. What category best describes lighting, fences, bollards, and access control vestibules?\nA. Technical\nB. Managerial\nC. Operational\nD. Physical",
+                        "solution": "85. D. Lighting, fences, bollards, and access control vestibules are all examples of physical controls."
+                    }
+                ]
+            },
+            {
+                "category": "Category 2",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "86.) Jack wants to ensure the integrity of a file that he is sending to a third party via email. How can he provide the integrity of a file to an organization that he has not done business with before?\nA. Encrypt the file and send it to them.\nB. Digitally sign the file.\nC. Send a hash of the file in a separate email.\nD. Email the file size and original name in a separate email.",
+                        "solution": "86. B. Jack should digitally sign the file and provide his public key to the other organization. This will allow them to validate his signature, as well as the integrity of the signed file. Encrypting the file does not ensure its integrity but does protect its confidentiality. Sending a hash does not ensure that the email was not modified, and emailing file size and name does not ensure the file was not changed."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "87.) Annie notices that her browser shows that the certificate for the site she is visiting is not valid. After performing some checks, she sees that the certificate is on the CA╬ô├ç├ûs certificate revocation list. Which of the following is not a reason for a certificate to be on a CRL?\nA. The CA is compromised.\nB. The certificate╬ô├ç├ûs private key was compromised.\nC. The certificate was signed with a stolen key.\nD. The certificate expired.",
+                        "solution": "87. D. Certificates expire, but expiration does not place them on a CRL. That avoids extremely long CRLs in most cases, and the expired certificate contains sufficient information to know that the certificate is expired without being on a CRL. Reasons to add a certificate to a CLR include the CA being compromised, the certificate's private key being compromised, a mis- issued certificate, certificate detail changes that require a reissued certificate, or certificates that were fraudulently signed, typically by a subordinate CA that was exploited or had poor practices."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "88.) Mohinder wants to use modern, secure hashing algorithms to validate files against known good originals. Which of the following hashing algorithms should he select?\nA. MD5\nB. SHA-1\nC. AES-256\nD. SHA-256",
+                        "solution": "88. D. SHA-256 is the only hashing algorithm listed that is considered current and secure as of the publication of this book. MD5 and SHA-1 both have known security issues, and AES-256 is an encryption algorithm."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "89.) Derrick wants to validate an encrypted and digitally signed message sent using asymmetric encryption. What does he need from the sender to validate the message?\nA. The sender╬ô├ç├ûs private key\nB. Derrick╬ô├ç├ûs private key\nC. The sender╬ô├ç├ûs public key\nD. Derrick╬ô├ç├ûs public key",
+                        "solution": "89. C. To verify whether a message was signed by a sender, the recipient needs the sender's public key."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "90.) The major patch release that Susan╬ô├ç├ûs team installed has failed, resulting in a nonworking service. What should her team do according to change management best practices?\nA. Declare an outage.\nB. Follow the documented backout plan.\nC. Restore from backups to the previous version.\nD. Uninstall the patch and validate service function.",
+                        "solution": "90. B. Creating a complete backout plan and implementing it if something goes wrong that cannot be remediated during a change window is the accepted best practice in this scenario. That may involve restoring from backups or uninstalling the patch, but neither of these options is necessarily the correct answer in all circumstances. Similarly, declaring an out- age may be necessary, but following the backout plan and communicating effectively is the best option."
+                    },
+                    {
+                        "value": 2400,
+                        "clue": "91.) The web server that Angela╬ô├ç├ûs organization manages was recently compromised and the SSL certificate╬ô├ç├ûs private key was accessed by attackers. Angela╬ô├ç├ûs team has completed remediation and has created a new CSR, including a new private key that they have secured. What type of control best describes the creation of a new key and certificate in this circumstance?\nA. Corrective\nB. Compensating\nC. Deterrent\nD. Detective",
+                        "solution": "91. A. This is a corrective control because it remediates a security issue after the event has occurred. A compensating control would attempt to mitigate a risk associated with excep- tions made to a security policy. Deterrent controls attempt to prevent an attacker from violating security policies, and detective controls identify security events that have already happened."
+                    },
+                    {
+                        "value": 2800,
+                        "clue": "92.) Mikayla╬ô├ç├ûs zero-trust system has received a request for access with an identity, and the basic criteria for access have been met. What should the system do next before providing access to the resource requested?\nA. Check the remote system╬ô├ç├ûs security status.\nB. Require reauthentication using MFA.\nC. Check the user╬ô├ç├ûs rights to ensure they can access the resource.\nD. Determine its level of confidence in the request.",
+                        "solution": "92. D. A zero-trust system should validate its level of confidence in a request that it receives once the basic criteria have been met. This may involve checking the access against known patterns of access by the user, validating current threat feed information, or checking other details that will help ensure the security and authenticity of the request."
+                    },
+                    {
+                        "value": 3200,
+                        "clue": "93.) Charles sets up an RDP server on an isolated network segment and places a file on it called passwords.xlsx. He then configures his IPS and DLP systems to monitor for that file exiting the network segment. What type of tool has Charles deployed?\nA. A honeyfile\nB. A SQL trap\nC. A red flag\nD. A trigger file",
+                        "solution": "93. A. While many honeyfiles use canary tokens, simply monitoring for known files exiting systems that should not be accessed under normal circumstances is also a valid means to construct a honeypot and honeyfile-based detection system. Charles can use the file and the isolated system to detect attackers who attempt to exfiltrate the file. The other answers were made up for this question."
+                    },
+                    {
+                        "value": 3600,
+                        "clue": "94.) Lucca is using precomputed rainbow tables to attempt to crack hashed passwords from a data breach. He knows that two users have the same password, but the hashes do not match. What password hash security technique has Lucca most likely encountered?\nA. Password encryption\nB. Salting\nC. Hash rotation\nD. Password mismatching",
+                        "solution": "94. B. Salting uses a unique, randomly generated string that is added to each password before it is hashed. That means that even matching passwords will not have the same hash. This pre- vents rainbow tables from being effectively used against password hashes due to the added computational load it creates for precomputing hashes."
+                    },
+                    {
+                        "value": 4000,
+                        "clue": "95.) What operating system is commonly associated with secure enclaves?\nA. Windows\nB. iOS\nC. Linux\nD. Android",
+                        "solution": "95. B. Secure enclaves are used by Apple devices to securely store security information like cryptographic keys."
+                    }
+                ]
+            },
+            {
+                "category": "Category 3",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "96.) Isaac is concerned that the passwords that his users are creating are too short and can be easily brute-forced if their hashes were compromised. Rather than make his users remember longer passwords, he would like to implement a technical solution to help make the hashes more resistant to cracking. What solution can he use to help with this?\nA. Implement pass-the-hash algorithms.\nB. Use a collision-resistant hashing algorithm.\nC. Implement key stretching techniques.\nD. Encrypt passwords rather than hashing them.",
+                        "solution": "96. C. Implementing key stretching techniques can help short-and thus weak-passwords resist brute-force hash cracking techniques. They won't help against brute-force password guessing attacks, so Isaac will need to implement other controls against that type of attack. Pass-the-hash attacks reuse hashes, and thus aren't a technique used to prevent brute-force attacks against hashed passwords. Collision resistance is a requirement for an effective hashing algorithm and should be part of any password hash storage implementation. Encrypting passwords is not a recommended practice because it leaves passwords in the hands of the organization rather than hashes and requires the organization to decrypt pass- words to check them when they are used, creating frequent opportunities for exposure."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "97.) Christina wants to implement access badges printed with picture IDs for her organization, but she wants to use a wireless reader. What access badge technology is commonly implemented in scenarios like this?\nA. Wi-Fi-enabled access badges\nB. RFID access badges\nC. Bluetooth-enabled access badges\nD. NEC access badges",
+                        "solution": "97. B. RFID badges are the most commonly implemented wireless identification badges. Wi-Fi and Bluetooth both require additional power for devices and thus are not a good fit for a badge, and NFC-enabled badges have not come into common use at this time, although they are increasingly available for mobile device-enabled badges."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "98.) Kendra╬ô├ç├ûs vulnerability management team has discovered that Internet of Things (IoT) devices deployed a few years ago to monitor temperatures for critical refrigerated equipment are vulnerable to a new attack. After reviewing the issue, her team has discovered that the devices are no longer supported and that the manufacturer has gone out of business. They suggest moving the devices to an isolated network to help protect them. What type of control has Kendra╬ô├ç├ûs team suggested?\nA. A corrective control\nB. A compensating control\nC. A confidentiality control\nD. A coordinated control",
+                        "solution": "98. B. A compensating control helps to mitigate a risk due to an exception to a security policy. Here, the devices cannot be patched or fixed but are important to the operations of the organization. Moving them to a protected network will help compensate for the lack of patching. Since no security issues have occurred, this is not a corrective control. Confidenti- ality and coordinated controls are not control types for the Security+ exam."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "99.) Which of the following is not a common factor in adaptive authentication for zero trust?\nA. Where the user is logging in from\nB. Whether the user has logged in recently from another device\nC. What device the user is logging in from\nD. If the device is configured correctly",
+                        "solution": "99. B. Adaptive authentication looks at the context of a login, including where they're logging in from both geographically, and from a network trust perspective, what device they're logging in from, and if the device is configured correctly. In modern, multidevice usage, whether the user has logged in recently from another device isn't as likely to be considered, but if the devices were in different countries it would likely raise a flag!"
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "100.) Juan╬ô├ç├ûs organization is designing their zero-trust model. Which of the following statements is true for network security zones?\nA. All communication is secured, regardless of the network security zone it occurs in.\nB. Communication receives additional security in low-trust zones.\nC. Communication receives less security in high-trust zones.\nD. All zero-trust networks are considered secured zones.",
+                        "solution": "100. A. One of the basic tenets of zero-trust architecture is that all communication is secured, regardless of the security zone or trust zone that it occurs in. Additional security should not be required, nor should communications receive less security in higher trust zones. All zero- trust networks are considered potential risk areas thus the zero in zero trust!"
+                    },
+                    {
+                        "value": 2400,
+                        "clue": "101.) What advantage do microwave sensors have over infrared sensors?\nA. They can detect heat signatures.\nB. They are cheaper than infrared sensors.\nC. They can penetrate some types of walls.\nD. They do not interfere with sensitive equipment.",
+                        "solution": "101. C. Microwave sensors work in temperature ranges that infrared sensors do not, and they can penetrate walls and some small spaces allowing more complete coverage. Microwave sensors cannot detect heat signatures, are not cheaper than infrared sensors, and can inter- fere with some types of sensitive equipment."
+                    },
+                    {
+                        "value": 2800,
+                        "clue": "102.) Isaac is conducting a physical penetration test and wants to bypass an access control vestibule. What must he accomplish?\nA. He needs to persuade an individual to allow him to follow them through a single door.\nB. He needs to acquire an individual╬ô├ç├ûs access card.\nC. He needs to persuade an individual to allow him to follow them through two doors in a row.\nD. He needs to acquire the individual╬ô├ç├ûs access PIN.",
+                        "solution": "102. C. Access control vestibules are intended to make it obvious that someone is following you through secured doors and may only be large enough for a single person to come through at once. Larger vestibules rely on staff noticing that the person following them through is not providing credentials and ensuring that doors close between access attempts."
+                    },
+                    {
+                        "value": 3200,
+                        "clue": "103.) Rachel wants to select an obfuscation method that will allow her customer service representatives to validate customer identities without providing full access to customer data. What should she select?\nA. Tokenization\nB. Data masking\nC. Steganography\nD. Hashing",
+                        "solution": "103. B. Data masking reveals only part of a field and is often used with details like credit card numbers or Social Security numbers where only the last four digits well be revealed for vali dation purposes."
+                    },
+                    {
+                        "value": 3600,
+                        "clue": "104.) Valerie╬ô├ç├ûs manager has informed her that version control must be implemented for her development team╬ô├ç├ûs work. Which of the following is not a common, security-related reason for version control?\nA. To help with patching\nB. To track each contributor╬ô├ç├ûs workload\nC. To ensure the proper version is deployed\nD. To help with change management",
+                        "solution": "104. B. While version control has many useful impacts on security, tracking workload is not a security-related issue for version control."
+                    },
+                    {
+                        "value": 4000,
+                        "clue": "105.) Jackie╬ô├ç├ûs change management process involves reporting functional validation test results to stakeholders. Which of the following is not a common stakeholder or stakeholder group for an application upgrade?\nA. Application administrators\nB. Service owners\nC. System administrators\nD. Auditors",
+                        "solution": "105. D. While auditors may request application version information during audits, they are not typically notified during normal application updates and patching cycles. Application administrators, service owners, and system administrators are all commonly notified about functional validation test results so that they can take further action or know that the ser- vice update is complete."
+                    }
+                ]
+            },
+            {
+                "category": "Category 4",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "106.) How many keypairs are required for four individuals to communicate securely using asymmetric encryption?\nA. 1\nB. 4\nC. 8\nD. 12",
+                        "solution": "106. B. Each individual has their own keypair in asymmetric encryption systems; thus, for four individuals to communicate securely using asymmetric encryption four keypairs are needed."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "107.) Michelle wants to store secrets for her organization in a cloud service. She wants to ensure the greatest level of security for her organization, and she is willing to spend more money to provide that security. What solution should she look for?\nA. A shared cloud TPM\nB. A shared cloud HSM\nC. A dedicated hardware cloud TPM\nD. A dedicated hardware cloud HSM",
+                        "solution": "107. D. A dedicated, hardware-based, cloud-hosted hardware security module (HSM) is an appropriate solution for Michelle's needs. Cloud providers often provide shared HSMs as a service, which can increase perceived risk due to the shared underlying hardware. Dedicated hardware is typically available at a higher cost. Trusted platform modules (TPMs) are used to provide secure boot and related services, not to store secrets for an organization."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "108.) Murali wants to digitally sign a file. What key does he need to sign it?\nA. The recipient╬ô├ç├ûs private key\nB. His private key\nC. The recipient╬ô├ç├ûs public key\nD. His public key",
+                        "solution": "108. B. To sign a file, Murali needs to use his own private key. The recipient can then use their public key to validate the signature."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "109.) What information is necessary for a certificate to be identified properly in an OCSP request?\nA. The domain name\nB. The original requestor╬ô├ç├ûs name\nC. The certificate╬ô├ç├ûs serial number\nD. The identifier for the open public ledger entry",
+                        "solution": "109. C. OCSP requests must include the certificate's serial number to allow the OCSP responder to check the CA database for the certificate and its status. It does not require the domain name or requestor's name. Open public ledgers are part of blockchains, not OCSP."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "110.) Rick checks the certificate for the site he is viewing and sees that it reads *.example.com. What type of certificate is this, and why is it in use?\nA. It is a self-signed certificate, and it is used for testing purposes.\nB. It is a wildcard certificate and is used for testing purposes.\nC. It is a wildcard certificate and is used for multiple subdomains.\nD. It is a self-signed certificate and is used for multiple subdomains.",
+                        "solution": "110. C. Wildcard certificates have a * in them, denoting that they can be used for any subdo- main. For example, in this question, the wildcard would match any *.example.com subdo- main like test.example.com and sales.example.com. Self-signed certificates will not link to a root or intermediate CA, and thus cannot be verified with CAs."
+                    },
+                    {
+                        "value": 2400,
+                        "clue": "111.) John wants to write a procedure that addresses what to do if an employee inadvertently discloses their password due to a phishing attempt. What type of control is John considering?\nA. A directive control\nB. A proactive control\nC. A deterrent control\nD. A preventive control",
+                        "solution": "111. A. Policies and procedures are examples of directive controls. Deterrent controls attempt to dissuade attackers from taking action. Preventive controls attempt to stop security issues from occurring. Proactive controls are not a control category used on the Security+ exam."
+                    },
+                    {
+                        "value": 2800,
+                        "clue": "112.) Adam has been asked to implement an allow list for websites that his servers can visit. What concern should he raise about the implementation of allow lists?\nA. Allow lists can be difficult to manage and cause failures if sites that are needed are not added.\nB. Allow lists do not prevent sites from being visited if they are not on the allow list.\nC. Allow lists cannot be configured to allow entire domains to be visited, creating significant overhead.\nD. Allow lists are prone to error, allowing unwanted sites to be added.",
+                        "solution": "112. A. Allow lists can be difficult to manage over time, particularly as manufacturers and vendors add additional download and update sites and subdomains. This creates additional work for administrators and can cause errors or issues with updates and patching if not carefully monitored. Allow lists do prevent sites from being visited if they are not on the list, they can be configured with wildcards to allow entire domains or subdomains if desired, and they only allow sites that are added, meaning any problems with unwanted sites are the responsibility of the allow list administrator."
+                    },
+                    {
+                        "value": 3200,
+                        "clue": "113.) Jim wants to implement an authentication framework for his wireless network. Which of the following is most commonly used for wireless network authentication?\nA. EAP\nB. MS-CHAP\nC. Kerberos\nD. LDAP",
+                        "solution": "113. A. EAP is commonly used for authentication to wireless networks. MS-CHAP is used with PPTP-based VPNs, Kerberos is used for organizationwide authentication, and LDAP is used as part of authentication in Microsoft Active Directory domains, among other uses."
+                    },
+                    {
+                        "value": 3600,
+                        "clue": "114.) Gary is preparing change management documentation for an application restart after patching. What step should immediately follow the application restart?\nA. Validation testing\nB. Documenting the change occurred\nC. Updating version control\nD. Vulnerability scanning",
+                        "solution": "114. A. Validation testing should follow application restarts to ensure the application is working as expected after the restart. Documentation and updating version information can be done after the validation because if validation fails the change may need to be reversed. Vulner- ability scanning should have been done prior to implementation in a test environment if needed, and then should be done as part of ongoing security operations."
+                    },
+                    {
+                        "value": 4000,
+                        "clue": "115.) Anna has been told that her organization has deployed microwave sensors in the organization╬ô├ç├ûs warehouses. What are microwave sensors most frequently used to detect?\nA. Motion\nB. Glass break\nC. Heat signatures\nD. Pressure",
+                        "solution": "115. A. Microwave sensors are commonly used to detect motion and have advantages over infrared sensors because they can work in a greater temperature range as well as traveling through some obstacles that would not allow infrared to penetrate them. They do not capture audio and are therefore not used for glass-break sensors, they do not capture thermal data like infrared sensors, and they are not pressure sensors."
+                    }
+                ]
+            },
+            {
+                "category": "Category 5",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "116.) When is data on a drive that uses full-disk encryption at the greatest risk?\nA. During the system boot process\nB. When the system is off\nC. When the system is logged in and in use\nD. When the system is being shut down",
+                        "solution": "116. C. In order for a drive to be used, it must be accessible to the operating system, meaning that when the system is logged in and in use data can be accessed. When full-disk encryp tion systems are booting and not logged in or when they are being shut down, they are typi- cally not in a greater risk state, and they are most secure when shut down."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "117.) Alex has configured full-disk encryption for laptops that his organization issues to employees. What cybersecurity objective does this primarily support?\nA. Confidentiality\nB. Availability\nC. Authenticity\nD. Integrity",
+                        "solution": "117. A. Full-disk encryption primarily supports confidentiality by preventing unwanted access to the drive if it is stolen or otherwise exposed. The three objectives are confidentiality, integrity, and availability, which means authenticity is not a possible answer. Encryption does not increase availability, and integrity ensures that data has not been changed inad- vertently or maliciously. Thus, encryption can help, but it is not as strong of an answer as confidentiality."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "118.) What process reviews control objectives for an organization, system, or service to determine if controls do not meet the control objectives?\nA. A penetration test\nB. A gap analysis\nC. A Boolean analysis\nD. A risk analysis",
+                        "solution": "118. B. A gap analysis is used to determine whether controls meet control objectives for a ser- vice, an organization, or a system. Penetration tests simulate an attacker trying to gain access or breach systems and other controls. Boolean analysis is not a security term, and risk analysis is done as part of risk assessment."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "119.) Frank configures an access control list to ensure that only specific IP addresses are able to connect to a service. What type of control has he deployed?\nA. Managerial\nB. Physical\nC. Technical\nD. Operational",
+                        "solution": "119. C. Access control lists are best described as technical controls. Managerial controls are procedural mechanisms; physical controls are controls that impact the physical world, like locks or fences; and operational controls are processes used to manage technology in a secure manner, like the change management process Frank will likely follow to make changes to the access control list."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "120.) Annie has recently implemented a video surveillance system for her organization. What is the largest driver for new ongoing costs for an unmonitored video surveillance system?\nA. Camera maintenance\nB. The ongoing cost of storage\nC. Security guards\nD. Licensing",
+                        "solution": "120. B. Video surveillance system storage can drive additional costs based on decisions like how long video is retained, sensitivity levels, video resolution, and how heavily trafficked camera covered areas are. Licensing may grow if additional cameras are added, but there is no information in the question indicating changes in the size of the implementation. Since this is an unmonitored system, no guards are involved, and camera maintenance is not a typical issue for a newly deployed system."
+                    },
+                    {
+                        "value": 2400,
+                        "clue": "121.) Henry╬ô├ç├ûs organization has recently experienced a ransomware attack and is restoring backups from a secure backup system. What type of security control is Henry using?\nA. A preventive control\nB. A directive control\nC. A compensating control\nD. A corrective control",
+                        "solution": "121. D. Restoring from backups helps to remediate a security issue, making this a corrective control. Preventive controls for Henry's situation might include endpoint detection and response (EDR) tools, directive controls would include policies and procedures for ransom- ware events, and compensating controls would be used if exceptions to the security policies needed to be made."
+                    },
+                    {
+                        "value": 2800,
+                        "clue": "122.) What data obfuscation technique relies on a lookup table that allows you to match the data you want to secure to a randomly generated value to ensure that the actual value is not easily accessible?\nA. Hashing\nB. Tokenization\nC. Randomization\nD. Masking",
+                        "solution": "122. B. Tokenization commonly uses randomly generated values that are assigned to replace existing known values. The token is stored in a lookup table, allowing the token to be checked against the table if needed. Hashing relies on a hash function, which is not men- tioned here; randomization is not a data obfuscation technique; and masking replaces some or all of a sensitive field with a replacement character to ensure the data is unreadable when displayed."
+                    },
+                    {
+                        "value": 3200,
+                        "clue": "123.) What challenge drives the need for key exchange mechanisms?\nA. The number of keys required for symmetric encryption\nB. The need to determine if a key is public\nC. The need to exchange keys in a way that prevents others from obtaining a copy\nD. The need to securely return keys to their owner after they are traded",
+                        "solution": "123. C. Key exchange algorithms focus on how to securely exchange keys so that others cannot obtain a copy of the key. Asymmetric encryption is used instead of symmetric encryption to resolve the issue of large numbers of symmetric keys; keys are either public or private in asymmetric systems and determining if they are public is not considered a problem; and keys are not returned to their owner, as only public keys should be exchanged."
+                    },
+                    {
+                        "value": 3600,
+                        "clue": "124.) Jackie is performing an impact analysis prior to a large-scale change her team is preparing to implement. Which of the following groups is not typically part of the impact analysis?\nA. Stakeholders\nB. System administrators\nC. Service owners\nD. Legal counsel",
+                        "solution": "124. D. Legal counsel is not typically part of change management processes. Stakeholders, ser- vice owners, and system administrators are commonly involved in impact analysis sessions."
+                    },
+                    {
+                        "value": 4000,
+                        "clue": "125.) Ilya wants to create a certificate signing request. Which of the following is not a typical part of a CSR?\nA. The common name of the server\nB. The organization╬ô├ç├ûs legal name\nC. A contact email address\nD. The organization╬ô├ç├ûs phone number",
+                        "solution": "125. D. Certificate requests include the common name (CN); organization (O); organization unit in the organization (OU); city or locality (L); the state, county, or region (S); country (C); and organizational contact email address."
+                    }
+                ]
+            },
+            {
+                "category": "Category 6",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "126.) Before Tony stores a password hash, he appends a string of characters that is unique to each password generated using an algorithm he created. What technique is Tony using to help protect his password hashes?\nA. Tokenization\nB. Steganography\nC. Salting\nD. Key stretching",
+                        "solution": "126. C. Tony is salting his password, which involves adding a string of characters to the pass- word before it is hashed. This creates a unique hash, even if the password itself is an easily guessed or common password."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "127.) Which of the following is not a step taken when a transaction is entered in a blockchain?\nA. The value of the block is determined.\nB. The transaction is sent to a peer-to-peer network of computers.\nC. The transaction is validated using equations.\nD. A transaction history is maintained as part of the blockchain.",
+                        "solution": "127. A. While cryptocurrency is a common use of blockchain technology, it isn't the only use. Values of blocks are not determined as part of transactions in fact, even in cryptocur- rency uses, values are determined by prices set on exchanges as sellers and buyers exchange cryptocurrencies."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "128.) Kent wants to encrypt network traffic in transit. What cryptographic protocol is most frequently used to add encryption to existing protocols?\nA. S/MIME\nB. TLS\nC. MPLS\nD. SSH",
+                        "solution": "128. B. TLS, or Transport Layer Security, is a cryptographic protocol used to secure network traffic in transit. S/MIME, or Secure MIME, is used for digital signatures and encryption for email. MPLS is multiprotocol label switching, a network routing technique. SSH is Secure Shell and is used for encrypted command-line access as well as to tunnel other pro- tocols in some cases."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "129.) Which of the following is not a common concern in change management processes related to legacy applications?\nA. Lack of vendor support\nB. Lack of patches and updates\nC. Ongoing licensing costs\nD. Availability of third-party or consultant expertise",
+                        "solution": "129. C. Legacy applications are often unsupported, don't receive new patches or updates, and have a shrinking or nonexistent base of consultants and experts. Licensing for legal applica- tions is often not available; this making ongoing licensing costs a less frequent concern."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "130.) Elaine wants to document the technical concerns that dependencies create as part of her change management process. Which of the following concerns is the most common when dependencies are encountered as part of change management?\nA. Documenting the dependencies to ensure they are addressed\nB. Removing the dependencies as part of the change\nC. Patching the dependencies in addition to the main application\nD. Updating diagrams related to the dependencies",
+                        "solution": "130. A. Change management processes typically focus on documenting dependencies and ensuring they are met. That may involve ensuring that the appropriate version is installed or that applications are restarted in a specific order, or that a service is available that is needed for a system to successfully function. Removing dependencies is unlikely, patching may or may not be required, and updating diagrams is less important than ensuring the dependencies are understood and met."
+                    },
+                    {
+                        "value": 2400,
+                        "clue": "131.) Gary has implemented record-level encryption for his database. How many keys will he use in a typical implementation of record-level encryption?\nA. One key per record\nB. One key per column\nC. One key per table\nD. One key per database",
+                        "solution": "131. A. Record-level encryption relies on a unique key for each record, keeping records private to a user or account in typical usage."
+                    },
+                    {
+                        "value": 2800,
+                        "clue": "132.) Justin╬ô├ç├ûs laptop is part of his organization╬ô├ç├ûs zero-trust architecture. What term is used to refer to a device like a laptop, desktop, or mobile device in a zero-trust design?\nA. A subject\nB. A policy engine\nC. A service provider\nD. A policy application point",
+                        "solution": "132. A. Justin's laptop is a subject. Subjects like users, applications, or devices are not trusted by default. Justin's system is also likely a policy enforcement point, not a policy applica- tion point, and will run a zero-trust client application that will interface with the zero-trust framework to determine if the system is secure as part of authentication and authorization processes. Policy engines evaluate policies and use threat information and other data to determine if access should be given in the context of the time, place, and system the request is made from. Service providers are concepts used in federation, rather than in zero-trust environments."
+                    },
+                    {
+                        "value": 3200,
+                        "clue": "133.) Susan╬ô├ç├ûs organization has deployed a zero-trust architecture. Which of the following zero-trust control plane components uses rules to determine who can access a service based on the security status of their system, threat data, and similar information?\nA. Adaptive authorization\nB. Threat scope reduction\nC. Policy-driven access control\nD. Secured zones",
+                        "solution": "133. C. Policy-driven access control focuses on using rules to determine who can access a ser- vice based on security state and other information. Adaptive authorization adjusts autho rization levels based on factors like device status, user behavior, and location. Threat scope reduction is a key concept in zero trust that focuses on ensuring that threats have less of a target to attack if they enter the secure environment. Secured zones are no longer a critical concept for zero trust, as continuous verification means all interactions are secured and validated."
+                    },
+                    {
+                        "value": 3600,
+                        "clue": "134.) Scott wants to implement OCSP as part of an application he is creating. What will he implement?\nA. A corrective control security process\nB. Certificate status checking\nC. Transport encryption\nD. Full-disk encryption",
+                        "solution": "134. B. OCSP, or the Online Certificate Status Protocol, provides a way to check on the status of a certificate, including whether it has been revoked."
+                    },
+                    {
+                        "value": 4000,
+                        "clue": "135.) Which of the following is not a common reason to implement key escrow?\nA. Regulatory compliance\nB. Providing access to encrypted data for administrative reasons\nC. Providing access to encrypted data in emergencies\nD. Preventing the need for key rotation after a user leaves",
+                        "solution": "135. D. Key rotation should occur when a user leaves, even if the key is escrowed. Regulatory compliance as well as providing access for administrative or emergency access to organiza- tional data are common reasons to implement key escrow."
+                    }
+                ]
+            },
+            {
+                "category": "Category 7",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "136.) Yariv discovers that he has exposed his private key to other users in his organization by sending it via email instead of his public key. What should he do?\nA. Ask the other users to delete any copies of his private key that they may have.\nB. Immediately add his key to a CRL and reissue the key.\nC. Create a new keypair and notify others that he has replaced his keypair.\nD. Continue to operate as normal as long as the private key was not used maliciously.",
+                        "solution": "136. C. Once a private key has been exposed, it should not be considered secure, even in an organization of trusted users. Since Yariv exposed his private key via email, he cannot ensure that it is not available in another user's email archives, and he must immediately cre- ate a new keypair and advise individuals that he works with of his new public key."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "137.) What happens if a mistake is made and an incorrect transaction is entered into the open public ledger in a blockchain?\nA. The transaction is reversed once it is discovered, and the original transaction is removed from the record.\nB. A new transaction must be processed, and both transactions remain in the record.\nC. The original transaction is updated and becomes the new record.\nD. An error block must be mined and labeled with the transaction number and error details.",
+                        "solution": "137. B. Since blockchains are not changed after transactions are recorded, a new transaction must be recorded and both transactions remain in the record as part of the ledger."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "138.) Which of the following activities will not typically result in a need to update policies and procedures?\nA. Deploying a new application\nB. Installing patches for an existing application\nC. Conducting a lessons learned exercise after an incident\nD. Changes in regulations",
+                        "solution": "138. B. Patches and updates are less likely to result in a need to update policies and procedures. New applications, lessons learned exercises, and regulatory changes are all likely to result in changes to policies and procedures."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "139.) Hrant╬ô├ç├ûs organization wants to ensure that staff members use both something they know and something they have as part of their physical access control scheme. Which of the following solutions meets that requirement?\nA. Security guards and access badges\nB. Keys and access control vestibules\nC. Access badges and PINs\nD. Security guards and access control vestibules",
+                        "solution": "139. C. Access badges are an example of something you have, and PINs are an example of something you know. Combining the two is a common requirement to help prevent a lost badge from providing access to a secure facility. A security desk with a guard is more costly but can be more effective if the guards are well trained and diligent, but the needs of Hrant's organization are met properly by the access badge and PIN."
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "140.) Julia wants to detect if an intruder enters a space using a sensor system. Which of the following is not typically used to detect intruders?\nA. Infrared sensors\nB. Pressure sensors\nC. Microwave sensors\nD. Ultrasonic sensors",
+                        "solution": "140. C. Microwave sensors are not commonly used to detect intruders. Infrared and ultrasonic sensors are commonly used, and pressure sensors may be used in special circumstances."
+                    },
+                    {
+                        "value": 2400,
+                        "clue": "141.) Which of the following is not true for a secure cryptographic hash system?\nA. Hashes are a one-way function.\nB. Hashes generate a fixed length output.\nC. Hashes may generate the same output for multiple inputs.\nD. Hashes are commonly used to verify the integrity of files.",
+                        "solution": "141. C. Secure cryptographic hash systems should not generate the same output for two differ- ent inputs. They should, however, be one-way functions and generate fixed length output, and they are commonly used to verify the integrity of files."
+                    },
+                    {
+                        "value": 2800,
+                        "clue": "142.) Casey wants to prevent tailgating attacks on her datacenter. What type of physical security solution should she put in place?\nA. Video surveillance\nB. Bollards\nC. An access control vestibule\nD. Access badges",
+                        "solution": "142. C. Access control vestibules are designed to stop tailgating attacks, which occur when someone follows an authorized user into a space. Access badges do not prevent this, as tail- gating relies on passing through a door someone with access has opened. Video surveillance may allow you to see the attack but won't stop it, and bollards are used to prevent vehicles from passing through a space."
+                    },
+                    {
+                        "value": 3200,
+                        "clue": "143.) As Casey continues to work to secure her datacenter, she decides to deploy access badges. What technique will provide the greatest assurance that a stolen or cloned access badge will not allow an attacker access?\nA. Use barcode-based badges.\nB. Require a PIN along with the badge.\nC. Use RFID-based badges.\nD. Include a picture of the user on the badge.",
+                        "solution": "143. B. Requiring a PIN is the best option unless guards are in place to validate that the person using the badge matches the badge. Even then a PIN may be better than a picture if the badge does not have other elements like holographic seals that will prevent it from being modified. Barcode and RFID badges can still be cloned and are not as effective as requiring a knowledge-based identifier as well as a possession-based identifier"
+                    },
+                    {
+                        "value": 3600,
+                        "clue": "144.) What term describes the function of digital signatures related to proving that the signature was provided by the owner of a given private key?\nA. Ledger-based validation\nB. Nonrepudiation\nC. Key stretching\nD. Authentication",
+                        "solution": "144. B. A feature of digital signatures is nonrepudiation. A signed file or message can be proven to be from the signer, proving that it is legitimate. Key stretching describes techniques used to make it harder to crack weak keys. Authentication is the process of validating that a person is who they say they are but is not specific to digital signatures. Ledger-based valida- tion was made up for this question."
+                    },
+                    {
+                        "value": 4000,
+                        "clue": "145.) John wants to send his public key to another user. What steps are necessary to do so?\nA. The key must be sent using Diffie-Hellman.\nB. The key can simply be sent via email or other means.\nC. The key must be sent using RSA.\nD. The key must be signed, then sent via email or other means.",
+                        "solution": "145. B. Public keys can simply be sent to another user if so desired. It is common to provide public keys via key servers or even in email signatures, although addition verification that the key belongs to an individual may be desirable, if not required."
+                    }
+                ]
+            },
+            {
+                "category": "Category 8",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "146.) Tracy wants to use the most secure salting solution she can. Which of the following options will provide the most secure salt?\nA. Set a salt value and store it in a database.\nB. Set a salt value and store it in the program code.\nC. Generate a unique salt for each hashed entry.\nD. Generate a unique salt value every time a value is used.",
+                        "solution": "146. C. Generating a unique salt for each hashed entry is the most secure option among those listed. Storing a fixed salt in a database or in code reduces the complexity of the salted information, making it possible for an attacker to acquire the single salt and then attack the stored hashes. Generating a unique salt every time a value is used is impractical due to the rate of change."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "147.) Bob conducts a periodic risk assessment of his organization. What category of security control is this?\nA. Technical\nB. Managerial\nC. Operational\nD. Physical",
+                        "solution": "147. B. Risk assessments are an example of a managerial control, which includes procedural mechanisms related to the risk management process. Technical controls enforce confidenti- ality, integrity, and availability using technical means. Physical controls like locks and fences impact the physical world. Operational controls include processes put in place to manage technology in a secure manner."
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "148.) After a breach, Jackie removes malicious software from a server that she is responsible for. What control type should she classify this as?\nA. Preventive\nB. Corrective\nC. Compensating\nD. Deterrent",
+                        "solution": "148. B. Removing malicious software is an example of a corrective control, which seeks to remediate security issues that have already occurred. Preventive controls are intended to stop security issues from occurring. Compensating controls are designed to mitigate risks associated with exemptions to the security policy, like moving systems to a secure network segment because they cannot be patched. Deterrent controls attempt to prevent a malicious actor from violating security policies."
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "149.) What can a root SSL (TLS) certificate do?\nA. Remove a certificate from a CRL\nB. Generate a signing key and use it to sign a new certificate\nC. Authorize new CA users\nD. Allow key stretching",
+                        "solution": "149. B. Root certificates are at the root of trust in a CA hierarchy and allow signing keys to be created and used to sign certificates. They are not used to authorize new CA users or to remove certificates from a CRL. Key stretching is used to make weak keys stronger, not as part of cryptographic certificates."
+                    }
+                ]
+            }
+        ],
+        "final": {
+            "category": "Final Category",
+            "clue": "150.) Christina wants to authenticate individuals as part of her AAA implementation. What will she need to do to authenticate users?\nA. Match users to roles and ensure that rights are assigned.\nB. Conduct biometric enrollments for every user.\nC. Use identity proofing for each user she creates.\nD. Ensure that users provide an identity and one or more authentication factors.",
+            "solution": "150. D. Authentication requires that users provide (claim) an identity and then provide one or more authentication factors like a password, biometric factor, or multifactor code. Autho- rization relies on matching users and roles to allow users to perform tasks once they are authenticated. Biometric enrollments and identity proofing may be desirable but are not necessarily required for any given authentication system."
+        }
+    },
     "Chapter 2": {
         "single": [
             {
