@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    const gameData = {
+const gameData = {
     "Chapter 1": {
         "single": [
             {
@@ -1779,7 +1779,1038 @@ document.addEventListener('DOMContentLoaded', () => {
             "clue": "This is the Final Jeopardy clue.",
             "solution": "What is the solution to the Final Jeopardy clue?"
         }
-    }
+    },
+    "Chapter 2 Test Q's": {
+        "single": [
+          {
+            "category": "Category 1",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "1. Brent's organization is profiling threat actors that may target their infrastructure and systems, Which of the following is most likely a motivation for a nation-state actor?\nA. Financial gain\nB. Blackmail\nC. Espionage\nD. Blackmail",
+                "solution": "1. C. Nation-state actors are typically advanced persistent threats (APTs) and their motivations commonly include espionage, data exfiltration, disruption/chaos, and war. Financial gain is more commonly associated with organized crime, blackmail with insider threats, and ethical with hacktivists."
+              },
+              {
+                "value": 400,
+                "clue": "2. Ahmed is a sales manager with a major insurance company. He has received an email that is encouraging him to click on a link and fill out a survey. He is suspicious of the email, but it does mention a major insurance association, and that makes him think it might be legitimate. Which of the following best describes this attack?\nA. Phishing\nB. Social engineering\nC. Spear phishing\nD. Trojan horse",
+                "solution": "2. C. Spear phishing is targeted to a specific group, in this case insurance professionals. Although this is a form of phishing, the more specific answer is the one you will need to choose on questions like this. Phishing uses social engineering techniques to succeed but is once again a broader answer than spear phishing and thus is not the correct choice. Finally, a Trojan horse pretends to be a legitimate or desirable program or file, which this scenario doesn't describe."
+              },
+              {
+                "value": 600,
+                "clue": "3. You are a security administrator for a medium-sized bank. You have discovered a piece of software on your bank's database server that is not supposed to be there. It appears that the software will begin deleting database files if a specific employee is terminated. What best describes this?\nA. Worm\nB. Logic bomb\nC. Trojan horse\nD. Rootkit",
+                "solution": "3. B. A logic bomb is malware that performs its malicious activity when some condition is met. A worm is malware that self-propagates. A Trojan horse is malware attached to a legitimate program, and a rootkit is malware that gets root or administrative privileges."
+              },
+              {
+                "value": 800,
+                "clue": "4. The company that Yarif works for uses a third-party IT support company to manage their cloud-hosted web application infrastructure. How can Yarif best address concerns about potential threat vectors via the managed service provider (MSP)?\nA. Conduct regular vulnerability scans.\nB. Use shared incident response exercises to prepare.\nC. Ensure appropriate contractual coverage for issues.\nD. Require the MSP to have an annual pentest.",
+                "solution": "4. C. Using appropriate contractual terms is usually the best available option for handling third-party vendor risk. The terms can include things like security practices, such as pentest-ing, incident response exercises, and vulnerability scanning, and can also have sufficient penalties to ensure ongoing compliance from responsible companies."
+              },
+              {
+                "value": 1000,
+                "clue": "5. fill's organization has received an advisory about a flaw that could allow software running on a virtual machine to execute code on the system that is running the VM hypervisor. What type of vulnerability is this?\nA. A resource reuse issue\nB. A VM escape issue\nC. A jailbreaking issue\nD. A sideloading issue",
+                "solution": "5. B. This is an example of a virtual machine (VM) escape vulnerability. Jailbreaking and side-loading are terms used to describe mobile device-related means of violating security, and resource reuse is a VM concern if data is not properly removed before a resource is given to another VM. B. Endpoint protection software like an endpoint detection and response (EDR) or extended detection and response (DR) tool will provide the greatest protection against ransomware. Firewalls and intrusion prevention systems (IPSs) are less likely to prevent ransomware from being installed, and removing unnecessary software may reduce the attack surface but most ransomware is installed via attacks that leverage users."
+              },
+              {
+                "value": 1200,
+                "clue": "6. Helen is concerned about ransomware attacks against workstations that she is responsible for. Which of the following hardening options is best suited to protecting her organization from ransomware?\nA. Installing host-based firewalls\nB. Installing endpoint protection software\nC. Installing a host-based IPS software\nD. Removing unnecessary software",
+                "solution": "7. B. Wi-Fi Protected Access 3 (WPA-3) is the most modern, most secure option from the list. WPA-4 does not currently exist as of this writing. WPA-2 Enterprise requires an authentication server and is less secure than WPA-3, while WPA-2 Personal allows for a single, set password."
+              },
+              {
+                "value": 1400,
+                "clue": "7. The company that Gary works for has deployed a wireless network. Which of the following network options is the most secure?\nA. WPA-2 Personal\nB. WPA-3\nC. WPA-2 Enterprise\nD. WA-4",
+                "solution": "8. C. Cross-site scripting (XSS) involves entering a script into text areas that other users will view. SQL injection (SQLi) is not about entering scripts but rather SQL commands. tooth attack. Clickjacking is about tricking users into clicking on the wrong thing. Bluejacking is a Blue-"
+              },
+              {
+                "value": 1600,
+                "clue": "8. What type of attack depends on the attacker entering JavaScript into a text area that is intended for users to enter text that will be viewed by other users?\nA. SQL injection\nB. Clickjacking\nC. Cross-site scripting\nD. Bluejacking",
+                "solution": "9. C. There are many indicators of compromise (loCs), including unusual outbound network traffic, geographical irregularities like logins from a country where the person normally does not work, or increases in database read volumes beyond normal traffic patterns. Predictive analysis is analysis work done using datasets to attempt to determine trends and likely attack vectors so that analysts can focus their efforts where they will be most needed and effective. OSINT is open source intelligence, and threat maps are often real-time or near-real-time visualizations of where threats are coming from and where they are headed."
+              },
+              {
+                "value": 1800,
+                "clue": "9. Unusual outbound network traffiC. geographical irregularities, and increases in database read volumes are all examples of what key element of threat intelligence?\nA. Predictive analysis\nB. OSINT\nC. Indicators of compromise\nD. Threat maps",
+                "solution": "10. B. On-path attacks that route traffic through a system or device that the attacker controls allow the attacker to both receive and modify traffic, making replay attacks more likely to succeed. SQL injection attacks are associated with web applications and databases. Brute-force and distributed denial-of-service (DDoS) attacks are not typically associated with replay attacks."
+              },
+              {
+                "value": 2000,
+                "clue": "10. Julie wants to conduct a replay attack. What type of attack is most commonly associated with successful replay attacks?\nA. SQL injection\nB. An on-path attack\nC. Brute force\nD. A DDoS",
+                "solution": "11. A. Since Valerie is investigating an incident, she should immediately consider the potential that the logs were wiped. That likely means that the intruder has gained privileged access to the system, which should worry her even more! Reboots do not wipe audit. log, and Valerie should have permissions appropriate to perform her function. System errors could explain an empty audit. log, but are unlikely, and an empty log found during an investigation is a cause for concern."
+              }
+            ]
+          },
+          {
+            "category": "Category 2",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "11. Valerie is investigating a recent incident and checks / var/log on a Linux system. She finds the audit. log file empty despite the system uptime showing over a month of uptime. What has she most likely encountered?\nA. A wiped log\nB. A recent reboot\nC. A system error\nD. Incorrect permissions to view the log",
+                "solution": "12. B. Jack has attempted a watering hole attack that leverages a frequently visited site to target a specific group of people. In this case, he is targeting his penetration testing target's users. Misinformation and disinformation are used to change opinions or to provide false information, and while business email compromise attacks are part of the Security+ exam outline, business website compromise attacks are not."
+              },
+              {
+                "value": 400,
+                "clue": "12. Jack purchases ads on a site that staff members of his target organization frequently visit in preparation for a penetration test. Once his ads start to display, he replaces the underlying code with attack code that redirects visitors to a login page that matches the organization's own internal website. What type of attack has Jack attempted?\nA. A misinformation attack\nB. A watering hole attack\nC. A disinformation attack\nD. A business website compromise attack",
+                "solution": "13. C. While malware, modified firmware, and lack of availability are common concerns with the hardware supply chain, hardware modifications remain relatively uncommon."
+              },
+              {
+                "value": 600,
+                "clue": "13. Which of the following is not a common concern related to the hardware vendor supply chain?\nA. Malware preinstalled on hardware\nB. Lack of availability of hardware\nC. Third-party hardware modifications\nD. Malicious firmware modifications",
+                "solution": "14. B. On-path attacks are used to capture, then replay valid credentials for attackers to use. Session tokens are used to counter this type of attack in some cases. Phishing email and brute-force password attacks can help obtain credentials but do not involve credential replay. Injection attacks are typically conducted against database servers."
+              },
+              {
+                "value": 800,
+                "clue": "14. Ben wants to conduct a credential replay attack. What should he do first to enable the attack?\nA. Create a phishing email.\nB. Conduct an on-path attack.\nC. Use a brute-force password attack.\nD. Conduct an injection attack.",
+                "solution": "15. B. Common motivations for internal threat actors include blackmail, financial gain, and ethical reasons. Nation-state threats are more likely to be interested in espionage and war, and hacktivists in political beliefs."
+              },
+              {
+                "value": 1000,
+                "clue": "15. Nick is assessing internal threat actors and considering what motivations are likely to drive them. Which of the following is the most likely motivation for an internal threat actor?\nA. Espionage\nB. Blackmail\nC. War\nD. Political beliefs",
+                "solution": "16. B. These are all common examples of bloatware, unwanted but typically not harmful software installed by manufacturers and as part of the installation processes for desired appli-cations. MSPs are managed service providers, ransomware is malware that attempts to hold files for ransom, and rootware was made up for this question."
+              },
+              {
+                "value": 1200,
+                "clue": "16. Yasmine is reviewing the software installed on a client's computer and notices that multiple browser toolbars, weather applications, and social media applications were preinstalled. What term is most commonly used to describe this software?\nA. MSPs\nB. Bloatware\nC. Ransomware\nD. Rootware",
+                "solution": "17. C. Impossible travel describes scenarios where logins or other actions occur from separate physical locations that are too far apart to travel between before the action occurs. Here it is impossible to travel from China to the UK in an hour, and Ilya may need to check in with the employee since no VPN usage was described. It is possible the employee's account is compromised or some other questionable activity is occurring."
+              },
+              {
+                "value": 1400,
+                "clue": "17. Ilya is reviewing logs and notices that one of his staff has logged in from his home location in China at 2 p.m., and then logged in from the United Kingdom an hour later. What indicator of compromise should he flag this as?\nA. Concurrent session usage\nB. Resource inaccessibility\nC. Impossible travel\nD. Segmentation",
+                "solution": "18. D. Radio frequency identification (RFID) badges can be cloned, but adding an additional factor like a PIN means the badge alone is not sufficient to gain access. Piggybacking involves following an authorized user through a security door or gate. On-path attacks inject an attacker into the middle of a transaction or network connection, allowing them to view and potentially modify traffic. Concurrent session usage or access is an indicator of compromise (loC) that focuses on multiple systems or users using the same credentials."
+              },
+              {
+                "value": 1600,
+                "clue": "18. Adam's organization has deployed RFID badges as part of their access control system. Adam is required to enter a 6-digit PIN when he uses his RFID badge and dislikes the additional step. What type of attack is the PIN intended to stop?\nA. Piggybacking\nB. On-path\nC. Concurrent access\nD. Badge cloning",
+                "solution": "19. B. Business email compromise (BEC) scams appear to come from legitimate sources and make requests that may seem reasonable like a payment change to a different wire transfer method. Vishing is done via voice, mishing via SMS, and pretexting uses excuses or reasons that the requested action must be taken."
+              },
+              {
+                "value": 1800,
+                "clue": "19. Jen recently received an email that appeared to be from one of her vendors asking for a change in the method of payment to another account. She normally works with mike_ smith@example. com, but noticed that the email was from mike_smith@example. com on further review. What type of social engineering attack is this?\nA. Vishing\nB. Business email compromise\nC. Smishing\nD. Pretexting",
+                "solution": "20. B. The primary concern for security professionals around legacy hardware is their lack of patches and updates, meaning that security fixes and updates will not exist. While the hardware could fail, that would typically lead to replacement with more modern, supportable options and is a concern for the system administrators and owners. Lack of vendor support and inability to support modern protocols are primarily concerns for owners and system administrators."
+              },
+              {
+                "value": 2000,
+                "clue": "20. What is the primary concern for security professionals about legacy hardware?\nA. Its likelihood of failure\nB. Lack of patches and updates\nC. Lack of vendor support\nD. Inability to support modern protocols",
+                "solution": "21. A. From the description it appears that they are not connecting to the real web server but rather a fake server. That indicates typo squatting: having a URL that is named very similarly to a real site so that when users mistype the real site's URL they will go to the fake site."
+              }
+            ]
+          },
+          {
+            "category": "Category 3",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "21. Coleen is the web security administrator for an online auction website. A small number of users are complaining that when they visit the website it does not appear to be the correct site. Coleen checks and she can visit the site without any problem, even from computers outside the network. She also checks the web server log and there is no record of those users ever connecting. Which of the following might best explain this?\nA. Typo squatting\nB.SQL injection\nC. Cross-site scripting\nD. Cross-site request forgery",
+                "solution": "22. C. Domain hijacking, or domain theft, occurs when the registration or other information for the domain is changed without the original registrant's permission. This may occur because of a compromised account or due to a breach of the domain registrar's security. A common issue is a lapsed domain being purchased by a third party, and this can look like a hijacked domain, but it is a legitimate occurrence if the domain is not renewed! DNS hijacking inserts false information into a DINS server, on-path (man-in-the-middle) attacks capture or modify traffic by causing the traffic to pass through a compromised midpoint, and zero-day attacks are unknown to product vendors and, therefore, no patches are available to correct them."
+              },
+              {
+                "value": 400,
+                "clue": "22. The organization that Mike works in finds that one of their domains is directing traffic to a competitor's website. When Mike checks, the domain information has been changeD. including the contact and other administrative details for the domain. If the domain had not expireD. what has most likely occurred?\nA. DNS hijacking\nB. An on-path attack\nC. Domain hijacking\nD. A zero-day attack",
+                "solution": "23. C. Open source software dependencies are a primary challenge when considering open source supply chain concerns. In this case, Lucia is using a third-party vendor who can provide support, open source code is auditable, and updates are likely to occur with a vendor involved."
+              },
+              {
+                "value": 600,
+                "clue": "23. Lucia's organization has adopted open source software provided by a third-party vendor as part of their web application. What concern should she express about her software supply chain?\nA. Lack of vendor support\nB. Lack of code auditability\nC. Lack of control over open source dependencies\nD. Lack of updates",
+                "solution": "24. A. Server-side request forgery (SSRF) attempts typically attempt to get HTTP data passed through and will not include SQL injection. Blocking sensitive hostnames, IP addresses, and URLs are all valid ways to prevent SSRF, as is the use of allow list-based input filters."
+              },
+              {
+                "value": 800,
+                "clue": "24. Alice wants to prevent server-side request forgery (SSRF) attacks. Which of the following will not be helpful for preventing them?\nA. Removing all SQL code from submitted HTTP queries\nB. Blocking hostnames like 127.0.01 and localhost\nC. Blocking sensitive URLs like /admin\nD. Applying allow list-based input filters",
+                "solution": "25. D. A host-based intrusion prevention system (HIPS) can monitor, identify, and stop network traffic that displays network traffic to identify attacks, suspicious behavior, and known bad patterns using signatures. A firewall stops traffic based on rules; antimalware tools are specifically designed to stop malware, not attacks and suspicious network behavior; and a host-based intrusion detection system (HIDS) can only detect, not stop, these behaviors."
+              },
+              {
+                "value": 1000,
+                "clue": "25. Tracy wants to protect desktop and laptop systems in her organization from network attacks. She wants to deploy a tool that can actively stop attacks based on signatures, heuristics, and anomalies. What type of tool should she deploy?\nA. A firewall\nB. Antimalware\nC. HIDS\nD. HIPS",
+                "solution": "26. D. Unskilled attackers, often called script kiddies, tend to use premade tools in unsophisticated ways. Hacktivists take action based on political motivation, insiders operate from inside of an organization, and nation-state actors are typically highly capable and well"
+              },
+              {
+                "value": 1200,
+                "clue": "26. Mahmoud is responsible for managing security at a large university. He has just performed a threat analysis for the network, and based on past incidents and studies of similar networks, he has determined that the most prevalent threat to his network are attackers who wish to breach the system, simply to prove they can or for some low-level crime, such as changing a grade. Which term best describes this type of attacker?\nA. Hacktivist\nB. Nation-state\nC. Insider\nD. Unskilled attacker",
+                "solution": "27. B. Phishing is intended to acquire data, most often credentials or other information that will be useful to the attacker. Spam is a broader term for unwanted email, although the term is often generally used to describe unwanted communications. Spear phishing targets specific sedividuals, whereas whaling targets higher-ups such as CBOs in an organization. Smishing is sent via SMS (text message). Malware can be sent in any of these instances, but there is not a specific related term that means \"spam with malware in it.\""
+              },
+              {
+                "value": 1400,
+                "clue": "27. How is phishing different from general spam?\nA. It is sent only to specific targeted individuals.\nB. It is intended to acquire credentials or other data.\nC. It is sent via SMS.\nD. It includes malware in the message.",
+                "solution": "28. B. Systems and software that no longer have vendor support can be a significant security risk, and ensuring that a vendor will continue to exist and provide support is an important part of many procurement processes. Selah's questions are intended to assess the longevity and viability of the company and whether buying from them will result in her organization having a usable product for the long term."
+              },
+              {
+                "value": 1600,
+                "clue": "28. Selah includes a question in her procurement request-for-proposal process that asks how long the vendor has been in business and how many existing clients the vendor has. What common issue is this practice intended to help prevent?\nA. Supply chain security issues\nB. Lack of vendor support\nC. Outsourced code development issues\nD. System integration problems",
+                "solution": "29. B. His machines are part of a distributed denial-of-service (DDoS) attack. This scenario describes a generic DDoS, not a specific one like SYN flood, which would involve many SYN packets being sent without a full three-way TCP handshake. These machines could be part of a botnet or they may just have a trigger that causes them to launch the attack at a specific time. The real key in this scenario is the DDoS attack. Finally, a backdoor gives an attacker access to the target system."
+              },
+              {
+                "value": 1800,
+                "clue": "29. Frank is a network administrator for a small college. He discovers that several machines on his network are infected with malware. That malware is sending a flood of packets to a target external to the network. What best describes this attack?\nA. SYN flood\nB. DDoS\nC. Botnet\nD. Backdoor",
+                "solution": "30. B. A Trojan attaches a malicious program to a legitimate program. When the user downloads and installs the legitimate program, they get the malware. A logic bomb is malware that does its misdeeds when some condition is met. A rootkit is malware that gets administrative, or root, access. A macro virus is a virus that is embedded in a document as a macro."
+              },
+              {
+                "value": 2000,
+                "clue": "30. A sales manager at your company is complaining about slow performance on his computer. When you thoroughly investigate the issue, you find spyware on his computer. He insists that the only thing he has downloaded recently was a freeware stock trading application. What would best explain this situation?\nA. Logic bomb\nB. Trojan\nC. Rootkit\nD. Macro virus",
+                "solution": "31. A. Hacktivists are defined by their political motivation. Organized crime is most frequently associated with financial gain as a motivation. While unskilled attackers and insider threats may have political motivations, hacktivists remain the most likely of this list."
+              }
+            ]
+          },
+          {
+            "category": "Category 4",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "31. What threat actor is most likely to be motivated by political beliefs?\nA. Hacktivists\nB. Organized crime\nC. Unskilled attackers\nD. Insider threats",
+                "solution": "32. D. Organized crime may produce, sell, and support malware tools, or may deploy them themselves. Crypto malware and other packages are examples of tools often created and used by criminal syndicates. State actors are more likely to be associated with advanced persistent threats (APTs) aimed at accomplishing goals of the nation-state that supports them. Hacktivists typically have political motivations, whereas unskilled attackers (script kiddies) may simply be in it for recognition or fun."
+              },
+              {
+                "value": 400,
+                "clue": "32. What type of threat actors are most likely to have a profit motive for their malicious activities?\nA. State actors\nB. Hacktivists\nC. Unskilled attackers\nD. Organized crime",
+                "solution": "33. A. Bluejacking involves sending unsolicited messages to Bluetooth devices when they are in range. Bluesnarfing involves getting data from the Bluetooth device. An evil twin attack uses a rogue access point whose name is similar or identical to that of a legitimate access point."
+              },
+              {
+                "value": 600,
+                "clue": "33. You have noticed that when in a crowded areA. you sometimes get a stream of unwanted text messages. The messages end when you leave the area. What describes this attack?\nA. Bluejacking\nB. Bluesnarfing\nC. Evil twin\nD. Rogue access point",
+                "solution": "34. A. An on-path attack redirects all traffic through an attacker's system that would normally pass through a network gateway. Dennis will be able to see all traffic bound for remote sys-tems, but some of it may be encrypted."
+              },
+              {
+                "value": 800,
+                "clue": "34. Dennis uses an on-path attack to cause a system to send traffic to his system and then forwards it to the actual server the traffic is intended for. What information will be visible from his system as it passed through it?\nA. All traffic meant for remote systems\nB. All traffic meant for local systems\nC. Only unencrypted traffic\nD. Only unencrypted traffic meant for his system",
+                "solution": "35. B. When malicious actors claim to represent a company or organization to accomplish their goals, it is an example of a brand impersonation attack. Here, this is a combination of a vish-ing attack and a brand impersonation attack. Smishing occurs via SMS, watering hole attacks target sites that their intended victims commonly visit, and business email compromise attempts to gain access to or leverages email accounts."
+              },
+              {
+                "value": 1000,
+                "clue": "35. Andrea recently received a phone call claiming to be from her bank. The caller asked for information including her account number and Social Security number to validate her iden-tity. What type of social engineering attack was Andrea the target of?\nA. Smishing\nB. Brand impersonation\nC. A watering hole attack\nD. A business email compromise attack",
+                "solution": "36. A. Cryptographic downgrade attacks like POODLE, FREAK, and Logjam all rely on flaws that cause software to use weaker encryption options. This could allow attackers to capture traffic encrypted with weaker encryption, potentially allowing them to decrypt the traffic and read it. They do not allow hashing changes to recover passwords, reversion to old versions of software, or encryption to be entirely turned off."
+              },
+              {
+                "value": 1200,
+                "clue": "36. Jake's vulnerability scanner reports that the software his organization is running is vulnerable to a cryptographic downgrade attack. What concern should Jake have about this potential issue?\nA. Attackers may be able to force use of a weaker encryption algorithm, making data easier to access.\nB. Attackers may be able to force use of weaker hashing, making it easier to recover passwords.\nC. Attackers may be able to force use of older versions of the software, including previously patched vulnerabilities.\nD. Attackers may be able to force encryption to be turned off, causing information to be sent in plain text.",
+                "solution": "37. D. Segmentation can be used to separate systems and applications of different sensitivity levels. A breach of one segmented group should not automatically mean that the other groupings are in immediate danger. Application allow lists control what applications can being e not introduce separation between systems and applications. Monitoring would allow visibility but does not meet the goal Rick has. Least privilege is an effective practice to ensure only the rights required are in place, but again this does not meet the goal."
+              },
+              {
+                "value": 1400,
+                "clue": "37. Rick has three major categories of data and applications in use in his virtualization environ-ment: highly sensitive; business sensitive; and unclassifieD. or public information. He wants to ensure that data and applications of different sensitivity are not compromised in the event of a breach. What mitigation technique is best suited to this type of requirement?\nA. Application allow lists\nB. Monitoring\nC. Least privilege\nD. Segmentation Users in your company report someone has been calling their extension and claiming to be doing a survey for a large vendor. Based on the questions asked in the survey, you suspect that this is a scam to elicit information from your company's employees. What best describes this?\nA. Spear phishing\nB. Vishing\nC. War dialing\nD. Robocalling",
+                "solution": "38. B. This is vishing, or using voice calls for phishing. Spear phishing is targeting a small, specific group. War dialing is dialing numbers hoping a computer modem answers. Robocalling is used to place unsolicited telemarketing calls."
+              },
+              {
+                "value": 1600,
+                "clue": "39. As part of a zero-trust environment, Quentin is given rights that he needs only when he needs them through a checkout process and they are then removed when he is done. What mitigation technique best describes this solution?\nA. Segmentation\nB. Isolation\nC. Least privilege\nD. Configuration enforcement",
+                "solution": "39. C. This is an example of a least privilege implementation where only the privileges required are issued. The checkout process is a modern addition to least privilege environments where even privileges needed are only issued temporarily, making least privilege even more secure. Segmentation and isolation are used to separate systems or environments, and configuration enforcement is used to ensure that configurations continue to be set as expected."
+              },
+              {
+                "value": 1800,
+                "clue": "40. While performing a scan for wireless networks, Lisa discovers a network that does not use WPA-2 or WPA-3. What network traffic information can she recover from devices using this network?\nA. All network traffic\nB. Network packet headers, but not packet data\nC. Network packet datA. but not headers\nD. DNS and DHCP queries, but not network packet data",
+                "solution": "40. A. An insecure, unencrypted, unprotected wireless network will have all of its traffic exposed. If the network is not using WPA-2 or WPA-3, it is trivial to observe network traffic even if an old protocol like WEP was in use."
+              },
+              {
+                "value": 2000,
+                "clue": "41. Jared is responsible for network security at his company. He has discovered behavior on one computer that certainly appears to be a virus. He has even identified a file he thinks might be the virus. However, using three separate antivirus programs, he finds that none can detect the file. Which of the following is most likely to be occurring?\nA. The computer has a RAT.",
+                "solution": "41. B. Zero-day exploits are new, and they are not in the virus definitions for the antivirus (AV) programs. This makes them difficult to detect, except by their behavior. Remote-access Trojans (RATs), worms, and rootkits are more likely to be detected by AV programs."
+              }
+            ]
+          },
+          {
+            "category": "Category 5",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "3. The computer has a zero-day exploit.\nC. The computer has a worm.\nD. The computer has a rootkit.",
+                "solution": "42. C. Brute force tries every possible combination with small changes each time. Dictionary attacks use a list of words that are believed to be likely passwords. A rainbow table is a pre-computed table of hashes. Session hijacking is when the attacker takes over an authenticated session."
+              },
+              {
+                "value": 400,
+                "clue": "42. John has discovered that an attacker is trying to get network passwords by using software that attempts a series of passwords with a minor change each time the password is tried. What type of attack is this?\nA. Dictionary В. Rainbow table\nC. Brute force\nD. Session hijacking",
+                "solution": "43. C. A nation-state advanced persistent threat (APT) involves sophisticated (i.e., advanced) attacks over a period of time (i.e., persistent). A distributed denial-of-service (DDoS) could be a part of an APT, but in and of itself is unlikely to be an APT. Brute force attempts every possible random combination to get the password or encryption key. In a disassociation attack, the attacker attempts to force the victim into disassociating from a resource."
+              },
+              {
+                "value": 600,
+                "clue": "43. Farès is the network security administrator for a company that creates advanced routers and switches. He has discovered that his company's networks have been subjected to a series of advanced attacks by an attacker sponsored by a government over a period of time. What best describes this attack?\nA. DDoS\nB. Brute force\nC. Nation-state\nD. Disassociation attack",
+                "solution": "44. B. Phishing is not commonly used to acquire email addresses. Phishing emails target persona! information and sensitive information like passwords and credit card numbers in most cases."
+              },
+              {
+                "value": 800,
+                "clue": "44. What type of information is phishing not commonly intended to acquire?\nA. Passwords\nB. Email addresses\nC. Credit card numbers\nD. Personal information",
+                "solution": "45. B. A keylogger is a software or hardware tool used to capture keystrokes. Keyloggers are often used by attackers to capture credentials and other sensitive information. A rootkit is used to obtain and maintain administrative rights on a system, and a worm is a self-spreading form of malware that frequently targets vulnerable services on a network to spread."
+              },
+              {
+                "value": 1000,
+                "clue": "45. Scott discovers that malware has been installed on one of the systems he is responsible for. Shortly afterward passwords used by the user that the system is assigned to are discovered to be in use by attackers. What type of malicious program should Scott look for on the compromised system?\nA. A rootkit\nB. A keylogger\nC. A worm\nD. None of the above",
+                "solution": "46. D. Acquisition via the gray market can lead to lack of vendor support, lack of warranty cov-erage, and the inability to validate where the devices came from. Nick should express concerns about the supply chain, and if his devices need to be from a trusted source or supplier with real support he may need to change his organization's acquisition practices."
+              },
+              {
+                "value": 1200,
+                "clue": "46. Nick purchases his network devices through a gray market supplier that imports them into his region without an official relationship with the network device manufacturer. What risk should Nick identify when he assesses his supply chain risk?\nA. Lack of vendor support\nB. Lack of warranty coverage\nC. Inability to validate the source of the devices\nD. All of the above",
+                "solution": "47. B. A host-based firewall is an excellent first line of defense for systems that will be deployed to untrusted networks. EDR and DR are useful for preventing malicious software installs like ransomware, but they do not directly protect against network-based attacks, and disk encryption is a confidentiality control, not a useful tool to prevent network-based attacks."
+              },
+              {
+                "value": 1400,
+                "clue": "47. Naomi is preparing a laptop for a traveling salesperson who frequently needs to connect to untrusted hotel networks. What hardening technique can she use to provide the greatest protection against network-based attacks on untrusted networks?\nA. Install an endpoint detection and response tool.\nB. Install a host-based firewall.\nC. Install an extended detection and response tool.\nD. Install a disk encryption tool.",
+                "solution": "48. C. The marketing team has created a shadow IT solution-a solution put in place without central or formal IT support, typically done without IT's assistance or awareness. This creates a risk to the organization due to lack of support and may bring additional risks like licensing and compliance risks. The team did not intend to create an issue and is not actively working against the organization, meaning that they are not unskilled attackers, insider threats, or hacktivists."
+              },
+              {
+                "value": 1600,
+                "clue": "48. While conducting a vulnerability scan of her network, Susan discovers that a marketing staff member has set up their own server running a specialized marketing tool. After inquiring about the server, which is vulnerable due to missing patches, Susan discovers that the team set it up themselves because of a need that was not met by existing tools. What type of threat actor has Susan encountered?\nA. An unskilled attacker\nB. An insider threat\nC. Shadow IT\nD. A hacktivist",
+                "solution": "49. A. Resource inaccessibility is a common symptom of a denial-of-service attack. Impossible travel is typically found in log events through correlation. Missing logs are frequently indicators of compromised accounts deleting logs, and blocked content is most likely due to reputation service usage."
+              },
+              {
+                "value": 1800,
+                "clue": "49. Which of the following indicators is most commonly associated with a denial-of-service attack?\nA. Resource inaccessibility\nB. Impossible travel\nC. Missing logs\nD. Blocked content",
+                "solution": "50. B. Since the drives stored sensitive data and no mention of encryption was made, the drives should be physically destroyed to ensure that no data leakage can occur. It is not necessary to destroy the entire system to ensure this. Reformatting drives does not wipe data, and simply removing the system from inventory is typically part of the process but does not protect organizational data."
+              },
+              {
+                "value": 2000,
+                "clue": "50. Henry wants to decommission a server that was used to store sensitive data. What step should he take to ensure the decommissioning process protects the organization's data?\nA. Reformat the drives as part of the decommissioning process.\nB. Physically destroy the drives as part of the decommissioning process.\nC. Remove the system from organizational inventory as part of the decommissioning process.\nD. Physically destroy the entire system as part of the decommissioning process.",
+                "solution": "51. B. A security information and event management tool (SIEM) is designed to ingest and analyze large volumes of logs and then alert on issues and events. Centralized logging is useful but needs additional tools to alert on issues. An IPS is used to detect and potentially respond to network-based attacks, not to gather and analyze logs, and EDR tools are useful for monitoring endpoints, not for large-scale log ingestion and analysis."
+              }
+            ]
+          },
+          {
+            "category": "Category 6",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "51. Renee has a large number of workstations and servers in her corporate environment and wants to more effectively monitor logs for them. What solution from the following list is best suited to identifying and alerting on issues in a large-scale environment?\nA. Centralized logging\nB. A SIEM\nC. An IPS\nD. An EDR",
+                "solution": "52. C. Patrick knows that the first thing he should do is change the administrator password. Any further security changes, including updating firmware and disabling unnecessary services, can be made once the administrative account has been properly secured. Changing the default IP address does not necessarily improve security for the device."
+              },
+              {
+                "value": 400,
+                "clue": "52. Patrick is reviewing potential attack surfaces for his small business and recently deployed new networked printers for each of his three locations. What should his first action be to begin to properly secure their web management interfaces?\nA. Update the firmware.\nB. Change their default IP address.\nC. Change the default administrator password.\nD. Disable unnecessary services.",
+                "solution": "53. B. Paul knows that SSH typically uses port 22, HTTP uses port 80, and HTTPS uses port"
+              },
+              {
+                "value": 600,
+                "clue": "53. Paul has performed an map scan of a new network connected device. He notices TCP ports 22, 80, and 443 are open. If his hardening guidelines only allow encrypted management interfaces, what port or ports should he disable from this list?\nA. 22 В. 80\nC. 22 and 80\nD. 80 and 443",
+                "solution": "443. HTTP is the only unencrypted protocol from that list, and thus he should disable port 80."
+              },
+              {
+                "value": 800,
+                "clue": "54. The following graphic shows a network connection between two systems, and then a network-based attack. What type of attack is shown? communicatons an Communications traffic Attacker-controlled system Communications traffic\nA. A denial-of-service attack\nB. A SQL injection attack\nC. An on-path attack\nD. A directory traversal attack",
+                "solution": "54. C. An on-path attack redirects traffic to allow an attacker to see and potentially modify the traffic as shown in the graphic. SQL injection is accomplished by inserting SQL into web queries or application traffic, denial-of-service will target a service and no indication of that is shown, and a directory traversal attack will typically show directory manipulation like . ./../."
+              },
+              {
+                "value": 1000,
+                "clue": "55. Which of the following protocols is most commonly associated with credential relaying attacks?\nA. RDP\nB. NTLM\nC. SQL\nD. TLS",
+                "solution": "55. B. While dated, NTLM was historically one of the most common targets of credential relay attacks. RDP, SQL, and TLS are less commonly associated with credential relay attacks. Modern protocols implement encryption, session, IDs, and one-time passwords to prevent this type of attack."
+              },
+              {
+                "value": 1200,
+                "clue": "56. After a recent laptop theft, Jaime's organization is worried about data breaches driven by lost devices. What endpoint hardening technique is best suited to preventing this?\nA. Encryption\nB. Host-based IPS\nC. Disabling ports and protocols\nD. Changing default passwords",
+                "solution": "56. A. Encryption is the appropriate solution to prevent data loss if a system is stolen. A HIPS, disabling ports and protocols, and changing default passwords will not prevent data acquisi- tion from a drive."
+              },
+              {
+                "value": 1400,
+                "clue": "57. Derek wants to conduct a birthday attack against a digital signature. Which of the following best describes the process he would need to take to achieve his goal?\nA. He needs to prepare both a correct and a malicious document and find ways to modify the correct document until its encryption matches the malicious document.\nB. He needs to make sure all dates match in both a correct and a malicious document.\nC. He needs to ensure that the file length and creation date match for both a correct document and a malicious document.\nD. He needs to prepare both a correct and a malicious document, then find ways to modify the malicious document until its hash matches the hash of the correct document.",
+                "solution": "57. D. Derek knows that attacking a digital signature requires that hashes match for both an original document and a malicious document. He will modify the malicious document until he finds a way to convey the changes he needs while retaining the matching hash. This type of attack is why hashing algorithms needs to be resistant to birthday attacks."
+              },
+              {
+                "value": 1600,
+                "clue": "58. Ashley's organization has recently come under attack and has suffered a DNS outage. As she investigateD. she found that requests to her DNS servers were sent to open DNS resolvers using spoofed IP addresses with requests that would result in very large responses from the DNS resolvers to the IP addresses that appeared to be making the request. What type of attack targeted Ashley's organization?\nA. A reflected DDoS\nB. A DNS flood\nC. A mirrored DDoS\nD. A supersized query attack",
+                "solution": "58. A. Ashley's organization was the target of a reflected (and amplified) DoS where attackers took advantage of DNS queries to make small amounts of spoofed traffic into very large amounts of data sent to her servers. DNS floods, mirrored DDoSs, and supersized query attacks were made up for this question."
+              },
+              {
+                "value": 1800,
+                "clue": "59. What term is used to describe the problem when two files have the same hash?\nA. A birthday attack\nB. A collision\nC. A bingo\nD. A match-the-hash attack",
+                "solution": "59. B. Collisions occur when two files have the same hash. Secure hashing solutions are collision resistant, meaning that collision-based hash attacks should be unlikely unless an insecure or outdated hash algorithm like MDS is selected. Birthday attacks leverage the likelihood of collisions in a random set of attacks rather than by progressing linearly through the solution set. Bingo attacks and match-the-hash are both made up for this question."
+              },
+              {
+                "value": 2000,
+                "clue": "60. Kara wants to protect against the most common means of firmware-based exploits. Which of the following is not a common firmware defense mechanism for the vendors of devices that use firmware?\nA. Using signed firmware updates\nB. Using input validation for user input\nC. Encrypting firmware\nD. Code review processes for firmware",
+                "solution": "60. C. Firmware is typically not encrypted, but it is commonly digitally signed. Using input validation and code review both help to keep firmware secure."
+              }
+            ]
+          },
+          {
+            "category": "Category 7",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "61. Annie's organization has been facing negative social media campaigns for months and is struggling to address them. Numerous bot posts about the company are providing incorrect information about the company. What type of attack is Annie's company facing?\nA. A misinformation campaign\nB. A pretexting campaign\nC. An impersonation campaign\nD. A disinformation campaign",
+                "solution": "61. D. Annie's company is facing a disinformation campaign. If users were simply getting facts wrong, this would be misinformation, but since bots are intentionally misstating information, it is disinformation. Pretexting would attempt to exploit human behaviors to explain why something needed to occur or why an attacker was asking for something. Impersonation occurs when an attacker pretends to be someone they are not."
+              },
+              {
+                "value": 400,
+                "clue": "62. Ines is concerned about messaging through tools like Discord and Slack as attack vectors. What can she do to most effectively limit the attack surface for threats like this?\nA. Deploy EDR tools to all workstations and devices.\nB. Deploy an organizational communication tool or instance instead of using public tools.\nC. Deploy messaging-aware firewalls.\nD. Deploy messaging-aware IPS systems.",
+                "solution": "62. B. In many cases, the best option to limit the attack surface of messaging applications is to use a trusted, internally managed organizational instance rather than public tools or instances. EDR, firewalls, and IPS are not as effective with messaging-based attacks."
+              },
+              {
+                "value": 600,
+                "clue": "63. Ana's vendor has informed her that the hardware her organization uses is considered end-of-life. What should Ana do?\nA. Identify replacement hardware and purchase it immediately.\nB. Purchase an extended support contract from a third-party vendor.\nC. Begin plans to phase out the equipment before it reaches end-of-support.\nD. Install final patches and then isolate the hardware from the network.",
+                "solution": "63. C. End-of-life announcements typically mean that the equipment is no longer being produced or sold. The equipment will typically have a longer supported life, so Ana can continue to use it but should plan for what to do when end-of-support occurs. At that time, replacing it, isolating it, or purchasing third-party support are all possible solutions depending on Ana's needs."
+              },
+              {
+                "value": 800,
+                "clue": "64. What threat vector is most impacted by how Windows handles autorun. inf files?\nA. Removable devices\nB. Open service ports\nC. Unsecure Wi-Fi\nD. Watering hole attacks",
+                "solution": "64. A. Removable devices like USB thumb drives, digital picture frames, and even keyboards and mice with onboard storage rely on autorun. inf files to automatically run software they provide. While that functionality typically focuses on printing, opening folders, or running media players, it can also be leveraged to automatically run malware. For this reason, many organizations ban removable drives or prohibit autorun from working. Open service ports are commonly associated with applications and services, and autorun doesn't set up or run these, nor does it impact Wi-Fi. Watering hole attacks require attackers to compromise or gain access to a site that targets commonly visit so that they deliver malware to their targets."
+              },
+              {
+                "value": 1000,
+                "clue": "65. Raj wants to reduce the attack surface for a newly purchased laptop. What hardening technique will help him reduce the possibility of remote exploits while also decreasing the amount of ongoing patch management he needs to do for the system?\nA. Encrypt the system's boot drive.\nB. Install EDR software.\nC. Remove unnecessary software.\nD. Change any default passwords.",
+                "solution": "65. C. Raj knows that removing unnecessary software reduces a system's attack surface and also means that he won't have to patch and maintain the software he removes. Encrypting a drive, installing EDR, and changing default passwords won't reduce patch management, but EDR and changing default passwords could help with remote exploit prevention."
+              },
+              {
+                "value": 1200,
+                "clue": "66. Mary has discovered that a web application used by her company does not always handle multithreading properly, particularly when multiple threads access the same variable. This could allow an attacker who discovered this vulnerability to exploit it and crash the server. What type of error has Mary discovered?\nA. Buffer overflow\nB. Logic bomb\nC. Race conditions\nD. Improper error handling",
+                "solution": "66. C. A race condition can occur when multiple threads in an application are using the same variable and the situation is not properly handled. A buffer overflow is attempting to put more data in a buffer than it is designed to hold. A logic bomb is malware that performs its misdeed when some logical condition is met. As the name suggests, improper error handling is the lack of adequate or appropriate error handling mechanisms within software."
+              },
+              {
+                "value": 1400,
+                "clue": "67. Allan wants to detect brute-force physical attacks. What should he do if he wants to detect the broadest range of physical attacks?\nA. Deploy a monitored security camera system.\nB. Hire a guard to patrol the facility.\nC. Conduct regular inspections of the facility.\nD. Set up an alarm system.",
+                "solution": "67. A. A monitored camera system will detect the broadest range of attacks. Guards will only detect brute-force attacks when they are in the area, and cameras can cover more spaces at once. Inspections may miss attacks where camera recordings and monitoring can show failed and successful attacks. An alarm system won't detect attacks by insiders, who may access spaces they have access to in order to perform malicious actions."
+              },
+              {
+                "value": 1600,
+                "clue": "68. Which of the following is not a common threat vector associated with SMS-based attacks?\nA. Malicious links\nB. SMS-based phishing\nC. SMS-delivered images\nD. MFA exploits",
+                "solution": "68. C. Images are not a common threat vector via SMS. Malicious links, phishing via text, and multifactor authentication (MFA) exploits, including sending MFA notices until the recipient approves an MFA request, are all common SMS-related threat vectors."
+              },
+              {
+                "value": 1800,
+                "clue": "69. During a regular review of logs, Jennifer notices that a regularly scheduled script that copies files to another server every hour has run multiple times within the last hour. What indicator of compromise should she categorize this as?\nA. Concurrent session use\nB. Out-of-cycle logging\nC. Missing logs\nD. Impossible travel",
+                "solution": "69. B. Jennifer should note this as out-of-cycle logging. It could simply indicate a flaw in the script or another innocuous issue, or it could indicate an attacker exploring scripts to identify what information can be obtained. Concurrent session use occurs when a session is in use from multiple browsers or systems, missing logs are when logs are entirely missing or empty rather than occurring with more frequency than expected, and impossible travel occurs when events or logins occur from different locations by the same user who could not have traveled that distance in the time between the events."
+              },
+              {
+                "value": 2000,
+                "clue": "70. Pete uses a technique that injects code into memory used by another process to allow him to control what the host program does. What is this technique called for Windows dynamically\nA. WinBuff attacks\nB. DLL injection\nC. A SYRINGE attack\nD. A memory traversal attack",
+                "solution": "70. B. DLL injection forces a process to load and run code from a dynamically linked library (DLL) that was not originally used by the application or software. This can be used to modify behaviors of the program or to perform malicious actions through the application. WinBuff, SYRINGE, and memory traversal were all made up for this question."
+              }
+            ]
+          },
+          {
+            "category": "Category 8",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "71. Kathleen wants to control network traffic between subnets using her Cisco network devices. What built-in capability can she use to allow or deny traffic based on port, protocol, and IP\nA. A HIPS\nB. ACLs\nC. Least privilege lists\nD. VLANS",
+                "solution": "71. B. Access control lists (ACLs) allow or deny traffic based on rules that include protocol, IP addresses, ports, and other details. They do not understand packet content and simply assess traffic based on these basic rules. A HIPS is a host-based intrusion prevention system and is not installed between subnets. Least privilege is a concept, not an application or security tool, and VLANs are used to segment traffic but do not themselves control traffic this way. Instead, VLANs are often combined with ACLs to control network traffic and ensure segmentation."
+              },
+              {
+                "value": 400,
+                "clue": "72. What is the primary purpose of encryption as a control in enterprise environments?\nA. To preserve availability\nB. To support physical security\nC. To preserve least privilege\nD. To preserve confidentiality",
+                "solution": "72. D. Encryption is used to preserve confidentiality. Availability controls work to ensure that assets remain accessible and usable, and encryption can actually work against this in some circumstances, such as if a key is lost or the encrypted file becomes corrupted. Encryption is not used directly to preserve least privilege, nor does it preserve physical security."
+              },
+              {
+                "value": 600,
+                "clue": "73. What type of attack exploits the trust that a website has for an authenticated user to attack that website by spoofing requests from the trusted user?\nA. Cross-site scripting\nB. Cross-site request forgery\nC. Bluejacking\nD. Evil twin",
+                "solution": "73. B. Cross-site request forgery (XSRF or CSRF) sends fake requests to a website that purport to be from a trusted, authenticated user. Cross-site scripting (XSS) exploits the trust the user has for the website and embeds scripts into that website. Bluejacking is a Bluetooth attack. Nothing in this scenario requires or describes an evil twin, which is an attack that uses a malicious access point that duplicates a legitimate AP."
+              },
+              {
+                "value": 800,
+                "clue": "74. Dana wants to use documented and published loCs as part of her threat-hunting activities. What should she look for to integrate with her SIEM or other security tools?\nA. Threat feeds\nB. A real-time blackhole list\nC. A vulnerability feed\nD. An IP reputation feed",
+                "solution": "74. A. Both commercial and private threat feeds can be used by security tools like SIEM, EDR, and DR systems to provide them with current information about indicators of compromise. A real-time blackhole list (RBL) and an IP reputation feed are examples of specific threat feeds but are not as broad as threat feeds. Vulnerability definitions are typically integrated with vulnerability scanners, but again are a narrower option than a threat feed."
+              },
+              {
+                "value": 1000,
+                "clue": "75. The malware that Joseph is working to counter has copied itself to workstations across his environment due to a central, shared fileshare. What type of malware is Joseph most likely fighting?\nA. A Trojan\nB. A virus\nC. A keylogger\nD. A rootkit",
+                "solution": "75. B. Joseph is most likely fighting a virus, which is capable of copying itself to new locations. A Trojan is malware that is disguised to look like desirable software, a keylogger captures key-strokes, and a rootkit is intended to allow attackers to retain access to compromised systems."
+              },
+              {
+                "value": 1200,
+                "clue": "76. You are responsible for software testing at Acme Corporation. You want to check all software for bugs that might be used by an attacker to gain entrance into the software or your network. You have discovered a web application that would allow a user to attempt to put a 64-bit value into a 4-byte integer variable. What is this type of flaw?\nA. Memory overflow\nB. Buffer overflow\nC. Variable overflow\nD. Integer overflow",
+                "solution": "76. D. Placing a larger integer value into a smaller integer variable is an integer overflow. Memory overflow is not a term used, and memory leak is about allocating memory and not deallocating it. Buffer overflows often involve arrays. Variable overflow is not a term used in the industry."
+              },
+              {
+                "value": 1400,
+                "clue": "77. The company that Keith works for uses a backoff algorithm that increases the time between when login attempts are allowed after each failed login. Keith has recently attempted to log in and found that his account is not able to log in again for 15 minutes. What should the security administrators at Keith's organization do to find potential indicators of malicious activity?\nA. Review authentication logs.\nB. Interview Keith about his recent logins.\nC. Change Keith's password and check error logs.\nD. Report an incident and start the incident response process.",
+                "solution": "77. A. Until more is known, the best route for security administrators is to review the authentication logs in order to gather more information that can indicate whether an issue or security event has occurred. While Keith didn't indicate that he had failed login attempts, it's possible another user mistyped a user ID or that something else happened. Interviewing Keith might help but would provide less information if something malicious or accidental is happening, and the interview process would delay that analysis. Changing his password isn't immediately necessary as failed logins increase the time, not successful logins. Without more information, starting the incident response (IR) process may not be appropriate. If it can be shown that an attack occurred and was successful, the IR process should be started."
+              },
+              {
+                "value": 1600,
+                "clue": "78. Grayson's organization is concerned about environmental attacks against their datacenter. What type of monitoring is best suited to detecting environmental attacks in a scenario like this?\nA. Video cameras\nB. Intrusion alarm systems\nC. Temperature monitoring sensors\nD. Log analysis",
+                "solution": "78. C. Environmental monitoring involves things like temperature, water or flood sensors, and other detection capabilities that help organizations know if a natural disaster or other environmental issue has occurred. Video cameras cannot detect many of these and are not typically deployed to places where they would detect things like under-floor leaks or floods. Intrusion alarm systems do not provide this type of detection, and log analysis would require environmental monitoring sensors."
+              },
+              {
+                "value": 1800,
+                "clue": "79. Jack's team in HR is paying for an SaaS tool using their HR expense account credit cards without the knowledge of central IT. What type of threat actor does this make Jack's HR team?\nA. Shadow IT\nB. An inadvertent threat\nC. Internal espionage actors\nD. An insider threat",
+                "solution": "79. A. Jack's team has created a shadow IT scenario by purchasing and using software without the awareness or engagement of central IT. They may be an inadvertent threat, but the term is not used to describe threat actors. They're not an intentional threat, and thus aren't an insider threat, and internal espionage actors is not a term used for the Security+ exam."
+              },
+              {
+                "value": 2000,
+                "clue": "80. Amanda is assessing the potential for issues with her organization's recently adopted laaS vendor. What cloud vulnerability should she worry about if her system administrators do not effectively manage security groups in AWS?\nA. Insecure APIs\nB. Misconfigurations\nC. Malicious insiders\nD. MFA-based attacks",
+                "solution": "80. B. Security groups are used like firewall rules in Amazon Web Services (AWS), and since Amanda's system administrators are not effectively managing security groups, this is most likely to create a misconfiguration issue. Application programming interfaces (APIs) are provided by the vendor, and thus their security is typically a vendor issue or a misconfigura-tion issue. Malicious insiders are not mentioned, and security group misconfiguration does not drive multifactor authentication (MFA)-based attacks."
+              }
+            ]
+          },
+          {
+            "category": "Category 9",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "81. Jared's organization runs Linux servers, and recent vulnerability scans show that the servers are vulnerable to an issue that is described as follows: CVE-2018-5703: tcp_v6_syn_recv_sock function in net/ipv6/tcp_ipv6.c in the Linux kernel through 4.14.11 allows attackers to cause a denial of service (slab out-of-bounds write) What is Jared's best option to remediate a kernel vulnerability like this?\nA. Patch the application.\nB. Install a HIPS with appropriate rules.\nC. Segment the systems away from the Internet to reduce risk.\nD. Patch the operating system.",
+                "solution": "81. D. The Linux kernel is part of the operating system and needs to be handled with an OS patch. There is no application to patch, installing a HIPS might help, but the issue is dated 2018, meaning that a patch likely exists. If there wasn't a patch and this was a new vulnera-bility, segmentation might be a useful immediate response to reduce risk."
+              },
+              {
+                "value": 400,
+                "clue": "82. What is the likely outcome of a cryptographic collision attack?\nA. Attackers can decrypt a file without the private key.\nB. Two files that have the same encrypted output but are different files.\nC. Two files that both have the same hash but have different contents.\nD. Attackers can decrypt the file without the public key.",
+                "solution": "82. C. Collision attacks target hashes and attempt to produce a file that results in the same hash algorithm output but with different content that they can control."
+              },
+              {
+                "value": 600,
+                "clue": "83. Sarah is working with a small business and noticed that they have a consumer-grade wireless router serving their business. What common hardening checklist item should she validate first as part of securing the device?\nA. Removing unnecessary software\nB. Running a vulnerability scan\nC. Ensuring the default password has been changed\nD. Ensuring that unneeded ports have been disabled",
+                "solution": "83. C. The first step in securing a consumer-grade router is to change the default password. Once that has been completed, updating the firmware, turning off unneeded services, and running a vulnerability scan are all common steps. Routers typically do not have unnecessary software running."
+              },
+              {
+                "value": 800,
+                "clue": "84. What technique most effectively prevents resource reuse concerns for storage in a virtual environment?\nA. Firmware updates\nB. Volume encryption\nC. Minimizing cluster size\nD. Reformatting drives",
+                "solution": "84. B. Ensuring that any volume that is used in a virtual environment is encrypted when created will prevent reuse concerns because data will be unrecoverable even if encrypted data was accessible when drive space was reallocated. Firmware updates, cluster sizes, and reformatting do not properly address this issue."
+              },
+              {
+                "value": 1000,
+                "clue": "85. Michelle is modeling threat actor motivation for her organization and wants to describe ran-somware actors. What motivation is not commonly associated with ransomware?\nA. Data exfiltration\nB. Blackmail\nC. Revenge\nD. Financial gain",
+                "solution": "85. C. Data exfiltration, blackmail, and financial gain are all common motivations for ransom-ware actors. Revenge is not a common ransomware actor motivation."
+              },
+              {
+                "value": 1200,
+                "clue": "86. Which of the following is commonly used in a distributed denial-of-service (DDoS) attack?\nA. Phishing\nB. Adware\nC. Botnet\nD. Trojan",
+                "solution": "86. C. Botnets are often used to launch DDoS attacks, with the attack coming from all the computers in the botnet simultaneously. Phishing attacks attempt to get the user to give up information, click on a link, or open an attachment. Adware consists of unwanted pop-up ads. A Trojan horse attaches malware to a legitimate program."
+              },
+              {
+                "value": 1400,
+                "clue": "87. Amanda discovers that a member of her organization's staff has installed a remote-access Trojan on their accounting software server and has been accessing it remotely. What type of threat has she discovered?\nA. Zero-day\nB. Insider threat\nC. Misconfiguration\nD. Weak encryption",
+                "solution": "87. B. Amanda has discovered an insider threat. Insider threats can be difficult to discover, as a malicious administrator or other privileged user will often have the ability to conceal their actions or may actually be the person tasked with hunting for threats like this! This is not a zero-day attack—no vulnerability was mentioned, there was no misconfiguration since this was an intentional action, and encryption is not mentioned or discussed."
+              },
+              {
+                "value": 1600,
+                "clue": "88. Postings from Russian agents during the 2016 U.S. presidential campaign to Facebook and Twitter are an example of what type of effort?\nA. Impersonation\nB. Disinformation\nC. Asymmetric warfare\nD. A watering hole attack",
+                "solution": "88. B. Disinformation campaigns seek to achieve the goals of the attacker or owner of the campaign. They leverage social media using bots and groups of posters to support the ideas, concepts, or beliefs that align with the goals of the campaign. Impersonation is a type of social engineering attack where the attacker pretends to be someone else. A watering hole attack places malware or malicious code on a site or sites that are frequently visited by a targeted group. Asymmetric warfare is warfare between groups with significantly different power or capabilities."
+              },
+              {
+                "value": 1800,
+                "clue": "89. Which of the following threat actors is most likely to be associated with an advanced persistent threat (APT)?\nA. Hacktivists\nB. Nation-state actors\nC. Unskilled attacker\nD. Insider threats",
+                "solution": "89. B. Nation-state actors often have greater resources and skills, making them a more significant threat and far more likely to be associated with an advanced persistent threat actor. Unskilled attackers, also known as script kiddies, hacktivists, and insider threats, tend to be less capable and are all far less likely to be associated with an APT."
+              },
+              {
+                "value": 2000,
+                "clue": "90. Erica wants to conduct an amplified DDoS attack against a system. What key step is required as part of her attack?\nA. Reversing the target's IP address\nB. Spoofing the target's IP address\nC. Conducting an on-path attack to send traffic to the target\nD. Spoofing responses from the amplification system to the target",
+                "solution": "90. B. Amplification attacks typically use spoofed User Datagram Protocol (UDP) queries sent to servers to increase the volume of traffic sent in response to the target. Erica's process might involve identifying large DNS responses she can get with a small query, then spoofing a target system's IP address in the packets she sends to DNS servers. They would then respond with the large responses, amplifying her requests and creating a distributed denial-of-service attack by using many servers to amplify her traffic. This doesn't require reversing an IP address, conducting an on-path attack, or spoofing the responses from the servers."
+              }
+            ]
+          },
+          {
+            "category": "Category 10",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "91. Daryl is investigating a recent breach of his company's web server. The attacker used sophisticated techniques and then defaced the website, leaving messages that were denouncing the company's public policies. He and his team are trying to determine the type of actor who most likely committed the breach. Based on the information provideD. who was the most likely threat actor?\nA. A script\nB. A nation-state\nC. Organized crime\nD. Hacktivists",
+                "solution": "91. D. The fact that the website is defaced in a manner related to the company's public indicates that the attackers were most likely engaging in hacktivism to make a political or belief-based point. Scripts, nation-state actors, and organized crime actors don't account for the statements adverse to the company's policies, which is why hacktivism is the real cause."
+              }
+            ]
+          }
+        ],
+        "double": [
+          {
+            "category": "Category 1",
+            "clues": [
+              {
+                "value": 200,
+                "clue": "93. What is the primary difference in threat vectors between agent client-based and agentless software deployments?\nA. Agentless software does not consume resources and thus cannot result in a resource consumption-based denial-of-service condition.\nB. Client-based software provides a better view of system resources and is able to manage its resource consumption better to avoid issues.\nC. Agentless software does not have an agent that may be potentially vulnerable to attack.\nD. Client-based software allows for greater security because it can be patched.",
+                "solution": "93. C. Agentless software does not have an agent installed that can be targeted. That means that the server or control system is the only target for attackers. Agentless software can still consume resources as queries and actions are taken by the server or control plane. Client-based software often has better insights into systems, and may offer additional security features if it is a security tool. Client-based software and agentless software can both be patched to address security issues."
+              },
+              {
+                "value": 600,
+                "clue": "94. Angela reviews the authentication logs for her website and sees attempts from many different accounts using the same set of passwords. What is this attack technique called?\nA. Brute forcing\nB. Password spraying\nC. Limited login attacks\nD. Account spinning",
+                "solution": "94. B. Password spraying is a specific type of brute-force attack that uses a smaller list of common passwords for many accounts to attempt to log in. Although brute forcing is technically correct, the best match here is password spraying. When you encounter questions like this on the exam, make sure you provide the most accurate answer, rather than one that fits but that may not be the best answer. Limited login attacks is a made-up answer, and spinning an account refers to changing the password for an account, often because of a compromise or to prevent a user from logging back into it while preserving the account."
+              },
+              {
+                "value": 1000,
+                "clue": "95. Charles discovers that an attacker has used a vulnerability in a web application that his company runs and has then used that exploit to obtain root privileges on the web server. What type of attack has he discovered?\nA. Cross-site scripting\nB. Privilege escalation\nC. A SQL injection\nD. A race condition",
+                "solution": "95. B. A privilege escalation attack can occur horizontally, where attackers obtain similar levels of privilege but for other users, or vertically where they obtain more advanced rights. In this case, Charles has discovered a vertical privilege escalation attack that has allowed the attacker to obtain administrative rights. Cross-site scripting and SQL injection are both common types of web application attacks, and a race condition occurs when data can be changed between when it is checked and when it is used."
+              },
+              {
+                "value": 1400,
+                "clue": "96. Which of the following best describes a zero-day vulnerability?\nA. A vulnerability that the vendor is not yet aware of\nB. A vulnerability that has not yet been breached\nC. A vulnerability that can be quickly exploited (i.e., in zero days)\nD. A vulnerability that will give the attacker brief access (i.e., zero days)",
+                "solution": "96. A. A zero-day exploit or attack occurs before the vendor has knowledge of it. The remainder of the answers don't accurately describe a zero-day attack-just because it has not yet been breached does not make it a zero-day, nor is a zero-day necessarily quickly exploitable. Finally, a zero-day attack does not specify how long the attacker may have access."
+              },
+              {
+                "value": 1800,
+                "clue": "97. You have discovered that there are entries in your network's domain name server that point legitimate domains to unknown and potentially harmful IP addresses. What best describes this type of attack?\nA. A backdoor\nB. An APT\nC. DNS poisoning\nD. A Trojan horse",
+                "solution": "97. C. DNS poisoning occurs when false DNS information is inserted into legitimate DNS servers, resulting in traffic being redirected to unwanted or malicious sites. A backdoor provides access to the system by circumventing normal authentication. An APT is an advanced persistent threat. A Trojan horse ties a malicious program to a legitimate program."
+              },
+              {
+                "value": 2200,
+                "clue": "98. What technique drives image-based threat vectors?\nA. Encryption\nB. Hashing\nC. Forgery\nD. Steganography",
+                "solution": "98. D. Images can have data, including malware or exfiltrated organizational information using a technique called steganography that embeds data into images without losing the integrity of the image. Encryption, hashing, and forgery are not the direct driver of image-based threat vectors, although encryption is likely to be used as an additional layer to protect data from more advanced threat actors wishing to conceal what they are hiding."
+              },
+              {
+                "value": 2600,
+                "clue": "99. Eric is conducting a penetration test and wants to release a malicious update for an organization's application. The organization uses public key encryption to sign updates. What does Eric need to deliver an update that systems will accept?\nA. The private key for the signing certificate\nB. A collision with the hashed value of a legitimate update\nC. The public key for the signing certificate\nD. A collision with the hashed value of a malicious update",
+                "solution": "99. A. In order to deliver a malicious update that uses a signing certificate, Eric will need to gain access to the private key for the signing certificate. The public key is exactly that— needed for this type of exploit. public— and having it will not allow Eric to sign the update. Hashes and collisions are not"
+              },
+              {
+                "value": 3000,
+                "clue": "100. Mike is a network administrator with a small financial services company. He has received a pop-up window that states his files are now encrypted and he must pay .5 bitcoins to get them decrypted. He tries to check the files in question, but their extensions have changeD. and he cannot open them. What best describes this situation?\nA. Mike's machine has a rootkit.\nB. Mike's machine has ransomware.\nC. Mike's machine has a logic bomb.\nD. Mike's machine has been the target of whaling.",
+                "solution": "100. B. This is an example of ransomware, which demands payment to return your data. A rootkit provides access to administrator/root privileges. A logic bomb executes its malicious activity when some condition is met. This scenario does not describe whaling, which is a type of phishing attack aimed at leaders in an organization."
+              },
+              {
+                "value": 3400,
+                "clue": "101. Your company is instituting a new security awareness program. You are responsible for educating end users on a variety of threats, including social engineering. Which of the following best defines social engineering?\nA. Illegal copying of software\nB. Gathering information from discarded manuals and printouts\nC. Using people skills to obtain proprietary information\nD. Phishing emails",
+                "solution": "101. C. Social engineering is about using people skills to get information you would not otherwise have access to. Illegal copying of software isn't social engineering, nor is gathering of discarded manuals and printouts, which describes dumpster diving. Phishing emails use some social engineering, but that is one example of social engineering, not a definition."
+              },
+              {
+                "value": 3800,
+                "clue": "102. What type of malicious actor will typically have the least amount of resources available to them?\nA. Nation-states\nB. Unskilled actor\nC. Hacktivists\nD. Organized crime",
+                "solution": "102. B. Unskilled actors are the least resourced of the common threat actors listed. In general, they flow from nation-state actors as the most highly resourced, to organized crime, to hacktivists, to inside actors, and then to unskilled actors, Otherwise known as script kiddies, as the least capable and least resourced actors. As with any scale like this, there is room for some variability between specific actors, but for the exam, you should track them in that order."
+              }
+            ]
+          },
+          {
+            "category": "Category 2",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "103. Jorge wants to brief his organization's leadership on common email threat vectors. Which of the following common threats should not be in his presentation?\nA. Phishing\nB. Malware sent via email\nC. Email spoofing\nD. Cross-site scripting",
+                "solution": "103. D. Common email threats include phishing, email spoofing, and malware sent via email. Cross-site scripting is done via trusted websites where scripts are injected into user-visible code, causing the user to run the scripts using their credentials."
+              },
+              {
+                "value": 800,
+                "clue": "104. Jared has discovered malware on the workstations of several users. This particular malware provides administrative privileges for the workstation to an external hacker. What best describes this malware?\nA. Trojan horse\nB. Logic bomb\nC. Multipartite virus\nD. Rootkit",
+                "solution": "104. D. Rootkits provide administrative access to systems, thus the \"root\" in rootkit. A Trojan horse combines malware with a legitimate program. A logic bomb performs its malicious activity when some condition is met. A multipartite virus infects the boot sector and a file."
+              },
+              {
+                "value": 1200,
+                "clue": "105. Michelle discovers that a number of systems throughout her organization are connecting to a changing set of remote systems on TCP port 6667. What is the most likely cause of this, if she believes the traffic is not legitimate and that the systems are infected with malware?\nA. An alternate service port for web traffic\nB. Botnet command-and-control via IRC\nC. Downloads via a peer-to-peer network\nD. Remote-access Trojans",
+                "solution": "105. B. This question combines two pieces of knowledge: how botnet command-and-control works, and that IRC's default port is TCP 6667. Although this could be one of the other answers, the most likely answer given the information available is a botnet that uses Internet Relay Chat (IRC) as its command-and-control channel. 6667 is not a common alternate web traffic port, peer-to-peer network traffic is commonly done via HTTP or HTTPS in modern infections, and a remote access-Trojan is likely to behave differently and use another port as well."
+              },
+              {
+                "value": 1600,
+                "clue": "106. Susan performs a vulnerability scan of a small business network and discovers that the organization's consumer-grade wireless router has a vulnerability in its web server. What issue should she address in her findings?\nA. Firmware patch management\nB. Default configuration issues\nC. An unsecured administrative account\nD. Weak encryption settings",
+                "solution": "106. A. Software updates for consumer-grade wireless routers are typically applied as firmware updates, and Susan should recommend that the business owner regularly upgrade their wireless router firmware. If updates are not available, they may need to purchase a new router that will continue to receive updates and configure it appropriately. This is not a default configuration issue nor an unsecured administrative account— neither is mentioned, nor is encryption."
+              },
+              {
+                "value": 2000,
+                "clue": "107. What type of phishing attack occurs via text messages?\nA. Bluejacking\nB. Smishing\nC. Phonejacking\nD. Text whaling",
+                "solution": "107. B. The word you will need to know for the Security+ exam for phishing via SMS is \"smish-ing,\" a term that combines SMS and phishing. Bluejacking sends unsolicited messages to Bluetooth devices, and phonejacking and text whaling were made up for this question."
+              },
+              {
+                "value": 2400,
+                "clue": "108. John is analyzing a recent malware infection on his company network. He discovers malware that can spread rapidly via vulnerable network services and does not require any interaction from the user. What best describes this malware?\nA. Worm\nB. Virus\nC. Logic bomb\nD. Trojan horse",
+                "solution": "108. A. Worms spread themselves via vulnerabilities, making this an example of a worm. A virus is software that self-replicates. A logic bomb executes its malicious activity when some condition is met. A Trojan horse combines malware with a legitimate program."
+              },
+              {
+                "value": 2800,
+                "clue": "109. While reviewing web logs for her organization's website, Kathleen discovers the entry shown here: GET http://example.com/viewarticle.php?view=../../../config.txt HTTP/1.1 What type of attack has she potentially discovered?\nA. A directory traversal attack\nB. A web application buffer overflow\nC. A directory recursion attack\nD. A slashdot attack",
+                "solution": "109. A. Directory traversal attacks attempt to exploit tools that can read directories and files by moving through the directory structure. The example would try to read the config. txt file three layers above the working directory of the web application itself. Adding common directory names or common filenames can allow attackers (or penetration testers) to read other files in accessible directories if they are not properly secured. The remainder of the options were made up for this question, although Slashdot is an actual website."
+              },
+              {
+                "value": 3200,
+                "clue": "110. What two files are commonly attacked using offline brute-force attacks?\nA. The Windows Registry and the Linux / etc/passwd file\nB. The Windows SAM and the Linux / etc/passwd file\nC. The Windows SAM and the Linux / etc/shadow file\nD. The Windows Registry and the Linux / etc/ shadow file",
+                "solution": "110. C. The Windows Security Account Manager (SAM) file and the / etc/ shadow file for Linux systems both contain passwords and are popular targets for offline brute-force attacks."
+              },
+              {
+                "value": 3600,
+                "clue": "111. You have noticed that when in a crowded areA. data from your cell phone is stolen. Later investigation shows a Bluetooth connection to your phone, one that you cannot explain. What describes this attack?\nA. Bluejacking\nB. Bluesnarfing\nC. An evil twin attack\nD. A remote-access Trojan",
+                "solution": "111. B. Bluesnarfing involves accessing data from a Bluetooth device when it is in range. Blue-jacking involves sending unsolicited messages to Bluetooth devices when they are in range. Evil twin attacks use a rogue access point whose name is similar or identical to that of a legitimate access point. Nothing in this scenario points to a remote-access Trojan being the cause of the stolen data."
+              },
+              {
+                "value": 4000,
+                "clue": "112. Which of the following situations is not associated with race conditions?\nA. Time-of-check\nB. Time-of-change\nC. Target-of-evaluation\nD. Time-of-use",
+                "solution": "112. B. There are three common situations associated with race conditions: time-of-check (TOC), time-of-use (TOU), and target-of-evaluation. Time-of-change is not commonly associated with race conditions."
+              }
+            ]
+          },
+          {
+            "category": "Category 3",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "113. Gabby wants to protect a legacy platform with known vulnerabilities. Which of the following is not a common isolation or segmentation option that could be used to address this issue?\nA. Disconnect it from the network.\nB. Place the device behind a dedicated firewall and restrict inbound and outbound traffic.\nC. Rely on the outdated OS to confuse attackers.\nD. Move the device to a protected VLAN.",
+                "solution": "113. C. Relying on an outdated OS to confuse attackers is not a common isolation or segmentation option used to protect vulnerable legacy platforms. Many organizations have legacy platforms in place that cannot be patched or upgraded but that are still an important part of their business. Security professionals are often asked to suggest ways to secure the systems while leaving them operational. Common options include moving the devices to an isolated virtual LAN (VLAN), disconnecting the devices from the network and ensuring they are not plugged back in, and using a firewall or other security device to ensure that the legacy system is protected from attacks and cannot browse the Internet or perform other actions that could result in compromise."
+              },
+              {
+                "value": 800,
+                "clue": "114. After running nmap against a system on a network, Lucca sees that TCP port 23 is open and a service is running on it. What issue and resolution should he identify?\nA. Low ports should not be open to the Internet and should be disabled.\nB. Telnet is an insecure protocol and should be disabled.\nC. SSH is an insecure protocol and should be disabled.\nD. Ports 1-1024 are well-known ports and must be firewalled.",
+                "solution": "114. B. TCP port 23 is typically associated with Telnet, an unencrypted remote shell protocol. Since Telnet sends its authentication and other traffic in the clear (clear/plain text), it should not be used, and Lucca should identify this as a configuration issue involving an insecure protocol."
+              },
+              {
+                "value": 1200,
+                "clue": "115. Charles sets the permissions on the / etc directory on a Linux system to 777 using the chmod command. If Alex later discovers this, what should he report his finding as?\nA. Open or weak permissions\nB. Improper file handling\nC. A privilege escalation attack\nD. None of the above",
+                "solution": "115. A. Linux privileges can be set numerically, and 777 sets user, group, and world to all have read, write, and execute access to the entire / etc directory—a very insecure, and thus open or weak permission. Setting permissions like this is a common workaround when permissions aren't working but can expose data or make binaries executable by users who should not have access to them. When you set permissions for a system, remember to set them according to the rule of least privilege: only the permissions that are required for the role or task should be configured."
+              },
+              {
+                "value": 1600,
+                "clue": "116. Under what circumstances are concurrent sessions most commonly considered indicators of compromise?\nA. When they occur on the same system\nB. When they occur on two different systems issued to the same user\nC. When they occur in two different locations at the same time\nD. When they occur in the same location at the same time",
+                "solution": "116. C. Concurrent sessions can be relatively common in some applications, so additional data is important when assessing if the event is an IoC. If the event occurs in two different loca-tions, particularly if travel between them would be classified as impossible travel it would more likely be an indicator of compromise or misuse."
+              },
+              {
+                "value": 2000,
+                "clue": "117. During a penetration test, Angela obtains the uniform of a well-known package delivery service and wears it into the target office. She claims to have a delivery for a C-level employee she knows is there and insists that the package must be signed for by that person. What social engineering technique has she used?\nA. Impersonation\nB. Whaling\nC. A watering hole attack\nD. Prepending",
+                "solution": "117. A. Angela has impersonated an actual employee of the delivery service to gain access to the company. Company uniforms are a very useful element for in-person social engineering Whaling is a type of phishing attack aimed at leaders in an organization. A watering hole attack deploys malware or other attack tools at a site or sites that a target group frequently uses. Prepending is not a common security term."
+              },
+              {
+                "value": 2400,
+                "clue": "118. Frank's organization operates in a shared responsibility cloud environment. What can Frank do to determine if he is suffering from a denial-of-service (DoS) attack against his cloud hosting environment?\nA. Nothing; cloud services do not provide security tools.\nB. Call the cloud service provider to have them stop the DoS attack,\nC. Review the cloud service provider's security tools and enable logging and anti-Dos tools if they exist.\nD. Call the cloud service provider's Internet service provider (ISP) and ask them to enable DoS prevention.",
+                "solution": "118. C. Frank's best option is to review the anti-denial-of-service and other security tools that his cloud hosting provider provides and to make appropriate use of them. The major infrastructure-as-a-service (laaS) providers have a variety of security tools that can help both detect and prevent DoS attacks from taking down sites thatary roos that can hena-structure. Calling the cloud service provider's ISP will not work because the ISP works with the cloud provider, not with Frank! It is possible the cloud service provider might be able to assist Frank, but they are most likely to instruct him to use the existing tools that they already provide."
+              },
+              {
+                "value": 2800,
+                "clue": "119. What is the typical goal intent or goal of hacktivists?\nA. Increasing their reputation\nB. Financial gain\nC. Making a political statement\nD. Gathering high-value data",
+                "solution": "119. C. The most common motivation for hacktivists is to make a political statement. Reputa-tional gains are often associated with unskilled attackers/script kiddies, whereas financial gain is most commonly a goal of organized crime or insider threats. Gathering high-value data is typical of both nation-state actors and organized crime."
+              },
+              {
+                "value": 3200,
+                "clue": "120. Ryan needs to verify that no unnecessary ports and services are available on his systems, but he cannot run a vulnerability scanner. What is his best option?\nA. Passive network traffic capture to detect services\nB. A configuration review\nC. Active network traffic capture to detect services\nD. Log review",
+                "solution": "120. B. Configuration reviews, either using automated tool or manual validation, can be a useful proactive way to ensure that unnecessary ports and services are not accessible. Config-. uration management tools can also help ensure that expected configurations are in place. Neither passive nor active network packet capture will show services that are not accessed, meaning that open ports could be missed, and log review won't show all open ports either."
+              },
+              {
+                "value": 3600,
+                "clue": "121. John is a network administrator for Acme Company. He has discovered that someone has registered a domain name that is spelled just one letter different than his company's domain. The website with the misspelled URL is a phishing site. What best describes this attack?\nA. Session hijacking\nB. Cross-site request forgery\nC. Typo squatting\nD. Clickjacking",
+                "solution": "121. C. This is an example of typo squatting. The website is off by only one or two letters, and the attacker hopes that users of the real website mistype the URL and are taken to their fake website. Session hijacking is taking over an authenticated session. Cross-site request forgery sends fake requests to a website that purport to be from a trusted, authenticated user. Clickjacking attempts to trick users into clicking on something other than what they intended."
+              },
+              {
+                "value": 4000,
+                "clue": "122. Which of the following best describes malware that will execute some malicious activity when a particular condition is met (i.e., if the condition is met, then executed)?\nA. Boot sector virus\nB. Logic bomb\nC. Buffer overflow\nD. Sparse infector virus",
+                "solution": "122. B. A logic bomb performs malicious actions when a specific condition or conditions are met. A boot sector virus infects the boot sector of the hard drive. A buffer overflow occurs when the attacker attempts to put more data in a variable than it can hold. A sparse infector virus performs its malicious activity intermittently to make it harder to detect."
+              }
+            ]
+          },
+          {
+            "category": "Category 4",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "123. Una's company is assessing threats to their supply chain and wants to consider the most likely issues that their server hardware supplier may create. Which of the following is not a common concern for organizations assessing hardware providers?\nA. Malicious hardware design\nB. Injection of malicious firmware\nC. Inability to deliver hardware in a timely manner\nD. Malicious software added to default OS images",
+                "solution": "123. A. While malicious hardware does exist, few organizations face it as a common threat due to the complexity of the attack and the fact that most hardware providers want to avoid the reputational harm that compromised hardware would create. Malicious firmware and software added to the OS image as well as an inability to deliver hardware in a timely manner are all common concerns with hardware providers."
+              },
+              {
+                "value": 800,
+                "clue": "124. Helen wants to prevent her staff from sideloading applications to their Android devices. What type of tool is best suited to preventing this type of issue without reducing other functionality for the device?\nA. Disable the Google Play store.\nB. Disable the manufacturer's store.\nC. Use an EDR tool.\nD. Use an MDM solution.",
+                "solution": "124. D. A mobile device management (MDM) solution will allow settings and software to be managed centrally, allowing Helen to both control sideloading permissions and to prevent unwanted applications from being installed. Disabling either the hardware vendor or Google's store does not prevent sideloading from an external media like a microSD card, which can reduce the functionality of devices. An EDR is helpful to identify malicious software but doesn't manage devices and prevent sideloading."
+              },
+              {
+                "value": 1200,
+                "clue": "125. Tori believes that the system she is investigating may have a rootkit resident on the system. What type of behavior is most likely to indicate a rootkit's presence?\nA. Unusual network traffic\nB. Network scanning\nC. Displaying a ransom notice\nD. Deletion of files",
+                "solution": "125. A. Rootkits are designed to help retain control of and access to a system without users noticing. That means that obtrusive behaviors like network scanning, displaying ransom notices, or deletion of files are unusual for rootkits to perform. Other malware components beyond the rootkit may perform these as part of a malicious actor's toolkit."
+              },
+              {
+                "value": 1600,
+                "clue": "126. Neil wants to deploy a host-intrusion prevention system that will use a third-party threat feed to servers in his datacenter. What concern might his system administrators express about the HIPS that he should consider before he makes the decision?\nA. A HIPS may block traffiC. causing an outage or disruption.\nB. A HIPS may prevent least privilege configurations.\nC. A HIPS may bypass application allow lists.\nD. A HIPS may make use of segmentation less effective.",
+                "solution": "126. A. A HIPS may block legitimate traffic if the traffic matches an existing rule or if a threat feed is used and has a detection that matches that traffic. That means that organizations that deploy HIPS in datacenters where disruptions could cause significant outages are careful about what rules they put in place and how threat feed data is used. A HIPS doesn't prevent least privilege and typically doesn't interact with application allow lists, and segmentation should not impact a HIPS."
+              },
+              {
+                "value": 2000,
+                "clue": "127. Organize the following threat actors by their typical level of sophistication from most sophisticated to least sophisticated: Hacktivists, Nation-state actors, Organized crime, Shadow IT\nA. Hacktivists, Shadow IT, Organized crime, Nation-state actors\nB. Nation-state actors, Organized crime, Hacktivists, Shadow IT\nC. Organized crime, Hacktivists, Shadow IT, Nation-state actors\nD. Shadow IT, Hacktivists, Organized crime, Nation-state actors",
+                "solution": "127. B. Nation-state actors are typically the most sophistical adversaries organizations will face. Organized crime is the second most sophisticated actor in general, with hacktivists, then shadow IT following"
+              },
+              {
+                "value": 2400,
+                "clue": "128. What is the most common file-based threat vector?\nA. Phishing\nB. ВЕС\nC. Malware\nD. XSS",
+                "solution": "128. C. Malware is the most common threat vector involving files. Business email and phishing-related compromises that occur through files are typically due to malware. Cross-site scripting relies on embedding code in web pages that users will run when they view them, taking action as their logged-in account."
+              },
+              {
+                "value": 2800,
+                "clue": "129. Drew wants to address a recent Windows vulnerability that has a CVE rating of 9.6. What should his first step be to address the vulnerability?\nA. Isolate the impacted systems.\nB. Disable the service.\nC. Check to see if a patch is available.\nD. Install a host-based firewall.",
+                "solution": "129. C. The first step for most organizations when addressing a known vulnerability is to check whether a patch is available. Organizations will also assess the potential risks associated with the patch: has it been widely deployed and tested, are there known issues, and is there a likelihood of disruption due to patching? If there are known issues, other solutions like isolation or deploying additional security controls such as a host-based firewall or firewall rule, or even disabling the service if possible, may be employed."
+              },
+              {
+                "value": 3200,
+                "clue": "130. Clay is decommissioning a server and wants to ensure that the system is properly decom-missioned. Once the drives have been wiped or destroyeD. what step typically comes next?\nA. Wiping memory\nB. Removing the system from inventory\nC. Removing the system from management\nD. Removing memory",
+                "solution": "130. B. Systems are typically removed from management when they are shut down and before disks are wiped. Once they're off and will not return to service, they are wiped and then removed from inventory. Memory wipes and removal are not typical steps in decommissioning processes."
+              },
+              {
+                "value": 3600,
+                "clue": "131. Joe recently ran a port scan and found a service running on TCP port 1433. What type of attacks would he expect against this service?\nA. Web-based attacks\nB. Print-server attacks\nC. Oracle database server attacks\nD. Microsoft SQL Server attacks",
+                "solution": "131. D. TCP 1433 is the default service port for Microsoft SQL. Joe will want to take appropriate actions to protect his SQL server, including patching, properly configuration, firewall rules, and network segmentation."
+              },
+              {
+                "value": 4000,
+                "clue": "132. What type of virtualization attack can be prevented by encrypting storage volumes when they are created?\nA. VM escape\nB. Birthday attacks\nC. Pass-the-hash\nD. Resource reuse",
+                "solution": "132. D. Encryption prevents resource reuse attacks from occurring because the data will not be accessible to attackers after resources are released and reallocated to third parties. VM escape attacks target the underlying VM infrastructure and could still occur if it was vul-nerable. Pass-the-hash attacks are used against authentication systems when a hash can be captured and sent to validate a session, and birthday attacks leverage the likelihood of finding a valid collision more quickly by guessing than by moving linearly through a solution set for a hash."
+              }
+            ]
+          },
+          {
+            "category": "Category 5",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "133. Tyler discovers that software his organization has deployed sends information about the workstations back to a central server. After capturing network traffic that is being sent, he discovers that it includes the workstation's IP address, operating system, screen resolution, this as? and information about other installed software. What type of malware should Tyler classify\nA. A Trojan\nB. Bloatware\nC. A keylogger\nD. Spyware",
+                "solution": "133. D. Tyler has encountered spyware, software that gathers information to send back to a third party. While spyware is less outright malicious than other types of malware and may even have asked users to agree to release information as part of a click-through during installation, it is still considered malware because it sends information about users, systems, and networks to third parties that is not intended or desired. Trojans are intended to appear like desirable or legitimate software but are malicious; bloatware is preinstalled software that is not needed and takes up disk space, CPU, and memory; and keyloggers capture keystrokes from a keyboard to retain locally or send to a malicious actor."
+              },
+              {
+                "value": 800,
+                "clue": "134. Eden wants to check errors related to a new security tool installed on her Windows work-station. What log file in Windows contains errors with installed software?\nA. The application log\nB. The security log\nC. The setup log\nD. The system log",
+                "solution": "134. A. The application log typically contains information about software that is installed on a Windows workstation, including errors that Eden is trying to identify. The security log contains security events like logins and file deletions. The setup log contains information about the installation of Windows, and the system log contains system-related events like bootup errors."
+              },
+              {
+                "value": 1200,
+                "clue": "135. Trent's company has recently discovered that their DNS information was changed via their registrar. Investigation showed that an administrator's workstation was compromised and that the account details for domain administration were contained on the workstation. What type of DNS-based attack is this?\nA. A DNS-based DoS attack\nB. A DNS hijacking attack\nC. A DNS amplification attack\nD. A DNS-based DDoS attack",
+                "solution": "135. B. DNS hijacking can occur in a number of ways, including via the registrar, by changing your organization's DNS servers, or via changes to a local hosts file. DNS-based DoS attacks seek to disable or prevent DNS from working, whereas DNS-based DDoS attacks tend to be amplified and reflected by sending spoofed DNS queries with large results that will bog down the network connection of a targeted system or organization."
+              },
+              {
+                "value": 1600,
+                "clue": "136. Giovanni wants to check to see if an impossible travel situation occurred for two logins on a Linux server. What log should he check to confirm or disprove his theory?\nA. /var/log/messages\nB. /var/log/auth. log\nC. /var/log/cron. log\nD. /var/log/travel",
+                "solution": "136. B. The auth. Log or secure file contains authentication logs for Linux systems and will have such information as user ID, authentication time, and the IP address that the user connected from. Giovanni can use the IP addresses and times along with a geo-IP system to check for impossible travel. /messages contains general log messages, and cron. log contains cron job information. / travel is not a typical Linux log file."
+              },
+              {
+                "value": 2000,
+                "clue": "137. Microsoft's Intune as well as tools like Jamf are examples of tools that provide what sort of mitigation functionality?\nA. Decommissioning\nB. Configuration enforcement\nC. Segmentation\nD. HIPS",
+                "solution": "137. B. Intune and Jamf provide a wide range of hardening functionality, including configuration enforcement."
+              },
+              {
+                "value": 2400,
+                "clue": "138. Nora recently wanted to find information about a scientific discovery and queried an Al large-language model asking for a summary and references. The Al model provided a summary of the discovery and a number of citations. After Nora searched for the articles the Al citeD. she discovered that they did not exist. How would this be classified?\nA. As phishing\nB. As misinformation c. As disinformation\nD. As brand impersonation",
+                "solution": "138. B. Misinformation is incorrect information, but not purposefully so like disinformation. This is true regardless of the way the information is provided. Phishing is used to gather credentials and other sensitive information, and brand impersonation attacks focus on appearing like a legitimate brand or company."
+              },
+              {
+                "value": 2800,
+                "clue": "139. Sandeep wants to address the potential for impersonation attacks agginst her helpdesk, What technique is most likely to prevent impersonation attacks from being successful with her support stat??\nA. Require callers to verify their identity using non-public information.\nB. Avoid publishing the help desk's phone number externally,\nC. Require users to complete awareness training.\nD. Require callers to provide a callback number and call back before completing tasks.",
+                "solution": "139. A. Requiring callers to validate their identity using non-public information can help to prevent impersonation attacks. Not publishing a support number externally means that internal users will still have it and that it can be leaked or found. Requiring users to provide a callback number only works if business numbers are used, and this tends to prevent support from being effective for traveling users and others who may not be at a desk or able to use a soft phone due to technology issues. User awareness training won't protect the help desk staff from making mistakes."
+              },
+              {
+                "value": 3200,
+                "clue": "140. Bob is conducting a penetration test against a client's environment and he discovers TCP port 515 exposed to the Interner. What should he report to his client as a potential attack\nA. An exposed Internet connected camera\nB. An exposed print server\nC. An expored loT device\nD. An exposed UPS management system",
+                "solution": "140. B. TCP port 515 is the LPR port, commonly used for print services. Bob knows that exposing printers to the Internet is not a common practice and should recommend that the print server be segmented away from the Internet so that only internal systems that need to can send print jobs to it."
+              },
+              {
+                "value": 3600,
+                "clue": "141. Which of the following is not a common cryptographic vulnerability? A Downegade attacks\nB. Marjc key attacks\nC. Collision attacks\nD. Birthday arracks",
+                "solution": "141. B. The Security+ exam outline expects test takers to be familiar with three types of attacks: downgrade attacks that request weaker encryption types; collision attacks, which focus on finding collisions in hashes, allowing arbitrary changes to files that would normally be verified with hashes; and birthday attacks, which allow nonlinear guesses to be more likely to find a solution than simply progressing through key space. Magic key attacks were made up for this question."
+              },
+              {
+                "value": 4000,
+                "clue": "142. Louis is investigating a malware incident on one of the computers on his network. He has discovered unknown software that seems to be opening a port, allowing someone to remotely connect to the computer. This software seems to have been installed at the same time as a small shareware application. Which of the following best describes this malware?\nA. Trojan\nB. Worm\nC. Loợc bomb\nD. Rootkit",
+                "solution": "142. A. This is a remote-access Trojan, malware that opens access for someone to remotely access the system. A worm would have spread itself via a vulnerability, whereas a logic bomb runs when some logical condition is met. Finally, a rootkit provides root or administrative access to the system."
+              }
+            ]
+          },
+          {
+            "category": "Category 6",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "143. Which of the following motivations is not commonly associated with advanced persistent threat actors?\nA. Ethical\nB. War\nC. Data exfiltration\nD. Espionage",
+                "solution": "143. A. Ethical concerns are typically associated with hacktivists and some insider threats. APTs are typically nation-state actors and are commonly associated with war, data exfiltration, and espionage operations."
+              },
+              {
+                "value": 800,
+                "clue": "144. Eve wants to protect against DLL injection attacks. Which of the following practices can help her prevent DLL injection?\nA. Do not allow users to run DLLs.\nB. Avoid using DLLs.\nC. Use fully qualified paths for DLLs instead of searching paths.\nD. Use a DLL vulnerability scanner.",
+                "solution": "144. C. DLL injection requires that a DLL be loaded dynamically, and the ability to place a malicious DLL where it will be loaded is critical to the success of this type of attack. That means that using fully qualified DLL paths can help prevent the attack from succeeding. Preventing DLLs from being loaded by users and the programs they run or entirely avoiding using DLLs will cause functional issues for Windows, DLL vulnerability scanners are not a common solution, and avoiding the use of DLLs is not a common practice since DLLs are a key part of Windows systems."
+              },
+              {
+                "value": 1200,
+                "clue": "145. Mackenzie wants to protect her organization from firmware vulnerabilities. What practice is most effective at preventing malicious firmware from being inadvertently downloaded and installed?\nA. Only use digitally signed and validated firmware.\nB. Scan firmware with an antivirus tool.\nC. Only use encrypted firmware.\nD. Avoid updating firmware and only use original firmware.",
+                "solution": "145. A. Firmware providers often provide digitally signed firmware that can be validated before it is installed. Mackenzie should ensure that her organization's practices include validating firmware signatures before installation. Antivirus will typically not detect malicious code in firmware files, encrypted firmware without a digital signature does not provide the same protection as digitally signed firmware, and firmware updates should be installed to prevent vulnerabilities from being exploited."
+              },
+              {
+                "value": 1600,
+                "clue": "146. Zoie wants to check for instances of concurrent session usage for her web application. Where should she look for these indicators?\nA. Her firewall logs\nB. Her antivirus (AV) logs\nC. Her authentication logs\nD. Her web application server logs",
+                "solution": "146. D. Zoie's best option is to review web application server logs to identify session IDs that are the same coming from different IP addresses. She will not see session IDs in firewall, AV, or authentication logs."
+              },
+              {
+                "value": 2000,
+                "clue": "147. Valerie knows that a system in her environment has been compromised and wants to take immediate action. Which of the following options should she select if she is worried about the system impacting other hosts on the network?\nA. Deploy antimalware tools to the system and scan it.\nB. Immediately isolate the system.\nC. Immediately deploy any missing patches to the system.\nD. Change default passwords and check for unexpected user accounts.",
+                "solution": "147. B. Isolating the system is the best option for Valerie to select until she can investigate the system. Isolation will prevent the system from impacting other systems and will also prevent attackers from getting to it. Antimalware and patching are useful options further into the investigation and response process. Changing default passwords and checking for unexpected user accounts is a good practice but won't help protect other systems if the system is compromised"
+              },
+              {
+                "value": 2400,
+                "clue": "148. Casey is worried about downgrade attacks against her Apache web servers. What should she do to most effectively prevent downgrade attacks?\nA. Prevent TLS fallback.\nB. Require current web browsers.\nC. Run the most current version of Apache.\nD. Use an IDS.",
+                "solution": "148. A. Preventing fallback options from being used for encryption may stop some clients from connecting but will most effectively prevent downgrade attacks. Current browsers may be needed for this, but requiring that does not prevent attackers from using a downgrade attack if fallback options are allowed. Current web server software does not prevent settings from being weak. An IDS can detect downgrade attempts but cannot stop them."
+              },
+              {
+                "value": 2800,
+                "clue": "149. What type of attack is based on sending more data to a target variable than the data can actually hold?\nA. Bluesnarfing\nB. Buffer overflow\nC. Bluejacking\nD. Cross-site scripting",
+                "solution": "149. B. Buffer overflow attacks cram more data into a field or buffer than they can accept, overflowing into other memory locations and either crashing the system or application or potentially allowing code to be inserted into executable locations. Bluesnarfing and blue-jacking are both Bluetooth attacks. Cross-site scripting attacks allow attackers to inject scripts into pages viewed by other users."
+              },
+              {
+                "value": 3200,
+                "clue": "150. Which of the following is an attack that seeks to attack a website, based on the website's trust of an authenticated user?\nA. XSS\nB. XSRF\nC. Buffer overflow\nD. Directory traversal",
+                "solution": "150. B. Cross-site request forgery (XSR or CS) sends forged requests to a website, supposedly from a trusted user. Cross-site scripting (XSS) is the injection of scripts into a website to exploit the users. A buffer overflow tries to put more data in a variable than the variable can hold. Directory traversal attempts to change directories through URL manipulation to access files that should not normally be accessible to the web server or application."
+              },
+              {
+                "value": 3600,
+                "clue": "151. Mary wants to harden workstations she is responsible for against malware attacks. Which of the following is not a common solution to this?\nA. Installing EDR\nB. Limiting administrative access\nC. Installing antivirus\nD. Using disk encryption",
+                "solution": "151. D. Disk encryption does not prevent malware attacks under most circumstances. Use of endpoint detection and response tools, antivirus tools, and limiting administrative access are all common ways to counter malware."
+              },
+              {
+                "value": 4000,
+                "clue": "152. Spyware is an example of what type of malware?\nA. Trojan\nB. Unwanted programs\nC. RAT\nD. Ransomware",
+                "solution": "152. B. Spyware and adware are both common examples of unwanted programs. Though not directly malicious, they can pose risks to user privacy as well as create annoyances like pop-ups or other unwanted behaviors. Trojans appear to be legitimate programs or are paired with them, RATs provide remote access and are a subcategory of Trojans, and ransomware demands payment or other actions to avoid damage to files or reputation."
+              }
+            ]
+          },
+          {
+            "category": "Category 7",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "153. Olivia has provisioned a new virtual machine in a cloud environment and is conducting forensic exercises to practice cloud forensic activities. She discovers data on her newly provisioned drive when she begins to analyze the drive. What issue has Olivia encountered?\nA. A VM escape issue\nB. Improper chain of custody\nC. A resource reuse issue\nD. Improper legal hold",
+                "solution": "153. C. Olivia has encountered a resource reuse issue. It is likely that the drive was reallocated without being securely wiped and that the previous user did not encrypt their drives. While this is unlikely with major cloud service providers now, it has been observed in the past and could still occur. There is no indication that a VM escape occurred that would run software on the host hypervisor, and no procedural issues around chain of custody or legal hold are described in the question."
+              },
+              {
+                "value": 800,
+                "clue": "154. Chuck wants to help his organization protect against business email compromise (BEC) attacks. Which of the following is not a common best practice to defend against BEC?\nA. Delete all attachments from emails.\nB. Use two-factor authentication.\nC. Review suspicious email carefully for typos and other indicators.\nD. Don't click URLs in unsolicited emails-visit URLs manually.",
+                "solution": "154. A. While attachments are a common vector for BEC attacks, deleting all attachments is not a common practice. Instead, users should be taught to be careful about clicking on and opening attachments, particularly on unsolicited email. Using two-factor authentication, reviewing suspicious emails for potential indicators of BEC, and not clicking on URLs but instead visiting sites manually are all common anti-BEC practices."
+              },
+              {
+                "value": 1200,
+                "clue": "155. A penetration tester calls a staff member for her target organization and introduces herself as a member of the IT support team. She asks if the staff member has encountered a problem with their system, then proceeds to ask for details about the individual, claiming attack is this? she needs to verify that she is talking to the right person. What type of social engineering\nA. Pretexting\nB. A watering hole attack\nC. Phishing\nD. Shoulder surfing",
+                "solution": "155. A. Pretexting is a type of social engineering that involves using a false motive and lying to obtain information. Here, the penetration tester lied about their role and why they are calling (impersonation), and then built some trust with the user before asking for personal information. A watering hole attack leverages a website that the targeted users all use and places malware on it to achieve their purpose. Phishing is the process of attempting to gain credentials or other information, typically via email or similar means. Shoulder surfing involves looking over an individual's shoulder or otherwise observing them entering sensitive information like passwords."
+              },
+              {
+                "value": 1600,
+                "clue": "156. What type of attack targets a specific group of users by infecting one or more websites that group is specifically known to visit frequently?\nA. A watercooler attack\nB. A phishing net attack\nC. A watering hole attack\nD. A phish pond attack",
+                "solution": "156. C. Watering hole attacks target groups by focusing on common shared behaviors like visiting specific websites. If attackers can compromise the site or deliver targeted attacks through it, they can then target that group. Watercooler, phishing net, and phish pond attacks were all made up for this question."
+              },
+              {
+                "value": 2000,
+                "clue": "157. When a multithreaded application does not properly handle various threads accessing a common value, and one thread can change the data while another thread is relying on it, what flaw is this?\nA. Memory leak\nB. Buffer overflow\nC. Integer overflow\nD. Time-of-check/time-of-use",
+                "solution": "157. D. If access is not handled properly, a time-of-check (TO)/time-of-use (TOU) condition can exist where the memory is checked, changed, then used. Memory leaks occur when memory is allocated but not deallocated. A buffer overflow is when more data is put into a variable than it can hold. An integer overflow occurs when an attempt is made to put an integer that is too large into a variable, such as trying to put a 64-bit integer into a 32-bit variable."
+              },
+              {
+                "value": 2400,
+                "clue": "158. Geoff believes that a workstation on his network may have been the target of an on-path attack. What indicator is most likely to indicate this type of attack on a local network segment?\nA. External DNS resolution shows an improper result.\nB. The ARP table shows an alternate address for the gateway.\nC. Encrypted traffic has been forced to use a less secure algorithm.\nD. A website's URL has been modified.",
+                "solution": "158. B. Local on-path attacks typically involve responding to ARP requests with a different gateway MAC address before the gateway itself can respond or through modification of local hosts files. External DNS should not be resolving local network DNS information. Encrypted traffic using a less secure algorithm is a downgrade attack. Website URLs being"
+              },
+              {
+                "value": 2800,
+                "clue": "159. Kathleen's IPS flags traffic from two IP addresses as shown here: Source IP: 10.11.94.111 http://example.com/home/show. php?SESSIONID=a3fghbby Source IP: 192.168.5.34 http://example.com/home/show.php?SESSIONID=a3fghbby What type of attack should she investigate this as?\nA. A SQL injection attack\nB. A cross-site scripting attack\nC. A session replay attack\nD. A server-side request forgery attack",
+                "solution": "159. C. Session IDs should be unique for distinct users and systems. A very basic type of session replay attack involves providing a victim with a session ID and then using that session ID once they have used the link and authenticated themselves. Protections such as session timeouts and encrypting session data, as well as encoding the source IP, hostname, or other identifying information in the session key, can all help prevent session replay attacks."
+              },
+              {
+                "value": 3200,
+                "clue": "160. Andy is an end user in an organization that uses an application allow list to control what applications are used on workstations. What does Andy need to do if he wants to install an application on his workstation?\nA. Download the application, then run the installer using an administrator account.\nB. Manually add the application installer to the allow list for his workstation.\nC. Request that the application be added to the allow list and have it installed by his organization's administrators.\nD. Use a jailbreak to install the application.",
+                "solution": "160. C. End users cannot add applications that are not on the allow list to their workstations in environments using an application allow list. Since Andy is an end user, not an admin-istrator, he cannot install applications as an administrator, nor can he add the application to the allow list. Andy will need to request that the application be added and then administrators will need to install the application. Jailbreaks are used for mobile devices, not workstations."
+              },
+              {
+                "value": 3600,
+                "clue": "161. Frank is traveling and wants to connect to an unsecure wired network in his hotel. Which of the following is not a common threat he should consider how to prevent while on an unsecured hotel wired network?\nA. Network packet capture\nB. Network-based attacks\nC. Evil twins\nD. Worms",
+                "solution": "161. C. Evil twins are threats for wireless networks, not wired networks. Frank should consider how to keep all his traffic secure, likely by using a VPN that tunnels all his traffic to a trusted network exit point, and both worms and network-based attacks are possible from infected or malicious systems."
+              },
+              {
+                "value": 4000,
+                "clue": "162. An attacker is trying to get access to your network. He is sending users on your network a link to a new game with a hacked license code program. However, the game files also include software that will give the attacker access to any machine that it is installed on. What type of attack is this?\nA. Rootkit\nB. Trojan horse\nC. Spyware\nD. Boot sector virus",
+                "solution": "162. B. The malware in this example is a Trojan horse—it pretends to be something desir-able, or at least innocuous, and installs malicious software in addition to or instead of the desired software. A rootkit gives root or administrative access, spyware is malware that records user activities, and a boot sector virus is a virus that infects the boot sector of the hard drive."
+              }
+            ]
+          },
+          {
+            "category": "Category 8",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "163. Rae's company recently received an email from a former employee threatening to release company data that they copied before they left the organization if the organization does not pay them a severance package. What threat actor motivation should she categorize this as?\nA. Espionage\nB. Revenge\nC. Blackmail\nD. Service disruption",
+                "solution": "163. C. The former employee is threatening to release data making this blackmail. Espionage including both nation-state driven and corporate-typically involves theft of data or other information, and there is no description of revenge or an attempt to disrupt services."
+              },
+              {
+                "value": 800,
+                "clue": "164. Jack wants to sideload applications to his Android phone. What does he need to do first to allow this?\nA. Jailbreak the phone.\nB. Transfer the files to the phone.\nC. Install a package manager.\nD. Disable antimalware protection.",
+                "solution": "164. B. Sideloading can be as simple as loading files on the phone, although some bundles and applications require installers or other tools. Jailbreaking, disabling antimalware protection, or even installing a package manager are not required to sideload applications for Android but may be done. Jailbreaking and package managers are commonly used for iOS devices."
+              },
+              {
+                "value": 1200,
+                "clue": "165. Jill is conducting a penetration test and uses the following query against a vulnerable web application. What data will she see if it succeeds? SELECT * FROM users WHERE category = 'customers' OR 1=1--'\nA. A list of all customers\nB. A list of all customers whose userlD is 1 or larger\nC. A list of all customers whose userID is 1\nD. A list of all users",
+                "solution": "165. D. If this query is successful, it will match all categories because it looks for categories that match customers or TRUE which is how OR 1=1 resolves. That means that any category will match, providing Jill with a list of all users, not just all customers or customers with specific userlDs."
+              },
+              {
+                "value": 1600,
+                "clue": "166. Greg's checklist for securing new Linux-based devices includes disabling unneeded ports and protocols. What primary purpose does this serve?\nA. It speeds up port scans.\nB. It reduces the number of logged events.\nC. It prevents using up default ports.\nD. It reduces the device's attack footprint.",
+                "solution": "166. D. Disabling unnecessary ports and protocols reduced a device or system's attack footprint. The fewer targets attackers have, the less likely they are to be successful at finding a viable target. Reducing ports and protocols will speed up port scans and will reduce the number of logged events, but this is not the primary purpose of the change. Default ports are set for services based on common practice, and ports and protocols are not disabled to save default ports."
+              },
+              {
+                "value": 2000,
+                "clue": "167. Nathaniel's organization has recently deployed multifactor authentication (MFA), which requires both a password and an MFA code to be provided to authenticate to critical ser-vices. Despite this, an attacker has recently logged into an administrative console using a password and MFA code belonging to a user. Which of the following types of malware is most likely to allow an attacker to successfully undertake this type of attack?\nA. A virus\nB. A worm\nC. A logic bomb\nD. A keylogger",
+                "solution": "167. D. Attackers are increasingly relying on keyloggers that can capture information entered at a keyboard and send it to them, allowing them to quickly use the information to log in provide this functionality. before the user can use an MFA code. Viruses, worms, and logic bombs are not designed to"
+              },
+              {
+                "value": 2400,
+                "clue": "168. Which of the following is not a common attribute of organized crime threat actors?\nA. Internal\nB. Well resourced\nC. Sophisticated\nD. External",
+                "solution": "168. A. Organized crime actors are typically external rather than internal actors. They are often well resourced and sophisticated."
+              },
+              {
+                "value": 2800,
+                "clue": "169. Darryl is showing Valerie his iPhone and explains that his niece installed a package manager called Cydia on the device that allows him to install applications that are not available via the Apple App Store. What does Valerie know about his iPhone?\nA. It has been infected with malware.\nB. It can be remotely controlled via SSH.\nC. It can be remotely controlled via a web interface.\nD. It is jailbroken.",
+                "solution": "169. D. Package managers like Cydia and Sileo are used to add applications and other functionality to jailbroken iPhones. If the phone is an organizationally owned phone or contains organizational data, Valerie may need to take action based on organizational policies. Cydia and other package managers do not open up remote management tools by default and are not malware, although they may not be permitted software for many organizational devices."
+              },
+              {
+                "value": 3200,
+                "clue": "170. Isaac is reviewing IPS rules used by his organization and notices rules that block the use of as well as OR 1=1 in HTTP queries. What type of attacks is Isaac's organization attempting to stop?\nA. Buffer overflow attacks\nB. SQL injection attacks\nC. Replay attacks\nD. Directory traversal attacks",
+                "solution": "170. B. Simple SQL injection attacks often rely on the single quote or Boolean conditions like OR 1=1 as part of their attack. While these are simple examples and more complex options exist, Isaac's organization is wise to prevent simple attacks. Buffer overflow attacks target memory locations or variables, replay attacks re-send legitimate traffic, and directory traversal attacks attempt to access other file structures."
+              },
+              {
+                "value": 3600,
+                "clue": "171. Vicki is reviewing common BEC attack methods with her team. Which of the following is not a common BEC technique?\nA. Using compromised email accounts\nB. Using slightly modified spoofed email addresses\nC. Sending email from the user's personal email account\nD. Using malware to access email accounts",
+                "solution": "171. C. Sending email from a user's personal email account to them is not a common BEC exploit, but using compromised accounts, spoofing email with slightly modified email addresses, and using malware to gain access to accounts and send email are all common techniques."
+              },
+              {
+                "value": 4000,
+                "clue": "172. Craig wants to control the applications employees can install on the laptops they are issued. If he wants the greatest level of control and is not concerned about flexibility or overhead to manage his solution, which of the following will best meet his needs?\nA. An access control list\nB. Application allow list\nC. An application deny list\nD. Segmentation",
+                "solution": "172. B. An application allow list provides the greatest control over what applications are installed on devices. Application deny lists are useful for preventing specific software from being installed but cannot handle the breadth of possible applications that users may find and use. Access control lists (ACLs) are used like firewall rules to apply rules to network traffic, and segmentation is used to separate systems based on various factors like data sensitivity or trust levels."
+              }
+            ]
+          },
+          {
+            "category": "Category 9",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "173. Ron wants to prevent users from using SSH between two network segments. Which of the following ACLs will prevent users in a segment 10.10.10.0/24 from using SSH to connect to the 10.10.20.0/24 network segment?\nA. PERMIT IP 10.10.10.0/24 * 10.10.20.0/24 22\nB. DENY IP 10.10.10.0/24 * 10.10.20.0/24 22\nC. PERMIT IP 10.10.20.0/24 * 10.10.10.0/24 22\nD. DENY IP 10.10.20.0/24 * 10.10.10.0/24 22",
+                "solution": "173. B. Ron wants to deny any source port to systems on the 10.10.20.0/24 network with a service port of TCP 22 for SSH."
+              },
+              {
+                "value": 800,
+                "clue": "174. Sam's organization uses a DNS black hole to prevent access to known malicious sites. The organization relies on a reputation service feed that is used to add the known malicious domains and IP addresses. DNS lookups that would go to those sites is sent to an internal redirect site that lets users know the site is inaccessible. Sam reviews the logs to determine if a system is trying to access those blocked sites regularly. What type of indicator of compromise is Sam looking for?\nA. Blocked content\nB. Resource inaccessibility\nC. Missing logs\nD. Published or documented indicators",
+                "solution": "174. A. Sam is using blocked content logging to determine what systems may be compromised and attempting to connect to malicious domains and if users are trying to access those IP addresses or domains. This can help Sam intervene with individual users and can also help identify infected systems. Resource inaccessibility is typically an unintentional indicator rather than a result of a security measure as described here. No logs are missing, and there is not a specific indicator of compromise that was described or published listed in the question."
+              },
+              {
+                "value": 1200,
+                "clue": "175. Christina is reviewing a Linux system that she is responsible for, and notices that the /usr filesystem is 80 percent full. After review, she notices that a single user's home directory has hundreds of files in it that were recently added. What type of indicator of compromise should she categorize this as?\nA. Resource inaccessibility\nB. Blocked content\nC. Impossible travel\nD. Resource consumption",
+                "solution": "175. D. While resource consumption alone may not indicate a compromise, unexpected consumption of resources may indicate unexpected or unwanted activity. Christina should look for other indicators of compromise to determine if she needs to declare a security incident. Resource inaccessibility would require the resource to not be available or working, and at 80% full a Linux filesystem will still work. There is no description of the content, and no content access was prevented, so this is not blocked content. Impossible travel occurs when logins or other resource usage occur in two locations at times that do not allow for travel between the locations,"
+              },
+              {
+                "value": 1600,
+                "clue": "176. What term is used to describe the unwanted but generally harmless programs that are commonly installed on consumer computers when they are purchased?\nA. Spyware\nB. Bloatware\nC. Logic bombs\nD. Firmware",
+                "solution": "176. B. Bloatware is a general term used to describe the unnecessary and unwanted programs that are installed on many PCs by manufacturers. Spyware is more harmful, sending information about the user, their browsing habits, or the computer back to the software's vendor or other organizations. Logic bombs are malware that take action under specific circumstances like a time, date, or other trigger, and firmware is the software that runs on top of hardware to provide basic underlying functionality."
+              },
+              {
+                "value": 2000,
+                "clue": "177. Michael is performing a forensic analysis of a compromised workstation and discovers a copy of cd. exe in the system32 folder on a Windows workstation that does not match the real cod. exe file. When he looks at the file, he discovers that it is capable of running as an administrator. What type of attack has he discovered?\nA. A buffer overflow attack\nB. A Trojan attack\nC. A privilege escalation attack\nD. A replay attack",
+                "solution": "177. C. The ability to run a program as a privileged user like an administrator from an unexpected or uncommon location is a common indicator of a privilege escalation attack. A buffer overflow would push data into a variable to attempt to cause it to take a desired action, a Trojan would look like a wanted or desirable file but would be malware, and a replay attack would send successful authentication or other information again to gain access to a system."
+              },
+              {
+                "value": 2400,
+                "clue": "178. While reviewing logs, Chris sees an Apache web log that includes the following entry: https://www. example.com/viewer.php?filename=../../../etc/passwa%00.png What type of attack has Chris most likely uncovereD. and what file will it return?\nA. A replay attack, password00. png\nB. A directory traversal attack, password00.png\nC. A replay attack, passwd\nD. A directory traversal attack, passwd",
+                "solution": "178. D. This is a directory traversal attack. The characteristic / ../ .. / is the first indicator you should pay attention to. The %00 is a null byte, meaning that many applications will stop reading when they encounter it. You might not know that detail as you take the exam, but you should know that attackers would look for the passwd file, not a PNG of a password!"
+              },
+              {
+                "value": 2800,
+                "clue": "179. What common mitigation technique relies on VLANs to separate systems?\nA. Encryption\nB. Segmentation\nC. Impossible travel\nD. HIPS",
+                "solution": "179. B. VLANs are commonly used to provide segmentation for networks by placing them in separate logical networks. Encryption doesn't require or use VLANs, impossible travel describes logins and other activities from disparate physical locations in a time frame that would be impossible for travel to occur during, and a HIPS is a host intrusion prevention system."
+              },
+              {
+                "value": 3200,
+                "clue": "180. Mark's coworker recently discovered that he can use the Linux su command to run programs as one of his peers. What type of attack is this?\nA. A replay attack\nB. A vertical privilege escalation attack\nC. A horizontal privilege escalation attack\nD. A forgery attack",
+                "solution": "180. C. Horizontal privilege escalation occurs when users at a similar level are able to use privileges or accounts belonging to peer users. Here, Mark's coworker is able to act as another similar user. Vertical privilege escalation focuses on greater privileges like administrative rights. Replay attacks re-send traffic to authenticate or otherwise repeat a transaction. Forgery attacks like cross-site request forgery (XSRF) leverage trusted sessions to allow malicious apps to take action due to the trust between a browser and a web application."
+              },
+              {
+                "value": 3600,
+                "clue": "181. Jason is monitoring his network and notices that hundreds of different IP addresses are sending requests to one of his organization's servers. The requests are small, and when he inspects them he sees a simple HTTP GET command for a file. When the server responds, it sends back a very large response. What type of attack is likely occurring, and what is it attempting to accomplish?\nA. A DoS attack and exploiting a vulnerable service\nB. A DDoS and a buffer overflow\nC. A DDoS and resource exhaustion\nD. A DoS attack and an on-path attack",
+                "solution": "181. C. This is most likely a distributed denial-of-service (DDoS) attack since it is coming from many different IP addresses. Using small requests to generate large responses is an example of a resource exhaustion attack. Since this is coming from many addresses rather than one or a small number, it is more properly called a DDoS than a simple denial-of-service (DoS) attack. There is no indication that the service is vulnerable, the requests are small and no mention is made of a specific payload other than a HTTP GET for a file, and there is no traffic redirection as you would expect in an on-path attack."
+              },
+              {
+                "value": 4000,
+                "clue": "182. Dan was recently troubleshooting a web server and deployed a firewall rule to his organization's datacenter firewall at the beginning of the ruleset. The rule reads: ALLOW FROM ANY: TCP 80 TO ANY: ANY What type of vulnerability should the security team at Dan's workplace label this as?\nA. A jailbreak\nB. A race condition\nC. A misconfiguration\nD. An injection attack",
+                "solution": "182. C. Allowing all TCP 80 traffic to any internal system is a common misconfiguration for firewalls when troubleshooting. Placing an overly broad rule in a firewall ruleset, particularly when it is processed early (at the top) of a ruleset is dangerous, even though it happens more than security practitioners want to think about! Jailbreaks are done on iOS-based mobile devices to bypass security; race conditions occur when the time-of-check (TOC) and time-of-use (TOU) of a variable, memory location, or other resource allows for changes when it shouldn't; and injection attacks are typically conducted against memory, code, or other resources, not firewall rules."
+              }
+            ]
+          },
+          {
+            "category": "Category 10",
+            "clues": [
+              {
+                "value": 400,
+                "clue": "183. Brian wants to protect files that are regularly sent via email as part of his organization's business practice. What type of encryption is best suited to this type of usage?\nA. Full-disk encryption\nB. File-level encryption\nC. Volume encryption\nD. Transport encryption",
+                "solution": "183. B. File-level encryption will allow Brian's organization to encrypt individual files rather than entire disks or volumes and will protect files even when they are not in transit, unlike transport encryption using TLS."
+              },
+              {
+                "value": 800,
+                "clue": "184. Olivia has deployed Microsoft's Intune for her environment. What capability has she gained for her devices?\nA. Malware detection and response\nB. Configuration enforcement\nC. Code versioning\nD. Web application firewalling",
+                "solution": "184. B. Intune, formerly known as Microsoft Endpoint Manager and SCCM, provides configuration management, mobile app management, and other central system, software, and device management capabilities. It does not detect and respond to malware, but it can deploy configurations for Defender. It is not a code repository and versioning tool like git, and it does not provide web application firewalling."
+              },
+              {
+                "value": 1200,
+                "clue": "185. Jill is concerned about supply chain attacks against her organization's service providers. Which of the following should be her most significant concern about her software-as-a-service (SaaS) service provider as she documents her supply chain risks?\nA. Compromise of the SaaS vendor, leading to access to her data\nB. Attacks against the SaaS vendor, leading to hours of downtime\nC. Lack of availability of hardware from her SaaS vendor for delivery\nD. Software vulnerabilities in tools provided by the vendor",
+                "solution": "185. A. Data exposure is typically a more significant risk than downtime, particularly when the downtime is limited to hours. SaaS vendors do not typically sell or deliver hardware, as they provide services. Software vulnerabilities may exist, but without a known impact, compromise leading to data loss remains the most significant issue."
+              }
+            ]
+          }
+        ],
+        "final": {
+          "category": "Final Category",
+          "clue": "187. Annie wants to prevent a TOC/TOU issue that occurs with her organization's business application. The issue occurs when scripts run as part of the application access a shared data file. Sometimes one instance of the script opens the file, checks that inventory is sufficient to meet customer needs, then waits for the customer's interaction. At the same time, another instance of the script checks, sees that there is sufficient inventory, and also provides that information to another customer. If both customers place orders, Annie's organization is unable to meet demand. If Annie wants to continue to grow her business's use of the application, which of the following options is the best way to prevent this issue?\nA. Delete the resource after each use.\nB. Only run one instance of the process.\nC. Make multiple copies of the resource so each process has its own.\nD. Lock the resource until the process is done with it.",
+          "solution": "187. D. Locking the resource until the action is completed is a common method of preventing TOC/TOU issues. Deleting the resource after each use doesn't allow resources to be per-sistent, preventing applications from using them on an ongoing basis. Running a single instance of the process will heavily limit the ability for Annie's business to scale the service. Making multiple copies doesn't allow for a shared resource."
+        }
+      }
 };
 
     // Current game state
