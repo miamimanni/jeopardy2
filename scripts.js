@@ -1780,6 +1780,323 @@ const gameData = {
             "solution": "What is the solution to the Final Jeopardy clue?"
         }
     },
+    "Chapter 2 Categorized": {
+        "single": [
+            {
+                "category": "Threat Intelligence and APTs",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "Which of the following measures is not commonly used to assess threat intelligence?\nA. Timeliness\nB. Detail\nC. Accuracy\nD. Relevance",
+                        "solution": "B. Although higher levels of detail can be useful, they aren't a common measure used to assess threat intelligence."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "Which one of the following attackers is most likely to be associated with an APT?\nA. Nation-state actor\nB. Hacktivist\nC. Unskilled\nD. Insider",
+                        "solution": "A. Advanced persistent threats (APTs) are most commonly associated with nation-state actors."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "Vince recently received the hash values of malicious software that several other firms in his industry found installed on their systems after a compromise. What term best describes this?\nA. Vulnerability feed\nB. IoC\nC. TTP\nD. RFC",
+                        "solution": "B. Indicators of compromise (IoCs) are specific details of attacks that may be used to identify compromises."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "Which organization did the U.S. government help create to share knowledge between organizations in specific verticals?\nA. DHS\nB. SANS\nC. CERTS\nD. ISACs",
+                        "solution": "D. The U.S. government created the Information Sharing and Analysis Centers (ISACs)."
+                    }
+                ]
+            },
+            {
+                "category": "Hacktivism and Insider Threats",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "Which one of the following motivations is most commonly attributed to hacktivists?\nA. War\nB. Financial gain\nC. Political/philosophical beliefs\nD. Ethical",
+                        "solution": "C. Hacktivists are defined by the motivation behind their actions—advancing their political or philosophical beliefs."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "Which one of the following is the best example of a hacktivist group?\nA. Chinese military\nB. U.S. government\nC. Russian mafia\nD. Anonymous",
+                        "solution": "D. Anonymous is the world's most prominent hacktivist group."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "Edward Snowden was a government contractor who disclosed sensitive government documents to journalists. Which of the following terms best describe Snowden’s activities? (Choose two)\nA. Insider\nB. State actor\nC. Hacktivist\nD. APT\nE. Organized crime",
+                        "solution": "A, C. Snowden is both an insider and a hacktivist."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "What type of assessment is particularly useful for identifying insider threats?\nA. Behavioral\nB. Instinctual\nC. Habitual\nD. IoCs",
+                        "solution": "A. Behavioral assessments are very useful when you are attempting to identify insider threats."
+                    },
+                    {
+                        "value": 1000,
+                        "clue": "Renee is a cybersecurity hobbyist. She notices that she can access other students' records by manipulating the student ID in the URL. She closes the records and informs the school principal of the vulnerability. What term best describes Renee’s work?\nA. Authorized hacking\nB. Unknown hacking\nC. Semi-authorized hacking\nD. Unauthorized hacking",
+                        "solution": "C. Renee's work is best described as semi-authorized hacking."
+                    }
+                ]
+            },
+            {
+                "category": "Penetration Testing and White-Hat Hacking",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "Kolin is a penetration tester who works for a cybersecurity company. His firm was hired to conduct a penetration test against a healthcare system. What term best describes Kolin's work?\nA. Authorized attacker\nB. Unauthorized attacker\nC. Unknown attacker\nD. Semi-authorized attacker",
+                        "solution": "A. Kolin is engaged in white-hat hacking as he is conducting an authorized penetration test."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "Greg believes that an attacker may have installed malicious firmware in a network device before it was provided to his organization by the supplier. What type of threat vector best describes this attack?\nA. Supply chain\nB. Removable media\nC. Cloud\nD. Direct access",
+                        "solution": "A. Tampering with equipment before it reaches the intended user is an example of a supply chain threat."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "Ursula recently discovered that developers are sharing information over a messaging tool provided by a cloud vendor but not sanctioned by her organization. What term best describes this use of technology?\nA. Shadow IT\nB. System integration\nC. Vendor management\nD. Data exfiltration",
+                        "solution": "A. Shadow IT is the use of unapproved technology for business purposes."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "Tom's organization recently learned that the vendor is discontinuing support for their customer relationship management (CRM) system. What should concern Tom the most from a security perspective?\nA. Unavailability of future patches\nB. Lack of technical support\nC. Theft of customer information\nD. Increased costs",
+                        "solution": "A. Tom's greatest concern should be the risk of new, unpatchable vulnerabilities."
+                    }
+                ]
+            },
+            {
+                "category": "Threat Vectors and Attack Methods",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "Of the threat vectors shown here, which one is most commonly exploited by attackers who are at a distant location?\nA. Email\nB. Direct access\nC. Wireless\nD. Removable media",
+                        "solution": "A. Email is the most common threat vector exploited by attackers at a distant location."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "Wendy is scanning cloud-based repositories for sensitive information. Which one of the following should concern her most, if discovered in a public repository?\nA. Product manuals\nB. Source code\nC. API keys\nD. Open source data",
+                        "solution": "C. API keys should never be found in public repositories as they may grant unauthorized individuals access to information and resources."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "Which one of the following threat research tools is used to visually display information about the location of threat actors?\nA. Threat map\nB. Predictive analysis\nC. Vulnerability feed\nD. STIX",
+                        "solution": "A. Threat maps are graphical tools that display information about the geographic locations of attackers."
+                    },
+                    {
+                        "value": 800,
+                        "clue": "Which one of the following information sources would not be considered an OSINT source?\nA. DNS lookup\nB. Search engine research\nC. Port scans\nD. WHOIS queries",
+                        "solution": "C. Port scans are an active reconnaissance technique and would not be considered OSINT."
+                    }
+                ]
+            },
+            {
+                "category": "Cybersecurity Resources and Protocols",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "Ken is conducting threat research on Transport Layer Security (TLS) and would like to consult the authoritative reference for the protocol’s technical specification. What resource would best meet his needs?\nA. Academic journal\nB. Internet RFCs\nC. Subject matter experts\nD. Textbooks",
+                        "solution": "B. Internet RFCs are the definitive technical standards for Internet protocols."
+                    },
+                    {
+                        "value": 400,
+                        "clue": "Which of the following threat actors typically has the greatest access to resources?\nA. Nation-state actors\nB. Organized crime\nC. Hacktivists\nD. Insider threats",
+                        "solution": "A. Nation-state actors are government-sponsored and typically have the greatest access to resources."
+                    },
+                    {
+                        "value": 600,
+                        "clue": "Cindy is concerned that her organization may be targeted by a supply chain attack. Which one of the following organizations is least likely to be the conduit for a supply chain attack?\nA. Hardware provider\nB. Software provider\nC. Managed service provider\nD. Talent provider",
+                        "solution": "D. Talent providers are not generally considered common avenues for supply chain attacks."
+                    }
+                ]
+            }
+        ],
+        "double": [
+            {
+                "category": "Double Category 1",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "This is DJ clue 1.1",
+                        "solution": "What is the solution to DJ clue 1.1?"
+                    },
+                    {
+                        "value": 800,
+                        "clue": "This is DJ clue 1.2",
+                        "solution": "What is the solution to DJ clue 1.2?"
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "This is DJ clue 1.3",
+                        "solution": "What is the solution to DJ clue 1.3?"
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "This is DJ clue 1.4",
+                        "solution": "What is the solution to DJ clue 1.4?"
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "This is DJ clue 1.5",
+                        "solution": "What is the solution to DJ clue 1.5?"
+                    }
+                ]
+            },
+            {
+                "category": "Double Category 2",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "This is DJ clue 2.1",
+                        "solution": "What is the solution to DJ clue 2.1?"
+                    },
+                    {
+                        "value": 800,
+                        "clue": "This is DJ clue 2.2",
+                        "solution": "What is the solution to DJ clue 2.2?"
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "This is DJ clue 2.3",
+                        "solution": "What is the solution to DJ clue 2.3?"
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "This is DJ clue 2.4",
+                        "solution": "What is the solution to DJ clue 2.4?"
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "This is DJ clue 2.5",
+                        "solution": "What is the solution to DJ clue 2.5?"
+                    }
+                ]
+            },
+            {
+                "category": "Double Category 3",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "This is DJ clue 3.1",
+                        "solution": "What is the solution to DJ clue 3.1?"
+                    },
+                    {
+                        "value": 800,
+                        "clue": "This is DJ clue 3.2",
+                        "solution": "What is the solution to DJ clue 3.2?"
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "This is DJ clue 3.3",
+                        "solution": "What is the solution to DJ clue 3.3?",
+                        "dailyDouble": true
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "This is DJ clue 3.4",
+                        "solution": "What is the solution to DJ clue 3.4?"
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "This is DJ clue 3.5",
+                        "solution": "What is the solution to DJ clue 3.5?"
+                    }
+                ]
+            },
+            {
+                "category": "Double Category 4",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "This is DJ clue 4.1",
+                        "solution": "What is the solution to DJ clue 4.1?"
+                    },
+                    {
+                        "value": 800,
+                        "clue": "This is DJ clue 4.2",
+                        "solution": "What is the solution to DJ clue 4.2?"
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "This is DJ clue 4.3",
+                        "solution": "What is the solution to DJ clue 4.3?"
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "This is DJ clue 4.4",
+                        "solution": "What is the solution to DJ clue 4.4?"
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "This is DJ clue 4.5",
+                        "solution": "What is the solution to DJ clue 4.5?"
+                    }
+                ]
+            },
+            {
+                "category": "Double Category 5",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "This is DJ clue 5.1",
+                        "solution": "What is the solution to DJ clue 5.1?"
+                    },
+                    {
+                        "value": 800,
+                        "clue": "This is DJ clue 5.2",
+                        "solution": "What is the solution to DJ clue 5.2?"
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "This is DJ clue 5.3",
+                        "solution": "What is the solution to DJ clue 5.3?"
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "This is DJ clue 5.4",
+                        "solution": "What is the solution to DJ clue 5.4?"
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "This is DJ clue 5.5",
+                        "solution": "What is the solution to DJ clue 5.5?"
+                    }
+                ]
+            },
+            {
+                "category": "Double Category 6",
+                "clues": [
+                    {
+                        "value": 400,
+                        "clue": "This is DJ clue 6.1",
+                        "solution": "What is the solution to DJ clue 6.1?"
+                    },
+                    {
+                        "value": 800,
+                        "clue": "This is DJ clue 6.2",
+                        "solution": "What is the solution to DJ clue 6.2?"
+                    },
+                    {
+                        "value": 1200,
+                        "clue": "This is DJ clue 6.3",
+                        "solution": "What is the solution to DJ clue 6.3?"
+                    },
+                    {
+                        "value": 1600,
+                        "clue": "This is DJ clue 6.4",
+                        "solution": "What is the solution to DJ clue 6.4?"
+                    },
+                    {
+                        "value": 2000,
+                        "clue": "This is DJ clue 6.5",
+                        "solution": "What is the solution to DJ clue 6.5?"
+                    }
+                ]
+            }
+        ],
+        "final": {
+            "category": "Final Category",
+            "clue": "This is the Final Jeopardy clue.",
+            "solution": "What is the solution to the Final Jeopardy clue?"
+        }
+    },
     "Chapter 2 Test Q's": {
         "single": [
           {
