@@ -16,6 +16,10 @@ If you don’t have a GitHub account yet, let’s start there.
 4. Complete any security verification.
 5. Once your account is created, log in to GitHub.
 
+![Create Git Hub Account part 1](screenshots/001-creating_github_account_part_1.png)
+
+![Create Git Hub Account part 2](screenshots/002-creating_github_account_part_2.png)
+
 ---
 
 ## Step 2: Fork the Repository
@@ -26,6 +30,10 @@ Now, you’ll make a copy of the Jeopardy game code so you can customize it.
 2. Once you’re on the main page of the repository, look for the **Fork** button in the upper-right corner (it’s near the Star and Watch buttons).
 3. Click **Fork** to create a copy of the repository in your GitHub account.
 4. After a few moments, you’ll see a new copy of the repository under **your** account. This is now **your** version to edit and modify as you like!
+
+![Forking Repo Part 1](screenshots/003-forking_github_repo_part_1.png)
+
+![Forking Repo Part 2](screenshots/004-forking_github_repo_part_2.png)
 
 ---
 
@@ -39,6 +47,10 @@ You’re going to publish your version of the game to GitHub Pages, which is a f
 4. Once selected, GitHub Pages will automatically publish your website from the `index.html` file in the repository.
 5. You’ll get a green notification saying your site is published! The link to your live website will appear here—save this link for later!
 
+![Enabling GitHub Pages Part 1](screenshots/005-enabling_github_pages_part_1.png)
+
+![Enabling GitHub Pages Part 2](screenshots/006-enabling_github_pages_part_2.png)
+
 ---
 
 ## Step 4: Create a GitHub CodeSpace
@@ -50,11 +62,12 @@ GitHub CodeSpaces gives you an environment to edit your code directly within you
 3. Click **Create CodeSpace**. This will open a development environment in your browser.
 4. Inside CodeSpace, you’ll see the files of your repository on the left and the code editor in the center.
 
+![Create Codespace](screenshots/007-create_codespace.png)
+
 ### Recommended Extensions
 
 While you’re in CodeSpace, installing these extensions will make your work easier:
 - **Prettier - Code Formatter**: Helps format your code.
-- **Live Server**: Allows you to preview changes to your site in real time.
 
 To install these extensions:
 1. Click the **Extensions** icon on the left sidebar in CodeSpace.
@@ -69,32 +82,36 @@ Now that you’re in the code, let’s modify the game itself!
 1. In the file list on the left, find and click on the `script.js` file. This file contains the main logic for the game.
 2. Look for this section of code inside the `script.js` file:
 
-   ```javascript
-   const gameData = {
-     "single": [
-       {
-         "category": "Category 1",
-         "clues": [
-           {
-             "value": 200,
-             "clue": "This is a sample clue.",
-             "solution": "What is the sample solution?"
-           },
-           // ... more clues
-         ]
-       },
-       // ... more categories
-     ],
-     "double": [
-       // Similar structure as "single" with different values
-     ],
-     "final": {
-       "category": "Final Category",
-       "clue": "This is the Final Jeopardy clue.",
-       "solution": "What is the solution to the Final Jeopardy clue?"
-     }
-   };
-   ```
+```javascript
+const gameData = {
+    "Board Name": {
+        "single": [
+            {
+                "category": "Category 1",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "This is a sample clue.",
+                        "solution": "What is the sample solution?"
+                    },
+                    // ... more clues
+                ]
+            },
+            // ... more categories
+        ],
+        "double": [
+            // ... Similar structure as "single" with different values
+        ],
+        "final": {
+            "category": "Final Category",
+            "clue": "This is the Final Jeopardy clue.",
+            "solution": "What is the solution to the Final Jeopardy clue?"
+        }
+    },
+    // ... more boards
+};
+```
+
 
 3. To customize the game, change the `"category"`, `"clue"`, `"solution"`, and `"value"` fields as you wish! For example:
    - Change `"Category 1"` to something else like `"Science"`.
@@ -103,6 +120,8 @@ Now that you’re in the code, let’s modify the game itself!
 4. You can add or remove categories and clues by following the same structure you see in the example.
 
 Note you can use this [sample game](https://github.com/miamimanni/jeopardy2/blob/main/sample_game.json) as a guide
+
+![Making Changes part 1](screenshots/008-make_changes_part_1.png)
 
 ---
 
@@ -117,20 +136,24 @@ Once you’ve made the changes to your game, you need to save and push them to G
    3. In the text box above, write a short message about your changes, like `Updated game data`.
    4. Click the checkmark icon to commit the changes.
 
+![Making Changes part 2](screenshots/009-make_changes_part_2.png)
+
+![Making Changes part 3](screenshots/010-make_changes_part_3.png)
+
 ---
 
 ## Step 7: Push Your Changes to GitHub
 
 Now that you’ve committed your changes, you need to push them to GitHub.
 
-1. In CodeSpace, open the terminal at the bottom of the screen (or press `Ctrl + `).
-2. Run this command to push your changes:
-
-   ```bash
-   git push
-   ```
+1. Press button Sync Changes
 
 This command sends your changes to the GitHub repository. Once the command is complete, your code is live on your repository!
+
+![Making Changes part 4](screenshots/011-make_changes_part_4.png)
+
+![Making Changes part 5](screenshots/012-make_changes_part_5.png)
+
 
 ---
 
@@ -142,6 +165,8 @@ GitHub will automatically build your changes and publish them on your GitHub Pag
 2. Click the **Actions** tab at the top.
 3. Here, you’ll see the progress of your website being rebuilt.
 4. Once the process completes, your new game will be live! Use the GitHub Pages link from Step 3 to see your changes online.
+
+![Enabling GitHub Pages Part 2](screenshots/006-enabling_github_pages_part_2.png)
 
 ---
 
