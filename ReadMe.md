@@ -128,28 +128,31 @@ Link: [Copy and Customize this Game Guide](https://github.com/miamimanni/jeopard
 
 ```javascript
 const gameData = {
-  "single": [
-    {
-      "category": "Category 1",
-      "clues": [
-        {
-          "value": 200,
-          "clue": "This is a sample clue.",
-          "solution": "What is the sample solution?"
-        },
-        // ... more clues
-      ]
+    "Board Name": {
+        "single": [
+            {
+                "category": "Category 1",
+                "clues": [
+                    {
+                        "value": 200,
+                        "clue": "This is a sample clue.",
+                        "solution": "What is the sample solution?"
+                    },
+                    // ... more clues
+                ]
+            },
+            // ... more categories
+        ],
+        "double": [
+            // ... Similar structure as "single" with different values
+        ],
+        "final": {
+            "category": "Final Category",
+            "clue": "This is the Final Jeopardy clue.",
+            "solution": "What is the solution to the Final Jeopardy clue?"
+        }
     },
-    // ... more categories
-  ],
-  "double": [
-    // Similar structure as "single" with different values
-  ],
-  "final": {
-    "category": "Final Category",
-    "clue": "This is the Final Jeopardy clue.",
-    "solution": "What is the solution to the Final Jeopardy clue?"
-  }
+    // ... more boards
 };
 ```
 
