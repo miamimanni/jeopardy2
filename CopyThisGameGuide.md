@@ -8,11 +8,11 @@ Don’t worry if you’re not super technical—each step is broken down clearly
 
 ## Video Guides
 
-Step 1
+Step 1 (Click to Play) [LINK](https://www.youtube.com/watch?v=i2q2joe7zmg)
 
 [![Copy Jeopardy Tutorial Part 1](https://img.youtube.com/vi/i2q2joe7zmg/0.jpg)](https://www.youtube.com/watch?v=i2q2joe7zmg)
 
-Step 2
+Step 2 (Click to Play) [LINK](https://www.youtube.com/watch?v=-D1Etj4JJ0M)
 
 [![Copy Jeopardy Tutorial Part 2](https://img.youtube.com/vi/-D1Etj4JJ0M/0.jpg)](https://www.youtube.com/watch?v=-D1Etj4JJ0M)
 
