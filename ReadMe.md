@@ -4,6 +4,8 @@
 
 This is a web-based Jeopardy game implemented using HTML, CSS, and JavaScript. The game simulates the classic quiz show, allowing multiple players to participate, answer clues, and adjust their scores accordingly. The interface includes audio cues, score adjustments, and a soundboard for additional interactivity.
 
+Link: [Copy and Customize this Game Guide](https://github.com/miamimanni/jeopardy2/blob/main/CopyThisGameGuide.md)
+
 ## Features
 
 - **Player Management**: Allows users to enter names for as many players as desired.
